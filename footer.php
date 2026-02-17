@@ -1,3 +1,33 @@
+	<!-- EXIT INTENT MODAL -->
+	<div id="exitModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.7); z-index:99999; justify-content:center; align-items:center;">
+		<div style="background:#fff; border-radius:12px; max-width:420px; width:90%; position:relative; overflow:hidden; box-shadow:0 20px 60px rgba(0,0,0,0.3); animation: exitModalIn 0.4s ease;">
+			<button onclick="document.getElementById('exitModal').style.display='none'" style="position:absolute; top:10px; right:15px; background:none; border:none; font-size:28px; cursor:pointer; color:#666; z-index:2;">&times;</button>
+			<img src="<?= $assets ?>/img/img-home05.jpg" alt="Psicóloga Michely Ciardulo" style="width:100%; height:250px; object-fit:cover; object-position:top;">
+			<div style="padding:25px 30px 30px; text-align:center;">
+				<p style="color:#555; font-size:15px; margin:0 0 5px;">Não sai antes de falar comigo!</p>
+				<h3 style="color:#22B05E; font-size:28px; font-weight:800; margin:0 0 10px; font-style:italic;">ESTOU ONLINE</h3>
+				<p style="color:#555; font-size:14px; margin:0 0 20px;">Clique no botão abaixo e agende sua consulta, estou te esperando 😉</p>
+				<a href="<?= $whatsapp_url ?>" style="display:block; background:#22B05E; color:#fff; text-decoration:none; padding:14px 20px; border-radius:6px; font-size:16px; font-weight:700; text-transform:uppercase; letter-spacing:0.5px; transition:background 0.3s;" onmouseover="this.style.background='#1a9e50'" onmouseout="this.style.background='#22B05E'">FALAR COM A PSICÓLOGA</a>
+			</div>
+		</div>
+	</div>
+	<style>
+		@keyframes exitModalIn { from { opacity:0; transform:scale(0.8); } to { opacity:1; transform:scale(1); } }
+	</style>
+	<script>
+	(function(){
+		if (sessionStorage.getItem('exitModalShown')) return;
+		var shown = false;
+		document.addEventListener('mouseout', function(e) {
+			if (!e.toElement && !e.relatedTarget && e.clientY < 10 && !shown) {
+				shown = true;
+				document.getElementById('exitModal').style.display = 'flex';
+				sessionStorage.setItem('exitModalShown', '1');
+			}
+		});
+	})();
+	</script>
+
 	<!-- START FOOTER -->
 	<div class="footer section-padding">
 		<div class="container">				
