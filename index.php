@@ -336,11 +336,22 @@
 			</div>
 			<div class="col-lg-4 col-sm-6 col-xs-12">
 				<div class="cour_btn">
-					<a href="<?= $site_url ?>/blog" class="btn_one">Ver todos posts <i class="ti-arrow-top-right"></i></a>
+					<a href="<?= $base_url ?>/blog" class="btn_one">Ver todos posts <i class="ti-arrow-top-right"></i></a>
 				</div>
 			</div>
 		</div>
 		<div class="row">
+			<div class="col-lg-4 col-sm-6 col-xs-12">
+				<div class="single_course" onclick="location.href='<?= $base_url ?>/blog/terapia-de-casal'">
+					<div class="single_c_img">
+						<img src="" class="img-fluid" alt="Terapia de Casal - Psicóloga Michely Ciardulo">
+						<span class="item-artigo">Artigo</span>
+					</div>
+					<h4>Como funciona a Terapia de Casal?</h4>
+					<p>Entenda o processo terapêutico e os vínculos afetivos na conjugalidade.</p>
+					<div class="price">Psi. Michely Ciardulo</div>
+				</div>
+			</div>
 			<div class="col-lg-4 col-sm-6 col-xs-12">
 				<div class="single_course" onclick="location.href='https://periodicorease.pro.br/rease/article/view/4999/1917'">
 					<div class="single_c_img">
