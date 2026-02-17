@@ -1,5 +1,6 @@
 <?php
-$base_url = '/psimi';
+// Local: '/psimi' | Produção: ''
+$base_url = '';
 $assets = $base_url . '/assets-new';
 $site_url = 'https://michelyciardulo.com.br';
 $whatsapp_url = 'https://api.whatsapp.com/send?phone=5511913418537&text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta...';
