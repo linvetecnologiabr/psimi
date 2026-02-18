@@ -28,7 +28,7 @@ $formacoes = [
     </div>
 </section>
 
-<section class="page-content" style="background:#f8f9fa;">
+<section class="page-content formacoes-grid" style="background:#f8f9fa;">
     <div class="container">
         <div class="row">
             <?php foreach ($formacoes as $f): ?>

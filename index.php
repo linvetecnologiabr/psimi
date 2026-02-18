@@ -83,7 +83,7 @@ require_once __DIR__ . '/header.php';
 </div>
 
 
-<section id="sobre" class="ab_area wow fadeInUp area-sobre section-padding">
+<section id="sobre" class="ab_area wow fadeInUp area-sobre section-padding pattern-section pattern-dots">
 	<div class="container">									
 		<div class="row">								
 			<div class="col-lg-6 col-sm-12 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">
@@ -109,7 +109,7 @@ require_once __DIR__ . '/header.php';
 </section>
 
 
-<section id="trajetoria" class="top_cat__area wow fadeInUp section-padding">
+<section id="trajetoria" class="top_cat__area wow fadeInUp section-padding pattern-section pattern-circles">
 	<div class="container">									
 		<div class="section-title text-center">
 			<h2>Trajetória e formação</h2>
@@ -180,7 +180,7 @@ require_once __DIR__ . '/header.php';
 </section>
 
 
-<section id="especialidades" class="top_cat__area especialidades section-padding">
+<section id="especialidades" class="top_cat__area especialidades section-padding pattern-section pattern-rings">
 	<div class="container">									
 		<div class="section-title text-center">
 			<h2>Minhas especialidades</h2>
@@ -209,7 +209,7 @@ require_once __DIR__ . '/header.php';
 
 
 <!-- START TESTIMONIALS -->
-<section id="depoimentos" class="depoimentos section-padding wow fadeInUp">
+<section id="depoimentos" class="depoimentos section-padding wow fadeInUp pattern-section pattern-diamond">
 	<div class="container">
 		<div class="section-title">
 			<h2>Depoimentos de clientes reais</h2>
@@ -302,7 +302,7 @@ require_once __DIR__ . '/header.php';
 </div>
 
 
-<div class="container-fluid area-faq" id="faq">
+<div class="container-fluid area-faq pattern-section pattern-cross" id="faq">
 	<div class="container">
 		<div class="section-title">
 			<h2>Perguntas frequentes</h2>
@@ -344,7 +344,7 @@ require_once __DIR__ . '/header.php';
 </div>
 
 
-<section id="blog" class="home_course section-padding">
+<section id="blog" class="home_course section-padding pattern-section pattern-rings">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8 col-sm-6 col-xs-12">

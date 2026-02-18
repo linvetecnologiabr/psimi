@@ -47,10 +47,7 @@ require_once __DIR__ . '/../header.php';
                 <p>Um espaço seguro para explorar como as influências familiares moldam a dinâmica do relacionamento, permitindo compreender e reconstruir padrões relacionais.</p>
             </div>
 
-            <div class="topic-item">
-                <h3><ion-icon name="brain-outline"></ion-icon> Vínculos Inconscientes</h3>
-                <p>Identificação e exploração dos vínculos inconscientes que moldam as interações do casal, promovendo maior consciência e compreensão mútua.</p>
-            </div>
+          
             </div>
 
             <div class="highlight-box">

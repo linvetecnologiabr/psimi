@@ -54,3 +54,145 @@
 .blog-card-body p{font-size:14px;color:#666;line-height:1.6;margin-bottom:15px}
 .blog-card-body .author{font-size:13px;color:#999;font-weight:600}
 @media(max-width:768px){.page-header{padding:70px 0 30px}.page-header h1{font-size:26px}.page-content .content-body .topic-item{padding:20px}.page-content .content-body .topic-grid{grid-template-columns:1fr}.page-cta h3{font-size:22px}.content-intro{flex-direction:column;gap:25px}.content-intro .featured-img{width:100%;min-width:auto}}
+
+/* ===== DECORATIVE PATTERNS ===== */
+
+/* Pattern base */
+.pattern-section{position:relative;overflow:hidden}
+.pattern-section::before,
+.pattern-section::after{content:'';position:absolute;pointer-events:none;z-index:0;opacity:.06}
+
+/* Dots pattern - esquerda */
+.pattern-dots::before{
+  top:40px;left:-20px;width:200px;height:200px;
+  background-image:radial-gradient(circle, #525fe1 2px, transparent 2px);
+  background-size:24px 24px;
+}
+/* Dots pattern - direita */
+.pattern-dots::after{
+  bottom:60px;right:-20px;width:180px;height:180px;
+  background-image:radial-gradient(circle, #525fe1 2px, transparent 2px);
+  background-size:24px 24px;
+}
+
+/* Circle pattern - esquerda */
+.pattern-circles::before{
+  top:-60px;left:-60px;width:220px;height:220px;
+  border:3px solid #525fe1;border-radius:50%;opacity:.05;
+}
+.pattern-circles::after{
+  bottom:-40px;right:-40px;width:160px;height:160px;
+  border:3px solid #525fe1;border-radius:50%;opacity:.05;
+}
+
+/* Ring decorativo duplo */
+.pattern-rings::before{
+  top:20%;left:-30px;width:120px;height:120px;
+  border:2px solid #525fe1;border-radius:50%;opacity:.07;
+  box-shadow:30px 30px 0 0 rgba(82,95,225,.05);
+}
+.pattern-rings::after{
+  bottom:15%;right:-20px;width:100px;height:100px;
+  border:2px solid #1a2a4a;border-radius:50%;opacity:.05;
+  box-shadow:-25px -25px 0 0 rgba(26,42,74,.04);
+}
+
+/* Cross/Plus pattern */
+.pattern-cross::before{
+  top:30px;left:20px;width:180px;height:180px;opacity:.04;
+  background-image:
+    linear-gradient(#525fe1 1px, transparent 1px),
+    linear-gradient(90deg, #525fe1 1px, transparent 1px);
+  background-size:30px 30px;
+}
+.pattern-cross::after{
+  bottom:30px;right:20px;width:150px;height:150px;opacity:.04;
+  background-image:
+    linear-gradient(#525fe1 1px, transparent 1px),
+    linear-gradient(90deg, #525fe1 1px, transparent 1px);
+  background-size:30px 30px;
+}
+
+/* Diamond/Losango pattern */
+.pattern-diamond::before{
+  top:10%;left:-10px;width:80px;height:80px;
+  border:2px solid #525fe1;opacity:.06;
+  transform:rotate(45deg);
+}
+.pattern-diamond::after{
+  bottom:10%;right:10px;width:60px;height:60px;
+  border:2px solid #525fe1;opacity:.06;
+  transform:rotate(45deg);
+}
+
+/* Linhas diagonais */
+.pattern-lines::before{
+  top:0;left:-10px;width:200px;height:100%;opacity:.03;
+  background-image:repeating-linear-gradient(
+    -45deg,
+    transparent,
+    transparent 10px,
+    #525fe1 10px,
+    #525fe1 11px
+  );
+}
+.pattern-lines::after{
+  top:0;right:-10px;width:200px;height:100%;opacity:.03;
+  background-image:repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 10px,
+    #525fe1 10px,
+    #525fe1 11px
+  );
+}
+
+/* Garantir conteúdo acima dos patterns */
+.pattern-section>.container,
+.pattern-section>.container-fluid{position:relative;z-index:1}
+
+/* Page content patterns */
+.page-content{position:relative;overflow:hidden}
+.page-content::before{
+  content:'';position:absolute;top:80px;left:-30px;width:200px;height:200px;
+  background-image:radial-gradient(circle, #525fe1 1.5px, transparent 1.5px);
+  background-size:20px 20px;opacity:.04;pointer-events:none;z-index:0;
+}
+.page-content::after{
+  content:'';position:absolute;bottom:100px;right:-30px;width:180px;height:180px;
+  border:2px solid #525fe1;border-radius:50%;opacity:.04;pointer-events:none;z-index:0;
+  box-shadow:25px 25px 0 0 rgba(82,95,225,.03);
+}
+.page-content>.container{position:relative;z-index:1}
+
+/* Page header pattern */
+.page-header{position:relative;overflow:hidden}
+.page-header::before{
+  content:'';position:absolute;top:-20px;right:-20px;width:200px;height:200px;
+  background-image:radial-gradient(circle, rgba(255,255,255,.15) 2px, transparent 2px);
+  background-size:20px 20px;pointer-events:none;z-index:0;
+}
+.page-header::after{
+  content:'';position:absolute;bottom:-30px;left:-30px;width:160px;height:160px;
+  border:2px solid rgba(255,255,255,.1);border-radius:50%;pointer-events:none;z-index:0;
+}
+.page-header>.container{position:relative;z-index:1}
+
+/* Formações grid pattern */
+.formacoes-grid{position:relative;overflow:hidden}
+.formacoes-grid::before{
+  content:'';position:absolute;top:20px;left:-15px;width:160px;height:160px;
+  background-image:radial-gradient(circle, #525fe1 1.5px, transparent 1.5px);
+  background-size:22px 22px;opacity:.04;pointer-events:none;z-index:0;
+}
+.formacoes-grid::after{
+  content:'';position:absolute;bottom:20px;right:-15px;width:120px;height:120px;
+  border:2px solid #525fe1;border-radius:50%;opacity:.04;pointer-events:none;z-index:0;
+}
+
+@media(max-width:768px){
+  .pattern-section::before,.pattern-section::after,
+  .page-content::before,.page-content::after,
+  .page-header::before,.page-header::after,
+  .formacoes-grid::before,.formacoes-grid::after{display:none}
+}

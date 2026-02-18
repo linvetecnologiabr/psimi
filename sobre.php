@@ -32,9 +32,6 @@ require_once __DIR__ . '/header.php';
                     <p>Acredito que cada pessoa é singular e merece um espaço seguro para explorar suas questões, afetos e formas de se relacionar com o mundo. A psicanálise nos convida a olhar para além do óbvio, buscando compreender as motivações inconscientes que moldam nossas escolhas, relações e sintomas.</p>
 
                 
-                     <p>Meu trabalho é caminhar ao seu lado nessa jornada de autoconhecimento, oferecendo uma escuta qualificada e acolhedora, respeitando seu tempo e sua história.</p>
-
-                
                 </div>
             </div>
 
