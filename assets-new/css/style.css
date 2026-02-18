@@ -30,7 +30,7 @@ Version      : 1.0
 */
 body {
 color: #6d7193;
-font-family: "Inria Sans", sans-serif;
+font-family: "Roboto", sans-serif;
 font-size: 18px;
 font-weight: 400;
 line-height: 28px;
@@ -48,12 +48,12 @@ h5,
 h6 {
   letter-spacing: 0px;
   margin: 0px; 
-  font-family: "Roboto Slab", serif;
+  font-family: "Roboto", sans-serif;
   color: #0b104a;
   font-weight: 400;
 }
 a {
-font-family: "Inria Sans", sans-serif;
+font-family: "Roboto", sans-serif;
 text-decoration: none;
 color: #0b104a;
 -webkit-transition: all 0.2s ease 0s;
@@ -913,7 +913,7 @@ color: #2D36BB;
 .single_course h4 a {
 	font-weight: 600;
 	font-size: 18px;
-	font-family: "Roboto Slab", serif;
+	font-family: "Roboto", sans-serif;
 }
 .single_course h4 a:hover{color:#525fe1;}
 .single_course p{margin-right:5px;display: inline;}
@@ -927,7 +927,7 @@ color: #2D36BB;
 	margin-top: 15px;
 	font-size: 18px;
 	transition: 0.3s;
-	font-family: "Roboto Slab", serif;
+	font-family: "Roboto", sans-serif;
 	font-weight: 600;
 	border-top: 1px solid #e8e8e9;
 	padding-bottom: 20px;
@@ -1724,7 +1724,7 @@ position: relative;
 }
 .sth_det2 u{
 color: #1a2d62;
-font-family:"Inria Sans", sans-serif;
+font-family:"Roboto", sans-serif;
 }
 
 /*START SINGLE TEAM DETAILS*/

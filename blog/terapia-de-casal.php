@@ -3,6 +3,21 @@ $page_title = 'Como funciona a Terapia de Casal? | Psicóloga Michely Ciardulo';
 $meta_description = 'Entenda como funciona a terapia de casal na psicanálise. Psicóloga Michely Ciardulo explica vínculos afetivos, papéis de gênero, transmissão geracional e o papel do terapeuta.';
 $meta_keywords = 'terapia de casal, psicóloga terapia de casal, como funciona terapia de casal, terapia casal são paulo, psicanálise casal';
 $og_type = 'article';
+$breadcrumb_items = [
+    ['name' => 'Início', 'url' => 'https://michelyciardulo.com.br/'],
+    ['name' => 'Blog', 'url' => 'https://michelyciardulo.com.br/blog'],
+    ['name' => 'Terapia de Casal', 'url' => 'https://michelyciardulo.com.br/blog/terapia-de-casal'],
+];
+$extra_schema = [
+    '@context' => 'https://schema.org',
+    '@type' => 'Article',
+    'headline' => $page_title,
+    'author' => ['@type' => 'Person', 'name' => 'Michely Ciardulo', 'jobTitle' => 'Psicóloga Clínica'],
+    'publisher' => ['@type' => 'Organization', 'name' => 'Psicóloga Michely Ciardulo', 'url' => 'https://michelyciardulo.com.br'],
+    'datePublished' => '2025-01-15',
+    'dateModified' => '2025-01-15',
+    'mainEntityOfPage' => ['@type' => 'WebPage', '@id' => 'https://michelyciardulo.com.br/blog/terapia-de-casal'],
+];
 require_once __DIR__ . '/../header.php';
 ?>
 
@@ -231,42 +246,42 @@ require_once __DIR__ . '/../header.php';
             <p class="lead">A terapia de casal se insere como uma ferramenta essencial na jornada de compreensão e fortalecimento dos vínculos afetivos. Neste contexto, mergulhamos nas profundezas da conjugalidade contemporânea, onde as influências familiares, expectativas sociais e dinâmicas inconscientes desempenham papéis fundamentais.</p>
 
             <div class="topic-item">
-                <h3>🔍 Explorando a Responsabilidade na Intimidade Emocional</h3>
+                <h3><ion-icon name="search-outline"></ion-icon> Explorando a Responsabilidade na Intimidade Emocional</h3>
                 <p>Na terapia de casal, os parceiros são convidados a explorar suas responsabilidades na construção e manutenção da intimidade emocional, reconhecendo as influências de gênero e as expectativas sociais associadas (Nunan, 2003).</p>
             </div>
 
             <div class="topic-item">
-                <h3>⚖️ Papéis de Gênero</h3>
+                <h3><ion-icon name="scale-outline"></ion-icon> Papéis de Gênero</h3>
                 <p>Na terapia de casal, os casais são convidados a refletirem sobre questões relacionadas à sensação de perda de liberdade e sobre as diferenças de gênero, de acordo com as construções pessoais e sociais de cada um dos pares (Nunan, 2003).</p>
             </div>
 
             <div class="topic-item">
-                <h3>🌊 Certezas Efêmeras</h3>
+                <h3><ion-icon name="water-outline"></ion-icon> Certezas Efêmeras</h3>
                 <p>Dentro do contexto terapêutico, os casais são convidados a explorar suas expectativas em relação ao relacionamento, reconhecendo a natureza transitória das certezas e buscando construir uma base mais sólida de confiança mútua.</p>
             </div>
 
             <div class="topic-item">
-                <h3>🏠 Investigando as Origens Familiares na Conjugalidade</h3>
+                <h3><ion-icon name="home-outline"></ion-icon> Investigando as Origens Familiares na Conjugalidade</h3>
                 <p>A terapia de casal proporciona um espaço seguro para a exploração das influências familiares na dinâmica do relacionamento, permitindo que os parceiros compreendam e reconstruam padrões relacionais patológicos e ou adoecidos (McDougall, 1993).</p>
             </div>
 
             <div class="topic-item">
-                <h3>🧠 Vínculos Inconscientes</h3>
+                <h3><ion-icon name="brain-outline"></ion-icon> Vínculos Inconscientes</h3>
                 <p>A terapia de casal auxilia os casais a identificarem e explorarem os vínculos inconscientes que moldam suas interações, promovendo uma maior consciência e compreensão mútua de como conteúdos por vezes inconscientes se atualizam na relação (Eiguer, 1984).</p>
             </div>
 
             <div class="topic-item">
-                <h3>🤝 Colusões e Expectativas Não Expressas</h3>
+                <h3><ion-icon name="people-outline"></ion-icon> Colusões e Expectativas Não Expressas</h3>
                 <p>A terapia de casal abre espaço para a investigação das colusões (acordo secreto) e expectativas não expressas que podem gerar conflitos e ressentimentos, incentivando uma comunicação autêntica e empática entre os parceiros (Willi, 1978).</p>
             </div>
 
             <div class="topic-item">
-                <h3>🌱 Espaço Transicional</h3>
+                <h3><ion-icon name="leaf-outline"></ion-icon> Espaço Transicional</h3>
                 <p>Durante o processo terapêutico, os casais são encorajados a cultivar um espaço de exploração e crescimento mútuo, onde possam integrar suas realidades internas e externas de forma criativa e enriquecedora (Winnicott, 1971).</p>
             </div>
 
             <div class="topic-item">
-                <h3>🧬 Transmissão Psíquica Geracional</h3>
+                <h3><ion-icon name="git-branch-outline"></ion-icon> Transmissão Psíquica Geracional</h3>
                 <p>A terapia de casal reconhece a importância da transmissão psíquica geracional na construção da identidade e dos padrões relacionais individuais, incentivando os parceiros a explorarem suas heranças familiares e a construírem narrativas mais conscientes e autênticas (Kaës, 1993).</p>
             </div>
 

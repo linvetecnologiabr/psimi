@@ -1,9 +1,9 @@
 # Rewrite
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /
 
-# Forçar HTTPS
+# Forçar HTTPS (só em produção, ignora localhost)
+RewriteCond %{HTTP_HOST} !^localhost [NC]
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
@@ -11,10 +11,19 @@ RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
 RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
 
+# Sitemap XML dinâmico
+RewriteRule ^sitemap\.xml$ sitemap.php [L]
+
+# Adicionar .php se o arquivo existir
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php [L]
+
 # 404
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /404.php [L]
+RewriteRule . 404.php [L]
 </IfModule>
 
 # Compressão GZIP para melhor performance
@@ -75,6 +84,14 @@ RewriteRule . /404.php [L]
 
 # Desabilitar listagem de diretórios
 Options -Indexes
+
+# ETags - usar apenas FileETag para consistência
+FileETag MTime Size
+
+# Vary header para encoding
+<IfModule mod_headers.c>
+  Header append Vary Accept-Encoding
+</IfModule>
 
 # Proteger contra XSS e Clickjacking
 <IfModule mod_headers.c>

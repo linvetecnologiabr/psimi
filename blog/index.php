@@ -2,12 +2,64 @@
 $page_title = 'Blog | Psicóloga Michely Ciardulo - Insights Psicanalíticos';
 $meta_description = 'Blog da Psicóloga Michely Ciardulo. Artigos sobre psicanálise, terapia de casal, ansiedade, depressão, autoconhecimento e saúde mental.';
 $meta_keywords = 'blog psicologia, artigos psicanálise, terapia de casal, ansiedade, depressão, saúde mental';
+$breadcrumb_items = [
+    ['name' => 'Início', 'url' => 'https://michelyciardulo.com.br/'],
+    ['name' => 'Blog', 'url' => 'https://michelyciardulo.com.br/blog'],
+];
 require_once __DIR__ . '/../header.php';
 
 $posts = [
     [
+        'title' => 'Equilibrando os pratos da vida',
+        'excerpt' => 'Vivemos no tempo do Outro, produzimos para o Outro. Freud nos lembra: "Nós poderíamos ser muito melhores se não quiséssemos ser tão bons."',
+        'image' => '',
+        'url' => $base_url . '/blog/equilibrando-os-pratos-da-vida',
+        'author' => 'Psi. Michely Ciardulo',
+        'tag' => 'Reflexão',
+    ],
+    [
+        'title' => 'Quando o sofrimento parece não ter fim',
+        'excerpt' => 'O mito de Sísifo nos convida a refletir: por que repetimos padrões dolorosos? Às vezes o sintoma é tudo que o sujeito possui.',
+        'image' => '',
+        'url' => $base_url . '/blog/quando-o-sofrimento-parece-nao-ter-fim',
+        'author' => 'Psi. Michely Ciardulo',
+        'tag' => 'Reflexão',
+    ],
+    [
+        'title' => 'Paixão e objeto fantasmático',
+        'excerpt' => 'O que sustenta a paixão? Uma análise sobre como o desejo se projeta no outro e cria o "objeto fantasmático" nas relações.',
+        'image' => '',
+        'url' => $base_url . '/blog/paixao-e-objeto-fantasmatico',
+        'author' => 'Psi. Michely Ciardulo',
+        'tag' => 'Psicanálise',
+    ],
+    [
+        'title' => 'Estabelecendo limites',
+        'excerpt' => 'Dizer "não" é um ato de autocuidado. Estabelecer limites é fundamental para preservar sua saúde mental e seus relacionamentos.',
+        'image' => '',
+        'url' => $base_url . '/blog/estabelecendo-limites',
+        'author' => 'Psi. Michely Ciardulo',
+        'tag' => 'Reflexão',
+    ],
+    [
+        'title' => 'Para ser dois é preciso ser um',
+        'excerpt' => 'Antes de construir uma relação saudável, é preciso se conhecer. Reflexão sobre individualidade e vínculos afetivos.',
+        'image' => '',
+        'url' => $base_url . '/blog/para-ser-dois-e-preciso-ser-um',
+        'author' => 'Psi. Michely Ciardulo',
+        'tag' => 'Reflexão',
+    ],
+    [
+        'title' => 'Como você tem lidado com seu tempo?',
+        'excerpt' => 'O tempo é o recurso mais precioso que temos. Reflexão sobre produtividade, presença e o que realmente importa.',
+        'image' => '',
+        'url' => $base_url . '/blog/como-voce-tem-lidado-com-seu-tempo',
+        'author' => 'Psi. Michely Ciardulo',
+        'tag' => 'Reflexão',
+    ],
+    [
         'title' => 'Como funciona a Terapia de Casal?',
-        'excerpt' => 'A terapia de casal se insere como uma ferramenta essencial na jornada de compreensão e fortalecimento dos vínculos afetivos. Entenda como funciona esse processo.',
+        'excerpt' => 'A terapia de casal se insere como uma ferramenta essencial na jornada de compreensão e fortalecimento dos vínculos afetivos.',
         'image' => '',
         'url' => $base_url . '/blog/terapia-de-casal',
         'author' => 'Psi. Michely Ciardulo',
@@ -15,7 +67,7 @@ $posts = [
     ],
     [
         'title' => 'Fibromialgia: aspectos dolorosos e psicossomáticos',
-        'excerpt' => 'Artigo escrito por Michely Mendes Ciardulo Trajano sobre os aspectos psicossomáticos da fibromialgia.',
+        'excerpt' => 'Artigo científico sobre os aspectos psicossomáticos da fibromialgia, publicado na Revista REASE.',
         'image' => $assets . '/img/img-artigo01.jpg',
         'url' => 'https://periodicorease.pro.br/rease/article/view/4999/1917',
         'author' => 'Psi. Michely Ciardulo',
@@ -121,7 +173,7 @@ $posts = [
                     <?php if ($post['image']): ?>
                         <img src="<?= $post['image'] ?>" alt="<?= $post['title'] ?>">
                     <?php else: ?>
-                        <div class="no-img">📝</div>
+                        <div class="no-img"><ion-icon name="create-outline"></ion-icon></div>
                     <?php endif; ?>
                     <div class="blog-card-body">
                         <span class="tag"><?= $post['tag'] ?></span>

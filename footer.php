@@ -2,7 +2,7 @@
 	<div id="exitModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.7); z-index:99999; justify-content:center; align-items:center;">
 		<div style="background:#fff; border-radius:12px; max-width:420px; width:90%; position:relative; overflow:hidden; box-shadow:0 20px 60px rgba(0,0,0,0.3); animation: exitModalIn 0.4s ease;">
 			<button onclick="document.getElementById('exitModal').style.display='none'" style="position:absolute; top:10px; right:15px; background:none; border:none; font-size:28px; cursor:pointer; color:#666; z-index:2;">&times;</button>
-			<img src="<?= $assets ?>/img/img-home05.jpg" alt="Psicóloga Michely Ciardulo" style="width:100%; height:250px; object-fit:cover; object-position:top;">
+			<img src="<?= $assets ?>/img/img-home05.jpg" class="img-psi" alt="Psicóloga Michely Ciardulo" style="width:100%; height:250px; object-fit:cover; object-position:top;">
 			<div style="padding:25px 30px 30px; text-align:center;">
 				<p style="color:#555; font-size:15px; margin:0 0 5px;">Não sai antes de falar comigo!</p>
 				<h3 style="color:#22B05E; font-size:28px; font-weight:800; margin:0 0 10px; font-style:italic;">ESTOU ONLINE</h3>
@@ -34,12 +34,12 @@
 			<div class="row">						
 				<div class="col-lg-5 col-sm-6 col-xs-12">
 					<div class="single_footer">
-						<a href="<?= $site_url ?>"><img src="<?= $assets ?>/img/logo3.png" alt="Michely Ciardulo"></a>         
+						<a href="<?= $base_url ?>/"><img src="<?= $assets ?>/img/logo3.png" alt="Michely Ciardulo"></a>         
 						<p>Esteja por dentro das últimas novidades, insights e compartilhamentos sobre psicologia, psicanálise e bem-estar. Convido você a me seguir nas redes sociais.</p>
 						<div class="social_profile">
 							<ul>
-								<li><a href="<?= $whatsapp_url ?>" class="bt-whatsapp"><ion-icon name="logo-whatsapp"></ion-icon></a></li>
-								<li><a href="<?= $instagram_url ?>" class="bt-instagram"><ion-icon name="logo-instagram"></ion-icon></a></li>
+							<li><a href="<?= $whatsapp_url ?>" class="bt-whatsapp" rel="noopener nofollow" target="_blank" aria-label="WhatsApp da Psicóloga Michely Ciardulo"><ion-icon name="logo-whatsapp"></ion-icon></a></li>
+							<li><a href="<?= $instagram_url ?>" class="bt-instagram" rel="noopener nofollow" target="_blank" aria-label="Instagram da Psicóloga Michely Ciardulo"><ion-icon name="logo-instagram"></ion-icon></a></li>
 							</ul>
 						</div>
 					</div>			
@@ -49,11 +49,11 @@
 					<div class="single_footer">
 						<h4>Menu</h4>
 						<ul>
-							<li><a href="<?= $site_url ?>/#inicio">Início</a></li>
-							<li><a href="<?= $site_url ?>/#sobre">Sobre mim</a></li>
-							<li><a href="<?= $site_url ?>/#trajetoria">Formações</a></li>
-							<li><a href="<?= $site_url ?>/#especialidades">Especialidades</a></li>
-							<li><a href="<?= $site_url ?>/blog">Blog</a></li>								
+							<li><a href="<?= $base_url ?>/#inicio">Início</a></li>
+							<li><a href="<?= $base_url ?>/sobre">Sobre mim</a></li>
+							<li><a href="<?= $base_url ?>/formacoes">Formações</a></li>
+							<li><a href="<?= $base_url ?>/especialidades">Especialidades</a></li>
+							<li><a href="<?= $base_url ?>/blog">Blog</a></li>								
 						</ul>
 					</div>
 				</div>

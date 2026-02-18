@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://michelyciardulo.com.br/sitemap.xml
+
+# Bloquear assets e pastas internas
+Disallow: /assets-new/js/
+Disallow: /assets-new/fonts/
+Disallow: /assets-new/css/
+Disallow: /assets-new/bootstrap/
+Disallow: /assets-new/owlcarousel/
+
+# Bloquear arquivos de sistema
+Disallow: /*.json$
+Disallow: /*.md$
+Disallow: /*.log$
+
+# Crawl-delay para bots agressivos
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10

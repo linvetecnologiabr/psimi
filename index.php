@@ -1,4 +1,21 @@
-<?php require_once __DIR__ . '/header.php'; ?>
+<?php
+// FAQPage Schema
+$extra_schema = [
+	'@context' => 'https://schema.org',
+	'@type' => 'FAQPage',
+	'mainEntity' => [
+		['@type' => 'Question', 'name' => 'Como posso agendar uma consulta com a Psicóloga Michely Ciardulo?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'Para agendar uma consulta, você pode acessar a seção "Agendar Consulta" no site e seguir as instruções. Você também pode entrar em contato diretamente pelo WhatsApp ou e-mail fornecidos.']],
+		['@type' => 'Question', 'name' => 'Como funcionam as sessões de terapia?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'Cada sessão é focada no sujeito, em seus afetos e em sua forma de ser no mundo, promovendo autoconhecimento e melhorando a qualidade das relações.']],
+		['@type' => 'Question', 'name' => 'Quais são as modalidades de atendimento oferecidas?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'A Psicóloga Michely Ciardulo oferece sessões tanto online quanto presenciais, adaptando-se à sua conveniência e necessidades.']],
+		['@type' => 'Question', 'name' => 'Quem pode se beneficiar da terapia?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'A Psicóloga Michely Ciardulo atende adolescentes, adultos e casais. A abordagem foca em melhorar suas relações e bem-estar emocional, ajudando você a enfrentar desafios pessoais e a desenvolver um autoconhecimento mais profundo.']],
+		['@type' => 'Question', 'name' => 'Como funciona o reembolso de planos de saúde?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'Atualmente a Psicóloga Michely Ciardulo atua com atendimento particular. No entanto, emite nota fiscal de acordo com os valores pagos na sessão para que você verifique o reembolso junto ao seu plano. A maioria dos planos de saúde oferece reembolso.']],
+		['@type' => 'Question', 'name' => 'Quais são as especialidades oferecidas?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'As especialidades incluem terapia de casal, violência doméstica, depressão, luto, ansiedade, insegurança, baixa autoestima, dependência emocional e mudança de carreira.']],
+		['@type' => 'Question', 'name' => 'Onde são realizadas as sessões presenciais?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'As sessões presenciais são realizadas na R. Vilela, 665 - 8º Andar, São Paulo, SP. Para mais detalhes, entre em contato pelo WhatsApp.']],
+		['@type' => 'Question', 'name' => 'Quais são as qualificações da Michely?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'A Psicóloga Michely Ciardulo é Bacharel em Psicologia, pós-graduada em Teoria Psicanalítica, Saúde Mental e Psiquiatria, entre outras especializações. CRP 06/176130.']],
+	]
+];
+require_once __DIR__ . '/header.php';
+?>
 
 <section class="home_bg hb_height" id="inicio">
 	<div class="container">
@@ -7,7 +24,7 @@
 				<div class="imagem-topo-mobile">
 					<img class="show-mobile" src="<?= $assets ?>/img/img-slider01.jpg" alt="Psicóloga Michely Ciardulo">
 					<span class="sobre-psi show-mobile">
-						<ion-icon name="checkmark-circle-outline"></ion-icon>
+						<ion/psimi/assets-new/img/img-home05.jpg-icon name="checkmark-circle-outline"></ion-icon>
 						<h2>Michely Ciardulo - Psicóloga Clínica</h2>
 						<h3>CRP-06/176130</h3>
 					</span>	
@@ -71,7 +88,7 @@
 		<div class="row">								
 			<div class="col-lg-6 col-sm-12 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">
 				<div class="ab_img">
-					<img src="<?= $assets ?>/img/img-home05.jpg" class="img-fluid" alt="Psicóloga Michely Ciardulo">
+					<img src="<?= $assets ?>/img/img-home05.jpg" class="img-fluid" alt="Psicóloga Michely Ciardulo" loading="lazy" width="540" height="540">
 				</div>
 			</div>
 			<div class="col-lg-6 col-sm-12 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s" data-wow-offset="0">
@@ -173,14 +190,15 @@
 			<div class="col-lg-12 col-sm-12 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s" data-wow-offset="0">
 				<div class="cat_list">
 					<ul>
-						<li><a href="<?= $site_url ?>/terapia-de-casal/"><img src="<?= $assets ?>/img/box-01.jpg" alt="Terapia de casal"> Terapia de casal</a></li>
-						<li><a href="<?= $site_url ?>/violencia-domestica/"><img src="<?= $assets ?>/img/box-02.jpg" alt="Violência doméstica"> Violência doméstica</a></li>
-						<li><a href="<?= $site_url ?>/depressao/"><img src="<?= $assets ?>/img/box-03.jpg" alt="Depressão"> Depressão</a></li>
-						<li><a href="<?= $site_url ?>/morte-e-luto/"><img src="<?= $assets ?>/img/box-04.jpg" alt="Morte e Luto"> Morte e Luto</a></li>
-						<li><a href="<?= $site_url ?>/ansiedade/"><img src="<?= $assets ?>/img/box-05.jpg" alt="Ansiedade"> Ansiedade</a></li>
-						<li><a href="<?= $site_url ?>/inseguranca-e-baixa-autoestima/"><img src="<?= $assets ?>/img/box-06.jpg" alt="Insegurança"> Insegurança</a></li>
-						<li><a href="<?= $site_url ?>/inseguranca-e-baixa-autoestima/"><img src="<?= $assets ?>/img/box-07.jpg" alt="Baixa autoestima"> Baixa autoestima</a></li>
-						<li><a href="<?= $site_url ?>/dependencia-emocional/"><img src="<?= $assets ?>/img/box-08.jpg" alt="Dependência emocional"> Dependência emocional</a></li>
+						<li><a href="<?= $base_url ?>/especialidades/terapia-de-casal"><img src="<?= $assets ?>/img/box-01.jpg" alt="Terapia de casal" loading="lazy"> Terapia de casal</a></li>
+						<li><a href="<?= $base_url ?>/especialidades/violencia-domestica"><img src="<?= $assets ?>/img/box-02.jpg" alt="Violência doméstica" loading="lazy"> Violência doméstica</a></li>
+						<li><a href="<?= $base_url ?>/especialidades/depressao"><img src="<?= $assets ?>/img/box-03.jpg" alt="Depressão" loading="lazy"> Depressão</a></li>
+						<li><a href="<?= $base_url ?>/especialidades/morte-e-luto"><img src="<?= $assets ?>/img/box-04.jpg" alt="Morte e Luto" loading="lazy"> Morte e Luto</a></li>
+						<li><a href="<?= $base_url ?>/especialidades/ansiedade"><img src="<?= $assets ?>/img/box-05.jpg" alt="Ansiedade" loading="lazy"> Ansiedade</a></li>
+						<li><a href="<?= $base_url ?>/especialidades/inseguranca"><img src="<?= $assets ?>/img/box-06.jpg" alt="Insegurança" loading="lazy"> Insegurança</a></li>
+						<li><a href="<?= $base_url ?>/especialidades/baixa-autoestima"><img src="<?= $assets ?>/img/box-07.jpg" alt="Baixa autoestima" loading="lazy"> Baixa autoestima</a></li>
+						<li><a href="<?= $base_url ?>/especialidades/dependencia-emocional"><img src="<?= $assets ?>/img/box-08.jpg" alt="Dependência emocional" loading="lazy"> Dependência emocional</a></li>
+						<li><a href="<?= $base_url ?>/especialidades/mudanca-de-carreira"><img src="<?= $assets ?>/img/box-01.jpg" alt="Mudança de Carreira" loading="lazy"> Mudança de Carreira</a></li>
 					</ul>
 				</div>
 			</div>
@@ -342,6 +360,28 @@
 		</div>
 		<div class="row">
 			<div class="col-lg-4 col-sm-6 col-xs-12">
+				<div class="single_course" onclick="location.href='<?= $base_url ?>/blog/equilibrando-os-pratos-da-vida'">
+					<div class="single_c_img">
+						<img src="" class="img-fluid" alt="Equilibrando os pratos da vida">
+						<span class="item-artigo">Reflexão</span>
+					</div>
+					<h4>Equilibrando os pratos da vida</h4>
+					<p>Freud: "Nós poderíamos ser muito melhores se não quiséssemos ser tão bons."</p>
+					<div class="price">Psi. Michely Ciardulo</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6 col-xs-12">
+				<div class="single_course" onclick="location.href='<?= $base_url ?>/blog/quando-o-sofrimento-parece-nao-ter-fim'">
+					<div class="single_c_img">
+						<img src="" class="img-fluid" alt="Quando o sofrimento parece não ter fim">
+						<span class="item-artigo">Reflexão</span>
+					</div>
+					<h4>Quando o sofrimento parece não ter fim</h4>
+					<p>O mito de Sísifo e a repetição do sofrimento à luz de Camus e Freud.</p>
+					<div class="price">Psi. Michely Ciardulo</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6 col-xs-12">
 				<div class="single_course" onclick="location.href='<?= $base_url ?>/blog/terapia-de-casal'">
 					<div class="single_c_img">
 						<img src="" class="img-fluid" alt="Terapia de Casal - Psicóloga Michely Ciardulo">
@@ -349,17 +389,6 @@
 					</div>
 					<h4>Como funciona a Terapia de Casal?</h4>
 					<p>Entenda o processo terapêutico e os vínculos afetivos na conjugalidade.</p>
-					<div class="price">Psi. Michely Ciardulo</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-sm-6 col-xs-12">
-				<div class="single_course" onclick="location.href='https://periodicorease.pro.br/rease/article/view/4999/1917'">
-					<div class="single_c_img">
-						<img src="<?= $assets ?>/img/img-artigo01.jpg" class="img-fluid" alt="Fibromialgia - Psicóloga Michely Ciardulo">
-						<span class="item-artigo">Artigo</span>
-					</div>
-					<h4>Fibromialgia: aspectos dolorosos e psicossomáticos</h4>
-					<p>Artigo escrito por Michely Mendes Ciardulo Trajano</p>
 					<div class="price">Psi. Michely Ciardulo</div>
 				</div>
 			</div>

@@ -28,9 +28,10 @@
     float: right;
     margin: 0px 0 0 0;
     font-size: 20px;
+    animation: pulseGreen 2.5s ease-in-out infinite;
 }
 
-}
+
 .hero-text h1 {
     color: #0b104a;
     font-size: 53px;
@@ -88,7 +89,7 @@
     margin: -15px 0 20px 0;
     display: block;
     text-align: center;
-    width: 360px;
+    width: 410px;
 }
 
 .home_sb .btn_one {
@@ -115,10 +116,9 @@
 }
 
 
-#main-menu  {
-    margin: 10px 0 -10px 0;
+#main-menu {
+    margin: 0px 0 -10px 0;
 }
-
 
 .home_bg img {
     margin-top: 36px;
@@ -144,31 +144,31 @@
     font-size: 20px;
     font-weight: 700;
     float: left;
-    margin: -30px 0 0 38px;
+    margin: 0px 0 5px 38px;
 }
+
 .sobre-psi h3 {
     color: #fff;
     font-size: 15px;
     float: left;
-    margin: -3px 0 0 40px;
+    margin: -3px 0 0 40px;.area-redesociais ul li
 }
 
 .expertice-psicanalitica ul {
     float: left;
-    width: 96%;
+    width: 100%;
 }
 
 .expertice-psicanalitica ul li {
     list-style: none;
     float: left;
     border: 1px solid #525fe1;
-    width: 201px;
+    width: 250px;
     margin: 0 21px -15px 0;
     border-radius: 10px;
     height: 106px;
     padding: 15px;
 }
-
 .expertice-psicanalitica ul li p{
 	line-height: 1.0;
 }
@@ -205,7 +205,7 @@
 
 .ab_content ul {
     margin-bottom: 40px;
-    margin: 30px 0 50px 20px;
+    margin: 30px 0 50px 0px;
 }
 
 .ab_content ul li .hydrated  {
@@ -377,6 +377,7 @@
     -moz-border-radius-bottomright: 50px;
     border-top-left-radius: 100px;
     border-bottom-right-radius: 50px;
+    width: 670px;
 }
 
 #topcontrol{
@@ -409,11 +410,17 @@
 .partner-logo {
     padding: 30px 0 0 0;
     margin-bottom: -45px;
-    margin-top: 72px;
+    margin-top: -25px;
 }
 
 .single_tp {
     box-shadow: none!important;
+}
+
+.home_bg {
+    height: 690px;
+    position: relative;
+    padding-top: 30px;
 }
 
 .btn-online {
@@ -501,13 +508,15 @@ i.whatsapp {
     background: #00a044;
     top: 11px;
     left: 43px;
-    padding: 11px 0 0 18px;
+    padding: 17px 0 0 18px;
     border-radius: 4px;
     height: 70px;
     color: #fff;
     font-size: 36px;
     width: 70px;
+    animation: pulseWhatsapp 2.5s ease-in-out infinite;
 }
+
 
 i.whatsapp:hover{
     opacity: 0.8;
@@ -568,7 +577,7 @@ background:#eceeff ;
 .single_course h4 a {
     font-weight: 600;
     font-size: 24px;
-    font-family: "Roboto Slab", serif;
+    font-family: "Roboto", sans-serif;
     margin: -20px 0 0 0;
     float: left;
     color: #323876;
@@ -581,7 +590,7 @@ background:#eceeff ;
 .single_course h4 a {
     font-weight: 600;
     font-size: 24px;
-    font-family: "Roboto Slab", serif;
+    font-family: "Roboto", sans-serif;
     margin: -20px 0 20px 0;
     float: left;
     color: #323876;
@@ -692,19 +701,18 @@ background:#eceeff ;
 }
 
 .foot_copy {
-    background: #e8e8ff;
-    padding: 20px 0;
+    background: #0b104a;
+    padding: 40px 0 50px 0;
     margin: 40px 0 -80px 0;
+    color: #fff;
+    margin: 0 0 0 0;
 }
-
 
 html {
 	scroll-behavior: smooth;
 }
 
-#navigation {
-    border-bottom: 1px solid #dcdfff !important;
-}
+
 
 
 .conteudo-post h4 {
@@ -794,7 +802,7 @@ html {
     float: left;
     cursor: pointer;
     border: 1px solid #525fe1;
-    width: 301px;
+    width: 47%;
     margin: 0 21px -15px 0;
     border-radius: 10px;
     height: 106px;
@@ -997,6 +1005,31 @@ html {
     font-size: 14px;
 }
 
+.img-psi {
+    width: 100%;
+    height: 355px;
+    object-fit: cover;
+    object-position: top;
+    top: -60px;
+    position: relative;
+    margin-bottom: -55px;
+}
+
+.single_tp h3 {
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    overflow: hidden;
+    height: 74px !important;
+}
+
+
+.area-redesociais .partner_title h3 span {
+    color: #525fe1;
+    width: 100%;
+    float: left;
+    margin: 0 0 10px 0;
+}
 
 @media (min-width: 1000px) and (max-width: 1378px) {
 
@@ -1065,8 +1098,49 @@ html {
 
 }
 
+.page-header {
+    background: #525fe1;
+}
 
+.page-content .content-body .featured-img {
+    width: 570px;
+    border-radius: 12px;
+    margin-bottom: 35px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, .1);
+}
+.page-content .content-body p.lead {
+    font-size: 19px;
+    color: #333;
+    font-weight: 500;
+    border-left: 4px solid #525fe1;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    line-height: 27px;
+}
 
+.page-cta h3 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.page-header {
+    background: #eceeff;
+    margin: -80px 0 0 0;
+    z-index: -1;
+    text-align: center;
+    position: relative;
+    padding: 130px 0 60px 0;
+}
+
+.page-header h1 {
+    font-size: 36px;
+    font-weight: 500;
+    margin: 0 0 15px;
+    line-height: 1.3;
+    color: #525fe1;
+}
 @media (min-width: 993px) and (max-width: 1180px) {
 
 
@@ -1472,6 +1546,14 @@ background: transparent!important;
     margin-top: 50px;
 }
 
+.partner_title h3 {
+    font-weight: 600!important;
+    font-size: 23px!important;
+    line-height: 29px!important;
+}
+
+
+
 #depoimentos h5 {
     font-size: 14px;
     line-height: 1.7;
@@ -1729,4 +1811,14 @@ i.whatsapp {
     font-size: 14px;
 }
 
+}
+
+@keyframes pulseGreen {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(34, 176, 94, 0.5); }
+    50% { box-shadow: 0 0 18px 6px rgba(34, 176, 94, 0.35); }
+}
+
+@keyframes pulseWhatsapp {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(0, 160, 68, 0.5); }
+    50% { box-shadow: 0 0 18px 6px rgba(0, 160, 68, 0.35); }
 }
