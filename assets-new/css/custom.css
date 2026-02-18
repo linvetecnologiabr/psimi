@@ -27,7 +27,7 @@
     width: 260px;
     float: right;
     margin: 0px 0 0 0;
-    font-size: 20px;
+    font-size: 18px;
     animation: pulseGreen 2.5s ease-in-out infinite;
 }
 
@@ -144,14 +144,15 @@
     font-size: 20px;
     font-weight: 700;
     float: left;
-    margin: 0px 0 5px 38px;
+    margin: 0px 0 5px 17px;
 }
 
 .sobre-psi h3 {
     color: #fff;
     font-size: 15px;
     float: left;
-    margin: -3px 0 0 40px;.area-redesociais ul li
+    margin: -3px 0 0 18px;.area-redesociais
+    ul li
 }
 
 .expertice-psicanalitica ul {
@@ -163,7 +164,7 @@
     list-style: none;
     float: left;
     border: 1px solid #525fe1;
-    width: 250px;
+    width: 210.4px;
     margin: 0 21px -15px 0;
     border-radius: 10px;
     height: 106px;
@@ -388,6 +389,8 @@
 .expertice-psicanalitica ul li p {
     line-height: 1.0;
     font-weight: 600;
+    font-size: 16px;
+    margin: 8px 0 0 0;
 }
 
 
@@ -404,7 +407,7 @@
     border: 1px solid #e8e8e9;
     border-radius: 5px;
     box-shadow: 10px 15px 18px rgba(23, 23, 36, 0.03);
-    height: 174px;
+    height: 176px;
     border: 1px solid #c6cbfa;
 }
 .partner-logo {
@@ -537,9 +540,9 @@ i.whatsapp:hover{
 
 
 .cat_list ul li a img {
-    width: 80px;
+    width: 60px;
     margin-right: 10px;
-    height: 80px;
+    height: 60px;
     border-radius: 100px;
     border: 4px solid #ECEDFF;
     background: #fff;
@@ -749,7 +752,7 @@ html {
     color: #fff;
     transition: 0.3s;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 17px;
     text-transform: uppercase;
     margin-top: 30px;
     float: left;
@@ -785,7 +788,7 @@ html {
 
 
 .area-redesociais  i {
-    font-size: 15px;
+    font-size: 14px;
     line-height: 0 !important;
     font-style: normal;
     font-weight: 400;
@@ -1018,9 +1021,10 @@ html {
 .single_tp h3 {
     font-size: 19px;
     font-weight: 600;
-    margin-bottom: 15px;
+    margin-bottom: 0;
     overflow: hidden;
-    height: 74px !important;
+    height: 57px !important;
+    width: 220px;
 }
 
 
@@ -1033,10 +1037,88 @@ html {
 
 @media (min-width: 1000px) and (max-width: 1378px) {
 
+
+
+.single_footer ul li a {
+    font-size: 14px;
+   
+}
+
+.single_footer p{
+	font-size:14px;
+}
+	
+.area-redesociais   ul li {
+             width: 324.4px!important;
+}
+
+
+.area-redesociais .part_bg {
+
+    height: 206px;
+  
+}
+
+	.navbar-light .btn_one {
+    font-size: 18px;  
+}
+	
+	
+.single_tp h3 {
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 0;
+    overflow: hidden;
+    height: 57px !important;
+    width: 220px;
+}
+
+.cat_list ul li a img {
+    width: 60px;
+    margin-right: 10px;
+    height: 60px;
+}
+
+.cat_list ul li a {
+    font-size: 16px;
+}
+
+.ab_area .btn_one {
+    font-size: 17px;
+}
+
+.partner_title h3 {
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 30px;
+}
+	
+.expertice-psicanalitica ul li p {
+    line-height: 1.0;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0 0 0;
+    width: 160px;
+    margin: 0 auto;
+    margin-top: 7px;
+}
+	
+	.expertice-psicanalitica ul li {
+    list-style: none;
+    float: left;
+    border: 1px solid #525fe1;
+    width: 210.4px;
+    margin: 0 21px -15px 0;
+    border-radius: 10px;
+    height: 106px;
+    padding: 26px 0 0 0;
+}
+
+	
 	.home_bg {
 		height: 480px;
 		position: relative;
-		margin: 10px 0 0 0;
+		margin: -9px 0 0 0;
 	}
 
 	.hero-text h1 {
@@ -1049,18 +1131,19 @@ html {
 		margin-bottom: 20px;
 	}
     .hero-text h1 {
-        padding-top: 60px;
+        padding-top: 38px;
         margin-bottom: 90px;
         line-height: 53px;
         font-size: 45px;
     }
     .home_bg img {
-        margin-top: 49px;
-       
+        margin-top: 34px;
+        width: 530px;
+        height: auto;
     }
 
     .partner-logo {
-        padding: 30px 0 0 0;
+        padding: 43px 0 0 0;
         margin-bottom: -45px;
         margin-top: 0;
     }
@@ -1093,7 +1176,7 @@ html {
 	}
 
     #main-menu {
-        margin: 10px 0 -10px -120px;
+        margin: 0px 0 -10px -120px;
     }
 
 }
