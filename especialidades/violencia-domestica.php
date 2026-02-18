@@ -36,6 +36,7 @@ require_once __DIR__ . '/../header.php';
 
             <h2>Formas de violência doméstica</h2>
 
+            <div class="topic-grid">
             <div class="topic-item">
                 <h3><ion-icon name="heart-dislike-outline"></ion-icon> Violência Psicológica</h3>
                 <p>Manipulação, humilhação, controle excessivo, ciúmes patológicos, isolamento social e desvalorização constante. Muitas vezes invisível, mas profundamente destrutiva.</p>
@@ -54,6 +55,7 @@ require_once __DIR__ . '/../header.php';
             <div class="topic-item">
                 <h3><ion-icon name="cash-outline"></ion-icon> Violência Patrimonial</h3>
                 <p>Controle financeiro, destruição de pertences, impedimento de trabalhar — formas de manter a vítima em situação de dependência e submissão.</p>
+            </div>
             </div>
 
             <h2>O papel da terapia</h2>

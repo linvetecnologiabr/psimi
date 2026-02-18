@@ -1035,6 +1035,12 @@ html {
     margin: 0 0 10px 0;
 }
 
+
+.page-header .post-meta {
+   
+   color: #0b104a!important;
+}
+
 @media (min-width: 1000px) and (max-width: 1378px) {
 
 

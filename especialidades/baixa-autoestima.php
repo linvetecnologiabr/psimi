@@ -36,6 +36,7 @@ require_once __DIR__ . '/../header.php';
 
             <h2>Sinais de baixa autoestima</h2>
 
+            <div class="topic-grid">
             <div class="topic-item">
                 <h3><ion-icon name="volume-mute-outline"></ion-icon> Autocrítica excessiva</h3>
                 <p>Um diálogo interno severo e punitivo, onde nada que a pessoa faz parece ser bom o suficiente. A autocrítica constante paralisa e gera sofrimento.</p>
@@ -49,6 +50,7 @@ require_once __DIR__ . '/../header.php';
             <div class="topic-item">
                 <h3><ion-icon name="person-outline"></ion-icon> Anulação nas relações</h3>
                 <p>Colocar-se sempre em segundo plano, dificuldade de dizer não, aceitar situações que causam sofrimento por medo de não ser aceito.</p>
+            </div>
             </div>
 
             <h2>A terapia como caminho de reconstrução</h2>

@@ -36,6 +36,7 @@ require_once __DIR__ . '/../header.php';
 
             <h2>Compreendendo o luto</h2>
 
+            <div class="topic-grid">
             <div class="topic-item">
                 <h3><ion-icon name="heart-dislike-outline"></ion-icon> O luto como processo</h3>
                 <p>O luto não é linear nem tem prazo para acabar. É um processo único para cada pessoa, que envolve diferentes emoções: negação, raiva, tristeza, culpa e, eventualmente, a possibilidade de ressignificação.</p>
@@ -49,6 +50,7 @@ require_once __DIR__ . '/../header.php';
             <div class="topic-item">
                 <h3><ion-icon name="alert-circle-outline"></ion-icon> Luto complicado</h3>
                 <p>Quando o luto se prolonga de forma intensa, impedindo a pessoa de retomar sua vida, pode se configurar como luto complicado, necessitando de acompanhamento profissional.</p>
+            </div>
             </div>
 
             <h2>O papel da terapia no luto</h2>

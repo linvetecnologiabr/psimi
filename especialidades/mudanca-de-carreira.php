@@ -36,6 +36,7 @@ require_once __DIR__ . '/../header.php';
 
             <h2>Quando a carreira pede reflexão</h2>
 
+            <div class="topic-grid">
             <div class="topic-item">
                 <h3><ion-icon name="sad-outline"></ion-icon> Esgotamento profissional</h3>
                 <p>Burnout, desmotivação constante, sensação de que o trabalho perdeu o sentido. Quando ir trabalhar se torna um fardo diário.</p>
@@ -54,6 +55,7 @@ require_once __DIR__ . '/../header.php';
             <div class="topic-item">
                 <h3><ion-icon name="help-circle-outline"></ion-icon> Crise de identidade profissional</h3>
                 <p>"Não sei o que quero fazer" — quando a dúvida sobre o caminho profissional reflete questões mais profundas sobre identidade e propósito.</p>
+            </div>
             </div>
 
             <h2>O papel da terapia na transição</h2>

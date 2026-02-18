@@ -36,6 +36,7 @@ require_once __DIR__ . '/../header.php';
 
             <h2>Sinais que merecem atenção</h2>
 
+            <div class="topic-grid">
             <div class="topic-item">
                 <h3><ion-icon name="sad-outline"></ion-icon> Tristeza persistente</h3>
                 <p>Sentimento de tristeza profunda que não passa, acompanhado de desesperança e sensação de vazio, mesmo sem um motivo aparente.</p>
@@ -54,6 +55,7 @@ require_once __DIR__ . '/../header.php';
             <div class="topic-item">
                 <h3><ion-icon name="brain-outline"></ion-icon> Dificuldade de concentração</h3>
                 <p>Pensamentos negativos recorrentes, dificuldade para tomar decisões, sensação de cansaço mental constante.</p>
+            </div>
             </div>
 
             <h2>Como a terapia pode ajudar</h2>

@@ -36,6 +36,7 @@ require_once __DIR__ . '/../header.php';
 
             <h2>Sinais de dependência emocional</h2>
 
+            <div class="topic-grid">
             <div class="topic-item">
                 <h3><ion-icon name="link-outline"></ion-icon> Medo intenso de abandono</h3>
                 <p>Ansiedade extrema diante da possibilidade de perder o outro. Comportamentos de controle, ciúmes excessivo e necessidade constante de reafirmação do amor.</p>
@@ -54,6 +55,7 @@ require_once __DIR__ . '/../header.php';
             <div class="topic-item">
                 <h3><ion-icon name="heart-dislike-outline"></ion-icon> Dificuldade de ficar só</h3>
                 <p>Sensação de vazio e desamparo quando está sozinho. A solidão é vivida como algo insuportável, levando a relacionamentos por necessidade e não por desejo.</p>
+            </div>
             </div>
 
             <h2>O caminho para a autonomia emocional</h2>

@@ -36,6 +36,7 @@ require_once __DIR__ . '/../header.php';
 
             <h2>Como a insegurança se manifesta</h2>
 
+            <div class="topic-grid">
             <div class="topic-item">
                 <h3><ion-icon name="eye-off-outline"></ion-icon> Comparação constante</h3>
                 <p>Sentir-se sempre inferior aos outros, comparar-se constantemente e acreditar que nunca é bom o suficiente. A busca por aprovação externa se torna um ciclo sem fim.</p>
@@ -49,6 +50,7 @@ require_once __DIR__ . '/../header.php';
             <div class="topic-item">
                 <h3><ion-icon name="people-outline"></ion-icon> Nos relacionamentos</h3>
                 <p>Ciúmes excessivo, necessidade de controle, dificuldade de confiar no outro e medo constante de abandono ou rejeição.</p>
+            </div>
             </div>
 
             <h2>O caminho terapêutico</h2>

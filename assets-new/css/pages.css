@@ -18,6 +18,9 @@
 .content-intro .intro-text{flex:1}
 .content-intro .intro-text p.lead{margin-top:0}
 .content-intro .intro-text p:last-child{margin-bottom:0}
+.page-content .content-body .topic-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-bottom:20px}
+.page-content .content-body .topic-grid .topic-item{margin-bottom:0;display:flex;flex-direction:column}
+.page-content .content-body .topic-grid .topic-item p{flex:1}
 .page-content .content-body .topic-item{background:#f8f9fa;border-radius:10px;padding:25px 30px;margin-bottom:20px;border-left:4px solid #525fe1}
 .page-content .content-body .topic-item h3{margin-top:0;font-size:18px}
 .page-content .content-body .topic-item h3 ion-icon{vertical-align:middle;margin-right:6px;font-size:22px;color:#525fe1}
@@ -50,4 +53,4 @@
 .blog-card-body h3{font-size:20px;font-weight:700;color:#1a2a4a;margin-bottom:10px;line-height:1.4}
 .blog-card-body p{font-size:14px;color:#666;line-height:1.6;margin-bottom:15px}
 .blog-card-body .author{font-size:13px;color:#999;font-weight:600}
-@media(max-width:768px){.page-header{padding:70px 0 30px}.page-header h1{font-size:26px}.page-content .content-body .topic-item{padding:20px}.page-cta h3{font-size:22px}.content-intro{flex-direction:column;gap:25px}.content-intro .featured-img{width:100%;min-width:auto}}
+@media(max-width:768px){.page-header{padding:70px 0 30px}.page-header h1{font-size:26px}.page-content .content-body .topic-item{padding:20px}.page-content .content-body .topic-grid{grid-template-columns:1fr}.page-cta h3{font-size:22px}.content-intro{flex-direction:column;gap:25px}.content-intro .featured-img{width:100%;min-width:auto}}

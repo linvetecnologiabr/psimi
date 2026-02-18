@@ -36,6 +36,7 @@ require_once __DIR__ . '/../header.php';
 
             <h2>Manifestações da ansiedade</h2>
 
+            <div class="topic-grid">
             <div class="topic-item">
                 <h3><ion-icon name="pulse-outline"></ion-icon> Sintomas físicos</h3>
                 <p>Taquicardia, falta de ar, tremores, sudorese, tensão muscular, dores de cabeça e problemas gastrointestinais. O corpo fala quando a mente não encontra palavras.</p>
@@ -49,6 +50,7 @@ require_once __DIR__ . '/../header.php';
             <div class="topic-item">
                 <h3><ion-icon name="sync-outline"></ion-icon> Comportamentos evitativos</h3>
                 <p>Evitar situações, lugares ou pessoas por medo. Procrastinação, isolamento social e dificuldade de tomar decisões como estratégias inconscientes de proteção.</p>
+            </div>
             </div>
 
             <h2>Como a terapia ajuda</h2>

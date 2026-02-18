@@ -23,7 +23,7 @@ $formacoes = [
 <section class="page-header">
     <div class="container">
         
-        <h1>Trajetória e formação</h1>
+        <h1>Minhas formações</h1>
         <div class="post-meta">Psicóloga Michely Ciardulo — <strong>CRP 06/176130</strong></div>
     </div>
 </section>

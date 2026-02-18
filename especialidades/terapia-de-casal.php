@@ -1,7 +1,7 @@
 <?php
-$page_title = 'Terapia de Casal | Psicóloga Michely Ciardulo - São Paulo';
+$page_title = 'Terapia de Casal | Psicóloga Michely Ciardulo - Online e Presencial em São Paulo';
 $meta_description = 'Terapia de casal com Psicóloga Michely Ciardulo. Fortalecimento de vínculos, comunicação, papéis de gênero e dinâmicas conjugais. Online e presencial em São Paulo.';
-$meta_keywords = 'terapia de casal, terapia de casal são paulo, psicóloga terapia casal, terapia casal online, casal psicanálise';
+$meta_keywords = 'terapia de casal, terapia de casal, psicóloga terapia casal, terapia casal online, casal psicanálise, terapia de casal presencial';
 $breadcrumb_items = [
     ['name' => 'Início', 'url' => 'https://michelyciardulo.com.br/'],
     ['name' => 'Especialidades', 'url' => 'https://michelyciardulo.com.br/especialidades'],
@@ -12,11 +12,6 @@ require_once __DIR__ . '/../header.php';
 
 <section class="page-header">
     <div class="container">
-        <div class="breadcrumb-nav">
-            <a href="<?= $base_url ?>/">Início</a><span>›</span>
-            <a href="<?= $base_url ?>/especialidades">Especialidades</a><span>›</span>
-            <a href="#">Terapia de Casal</a>
-        </div>
         <h1>Terapia de Casal</h1>
         <div class="post-meta">Especialidade da <strong>Psicóloga Michely Ciardulo</strong> — CRP 06/176130</div>
     </div>
@@ -36,6 +31,7 @@ require_once __DIR__ . '/../header.php';
 
             <h2>O que trabalhamos na terapia de casal</h2>
 
+            <div class="topic-grid">
             <div class="topic-item">
                 <h3><ion-icon name="search-outline"></ion-icon> Intimidade Emocional</h3>
                 <p>Exploramos as responsabilidades de cada parceiro na construção e manutenção da intimidade emocional, reconhecendo influências de gênero e expectativas sociais.</p>
@@ -54,6 +50,7 @@ require_once __DIR__ . '/../header.php';
             <div class="topic-item">
                 <h3><ion-icon name="brain-outline"></ion-icon> Vínculos Inconscientes</h3>
                 <p>Identificação e exploração dos vínculos inconscientes que moldam as interações do casal, promovendo maior consciência e compreensão mútua.</p>
+            </div>
             </div>
 
             <div class="highlight-box">
