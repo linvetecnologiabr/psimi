@@ -67,19 +67,21 @@ require_once __DIR__ . '/header.php';
 
             <h2>Como funciona o atendimento</h2>
 
-            <div class="topic-item">
-                <h3><ion-icon name="clipboard-outline"></ion-icon> Primeiro contato</h3>
-                <p>Entre em contato pelo WhatsApp para agendar sua primeira sessão. Nesse momento, combinamos horário, modalidade (online ou presencial) e tiramos suas dúvidas.</p>
-            </div>
+            <div class="topic-grid">
+                <div class="topic-item">
+                    <h3><ion-icon name="clipboard-outline"></ion-icon> Primeiro contato</h3>
+                    <p>Entre em contato pelo WhatsApp para agendar sua primeira sessão. Nesse momento, combinamos horário, modalidade (online ou presencial) e tiramos suas dúvidas.</p>
+                </div>
 
-            <div class="topic-item">
-                <h3><ion-icon name="people-outline"></ion-icon> Primeira sessão</h3>
-                <p>Na primeira sessão, conversamos sobre o que te trouxe até aqui, sua história, suas questões e expectativas. É um momento de acolhimento e de começar a construir o vínculo terapêutico.</p>
-            </div>
+                <div class="topic-item">
+                    <h3><ion-icon name="people-outline"></ion-icon> Primeira sessão</h3>
+                    <p>Na primeira sessão, conversamos sobre o que te trouxe até aqui, sua história, suas questões e expectativas. É um momento de acolhimento e de começar a construir o vínculo terapêutico.</p>
+                </div>
 
-            <div class="topic-item">
-                <h3><ion-icon name="sync-outline"></ion-icon> Processo terapêutico</h3>
-                <p>As sessões acontecem semanalmente, com duração de 50 minutos. O processo é contínuo e respeita o seu tempo — cada pessoa tem seu próprio ritmo de elaboração e transformação.</p>
+                <div class="topic-item">
+                    <h3><ion-icon name="sync-outline"></ion-icon> Processo terapêutico</h3>
+                    <p>As sessões acontecem semanalmente, com duração de 50 minutos. O processo é contínuo e respeita o seu tempo — cada pessoa tem seu próprio ritmo de elaboração e transformação.</p>
+                </div>
             </div>
 
         </div>
