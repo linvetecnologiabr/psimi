@@ -119,7 +119,7 @@ require_once __DIR__ . '/header.php';
 			<div class="col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">
 				<div class="single_tp">
 					<span class="sc_two"><ion-icon name="school"></ion-icon></span>
-					<h3>Bacharel em Psicologia</h3>
+					<h3>Bacharel em <br>Psicologia</h3>
 					<h5>Universidade nove de Julho</h5>
 				</div>
 			</div>
@@ -156,14 +156,14 @@ require_once __DIR__ . '/header.php';
 			<div class="col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="0">
 				<div class="single_tp">
 					<span class="sc_two"><ion-icon name="school"></ion-icon></span>
-					<h3>Casal e Família</h3>
+					<h3>Casal e <br>Família</h3>
 					<h5>Livraria do Psicanalista</h5>
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s" data-wow-offset="0">
 				<div class="single_tp">
 					<span class="sc_two"><ion-icon name="school"></ion-icon></span>
-					<h3>Instituto Escutha</h3>
+					<h3>Instituto <br>Escutha</h3>
 					<h5>Aperfeiçoamento em psicologia Perinatal</h5>
 				</div>
 			</div>
@@ -324,8 +324,7 @@ require_once __DIR__ . '/header.php';
 					['id' => 'Three', 'pergunta' => 'Quem pode se beneficiar da terapia?', 'resposta' => 'A Psicóloga Michely Ciardulo atende adolescentes, adultos e casais. Minha abordagem foca em melhorar suas relações e bem-estar emocional, ajudando você a enfrentar desafios pessoais e a desenvolver um autoconhecimento mais profundo.', 'delay' => '0.4s'],
 					['id' => 'Four', 'pergunta' => 'Como funciona o reembolso de planos de saúde?', 'resposta' => 'Atualmente a Psicóloga Michely Ciardulo atua com atendimento particular. No entanto, emito nota fiscal de acordo com os valores pagos na sessão para que você verifique o reembolso junto ao seu plano. A maioria dos planos de saúde oferece reembolso. Você paga pelo valor da sessão, eu forneço a nota fiscal e você encaminha ao plano junto com o encaminhamento médico para reembolso. É importante ter um encaminhamento médico de qualquer especialidade para a psicoterapia. Cada convênio tem seus próprios critérios, então recomendo que você verifique com seu plano os detalhes sobre o reembolso.', 'delay' => '0.4s'],
 					['id' => 'Five', 'pergunta' => 'Quais são as especialidades oferecidas?', 'resposta' => 'As especialidades da Psicóloga Michely Ciardulo incluem terapia de casal, violência doméstica, depressão, luto, ansiedade, insegurança, baixa autoestima e dependência emocional.', 'delay' => '0.4s'],
-					['id' => 'Seven', 'pergunta' => 'Onde são realizadas as sessões presenciais?', 'resposta' => 'As sessões presenciais são realizadas em São Paulo, SP. Para mais detalhes, entre em contato no telefone 11 5026-7452.', 'delay' => '0.4s'],
-					['id' => 'Eight', 'pergunta' => 'Quais são as qualificações da Michely?', 'resposta' => 'A Psicóloga Michely Ciardulo é Bacharel em Psicologia, pós-graduada em Teoria Psicanalítica, Saúde Mental e Psiquiatria, entre outras especializações. Sempre prezo pela ética, escuta ativa e acolhimento.', 'delay' => '0.4s'],
+									['id' => 'Eight', 'pergunta' => 'Quais são as qualificações da Michely?', 'resposta' => 'A Psicóloga Michely Ciardulo é Bacharel em Psicologia, pós-graduada em Teoria Psicanalítica, Saúde Mental e Psiquiatria, entre outras especializações. Sempre prezo pela ética, escuta ativa e acolhimento.', 'delay' => '0.4s'],
 				];
 				foreach ($faqs as $faq): ?>
 				<div class="card border-0 wow fadeInUp" data-wow-delay="<?= $faq['delay'] ?>">

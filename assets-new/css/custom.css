@@ -413,7 +413,7 @@
 .partner-logo {
     padding: 30px 0 0 0;
     margin-bottom: -45px;
-    margin-top: -25px;
+    margin-top: 75px;
 }
 
 .single_tp {
@@ -1316,6 +1316,7 @@ html {
 @media (min-width:0px) and (max-width:  992px) {
 
 
+
    html,body{
     overflow-x: hidden;
     overflow-y: scroll;
@@ -1358,6 +1359,7 @@ html {
     margin-bottom: 72px;
     text-align: center;
     /* margin-top: -85px !important; */
+    clear: both;
 }
 
 .hero-text p {
@@ -1437,7 +1439,7 @@ html {
     font-size: 15.5px;
     font-weight: 700;
     float: left;
-    margin: -24px 0 0 31px;
+    margin: 3px 0 3px 15px;
     width: 100%;
 }
 .sobre-psi {
@@ -1448,7 +1450,7 @@ html {
     color: #fff;
     font-size: 13px;
     float: left;
-    margin: -3px 0 0 31px;
+    margin: -3px 0 0 14px;
 }
 .part_bg {
     background: #f4f4fa;
@@ -1647,7 +1649,7 @@ background: transparent!important;
 }
 
 .cat_list ul li a {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 #especialidades .btn_one {
@@ -1708,7 +1710,7 @@ background: transparent!important;
 .stars {
     background: #3c459c;
     padding: 6px 21px;
-    margin: -10px 0 0 -3px;
+    margin: 12px 0 0 -3px;
     float: left;
     width: 105%;
     text-align: center;
@@ -1912,7 +1914,7 @@ i.whatsapp {
 .faq-accordian {
     position: relative;
     z-index: 1;
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
 }
 .faq-accordian .card .card-header h6.collapsed {
@@ -1925,6 +1927,26 @@ i.whatsapp {
     margin: 0;
     font-size: 14px;
 }
+
+		.single_footer p {
+    /* margin-bottom: 14px; */
+    font-size: 14px;
+}
+
+
+	.footer {
+   padding: 40px 0 0 15px;
+}
+
+
+	.foot_copy{
+		padding:15px
+	}
+
+	.foot_copy p{
+		font-size:14px;
+	}
+
 
 }
 
