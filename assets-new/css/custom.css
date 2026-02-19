@@ -1059,6 +1059,11 @@ html {
     color: #fff;
 }
 
+
+.page-header .post-meta strong {
+    color: #525fe1 !important;
+}
+
 @media (min-width: 1000px) and (max-width: 1378px) {
 
 
