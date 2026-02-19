@@ -26,7 +26,7 @@ $especialidades = [
 <section class="page-header">
     <div class="container">
  
-        <h1>Minhas Especialidades</h1>
+        <h1>Minhas especialidades</h1>
         <div class="post-meta">Áreas de atuação da <strong>Psicóloga Michely Ciardulo</strong></div>
     </div>
 </section>
