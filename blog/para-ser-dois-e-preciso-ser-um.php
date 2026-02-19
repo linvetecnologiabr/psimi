@@ -1,5 +1,5 @@
 <?php
-$page_title = 'Para ser dois, é preciso ser Um! | Psicóloga Michely Ciardulo';
+$page_title = 'Para ser dois, é preciso ser um! | Psicóloga Michely Ciardulo';
 $meta_description = 'Reflexão sobre a importância do autoconhecimento antes de se relacionar. Para ser dois, é preciso primeiro se reconhecer como um. Por Psicóloga Michely Ciardulo.';
 $meta_keywords = 'relacionamento saudável, autoconhecimento, ser um antes de ser dois, psicóloga relacionamento, amor próprio';
 $og_type = 'article';
@@ -24,11 +24,7 @@ require_once __DIR__ . '/../header.php';
 
 <section class="page-header">
     <div class="container">
-        <div class="breadcrumb-nav">
-            <a href="<?= $base_url ?>/">Início</a><span>›</span>
-            <a href="<?= $base_url ?>/blog">Blog</a><span>›</span>
-            <a href="#">Para ser dois, é preciso ser Um!</a>
-        </div>
+       
         <h1>Para ser dois, é preciso ser Um!</h1>
         <div class="post-meta">Por <strong>Psicóloga Michely Ciardulo</strong> — CRP: 06/176130</div>
     </div>
@@ -37,7 +33,7 @@ require_once __DIR__ . '/../header.php';
 <section class="page-content">
     <div class="container">
         <div class="content-body">
-            <img src="" alt="Para ser dois, é preciso ser Um!" class="featured-img">
+            <img src="<?= $assets ?>/img/img-mulher-feliz.jpg" alt="Para ser dois, é preciso ser Um!" class="featured-img">
 
             <p class="lead">É preciso nos reconhecer como sujeitos desejantes, singulares e faltantes.</p>
 

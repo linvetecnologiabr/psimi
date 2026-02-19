@@ -12,11 +12,7 @@ require_once __DIR__ . '/../header.php';
 
 <section class="page-header">
     <div class="container">
-        <div class="breadcrumb-nav">
-            <a href="<?= $base_url ?>/">Início</a><span>›</span>
-            <a href="<?= $base_url ?>/especialidades">Especialidades</a><span>›</span>
-            <a href="#">Dependência Emocional</a>
-        </div>
+       
         <h1>Dependência Emocional</h1>
         <div class="post-meta">Especialidade da <strong>Psicóloga Michely Ciardulo</strong> — CRP 06/176130</div>
     </div>

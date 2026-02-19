@@ -1,5 +1,5 @@
 <?php
-$page_title = 'Equilibrando os Pratos da Vida | Psicóloga Michely Ciardulo';
+$page_title = 'Equilibrando os pratos da vida | Psicóloga Michely Ciardulo';
 $meta_description = 'Reflexão sobre a pressão de ser bom demais e como equilibrar as demandas da vida. Freud nos lembra: cada um deve procurar, por si, tornar-se feliz.';
 $meta_keywords = 'equilíbrio emocional, pressão social, freud felicidade, psicóloga equilíbrio, saúde mental, psicoterapia';
 $og_type = 'article';
@@ -24,11 +24,7 @@ require_once __DIR__ . '/../header.php';
 
 <section class="page-header">
     <div class="container">
-        <div class="breadcrumb-nav">
-            <a href="<?= $base_url ?>/">Início</a><span>›</span>
-            <a href="<?= $base_url ?>/blog">Blog</a><span>›</span>
-            <a href="#">Equilibrando os Pratos da Vida</a>
-        </div>
+       
         <h1>Equilibrando os Pratos da Vida</h1>
         <div class="post-meta">Por <strong>Psicóloga Michely Ciardulo</strong> — CRP: 06/176130</div>
     </div>
@@ -37,7 +33,7 @@ require_once __DIR__ . '/../header.php';
 <section class="page-content">
     <div class="container">
         <div class="content-body">
-            <img src="" alt="Equilibrando os Pratos da Vida" class="featured-img">
+            <img src="<?= $assets ?>/img/img-pratos.jpg" alt="Equilibrando os Pratos da Vida" class="featured-img">
 
             <blockquote>"Nós poderíamos ser muito melhores se não quiséssemos ser tão bons."<br><small>— Sigmund Freud</small></blockquote>
 

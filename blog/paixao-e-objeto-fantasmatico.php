@@ -1,5 +1,5 @@
 <?php
-$page_title = 'Paixão e Objeto Fantasmático | Psicóloga Michely Ciardulo';
+$page_title = 'Paixão e objeto fantasmático | Psicóloga Michely Ciardulo';
 $meta_description = 'Reflexão psicanalítica sobre a paixão, idealização e o objeto fantasmático nas relações amorosas. Por Psicóloga Michely Ciardulo.';
 $meta_keywords = 'paixão, objeto fantasmático, idealização amorosa, narcisismo, psicóloga relações amorosas, psicanálise amor';
 $og_type = 'article';
@@ -23,12 +23,7 @@ require_once __DIR__ . '/../header.php';
 <link rel="stylesheet" href="<?= $assets ?>/css/pages.css">
 
 <section class="page-header">
-    <div class="container">
-        <div class="breadcrumb-nav">
-            <a href="<?= $base_url ?>/">Início</a><span>›</span>
-            <a href="<?= $base_url ?>/blog">Blog</a><span>›</span>
-            <a href="#">Paixão e Objeto Fantasmático</a>
-        </div>
+    <div class="container">       
         <h1>Paixão e Objeto Fantasmático</h1>
         <div class="post-meta">Por <strong>Psicóloga Michely Ciardulo</strong> — CRP: 06/176130</div>
     </div>
@@ -37,7 +32,7 @@ require_once __DIR__ . '/../header.php';
 <section class="page-content">
     <div class="container">
         <div class="content-body">
-            <img src="" alt="Paixão e Objeto Fantasmático" class="featured-img">
+            <img src="<?= $assets ?>/img/img-paixao.jpg" alt="Paixão e Objeto Fantasmático" class="featured-img">
 
             <p class="lead">O apaixonado projeta no objeto de sua paixão o ego ideal, forjado segundo o modelo onipotente do narcisismo infantil.</p>
 

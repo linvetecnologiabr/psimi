@@ -1,5 +1,5 @@
 <?php
-$page_title = 'Estabelecendo Limites | Psicóloga Michely Ciardulo';
+$page_title = 'Estabelecendo limites | Psicóloga Michely Ciardulo';
 $meta_description = 'Estabelecer limites é um ato de amor próprio. Reflexão sobre como validar nossos desejos e afetos nas relações. Por Psicóloga Michely Ciardulo.';
 $meta_keywords = 'estabelecer limites, limites saudáveis, amor próprio, psicóloga limites, relações saudáveis, autoestima';
 $og_type = 'article';
@@ -37,7 +37,7 @@ require_once __DIR__ . '/../header.php';
 <section class="page-content">
     <div class="container">
         <div class="content-body">
-            <img src="" alt="Estabelecendo Limites" class="featured-img">
+            <img src="<?= $assets ?>/img/img-limites.jpg" alt="Estabelecendo Limites" class="featured-img">
 
             <p class="lead">Não podemos controlar como as pessoas irão nos tratar, quanta empatia, amor e respeito iremos receber, mas podemos estabelecer limites sobre o que iremos ou não aceitar.</p>
 

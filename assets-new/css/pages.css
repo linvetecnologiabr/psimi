@@ -5,12 +5,12 @@
 .page-header .breadcrumb-nav span{color:rgba(255,255,255,.5);margin:0 8px;font-size:14px}
 .page-header h1{font-size:36px;font-weight:800;margin:0 0 15px;line-height:1.3}
 .page-header .post-meta{font-size:14px;color:rgba(255,255,255,.7)}
-.page-header .post-meta strong{color:#fff}
+.page-header .post-meta strong{color: #525fe1;}
 .page-content{padding:50px 0 80px}
 .page-content .content-body{margin:0 auto}
-.page-content .content-body p{font-size:17px;line-height:1.9;color:#444;margin-bottom:20px;text-align:justify}
+.page-content .content-body p{font-size:17px;line-height:1.9;color:#444;margin-bottom:20px;text-align: left;}
 .page-content .content-body p.lead{font-size:19px;color:#333;font-weight:500;border-left:4px solid #525fe1;padding-left:20px;margin-bottom:30px}
-.page-content .content-body h2{font-size:26px;font-weight:700;color:#1a2a4a;margin:40px 0 20px}
+.page-content .content-body h2{font-size:26px;font-weight:700;color:#1a2a4a;margin: 40px 0 40px 0px;/* text-align: center; */}
 .page-content .content-body h3{font-size:20px;font-weight:700;color:#525fe1;margin:30px 0 15px}
 .page-content .content-body .featured-img{width:100%;border-radius:12px;margin-bottom:35px;box-shadow:0 10px 40px rgba(0,0,0,.1)}
 .content-intro{display:flex;gap:40px;align-items:flex-start;margin-bottom:40px}
@@ -21,10 +21,10 @@
 .page-content .content-body .topic-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-bottom:20px}
 .page-content .content-body .topic-grid .topic-item{margin-bottom:0;display:flex;flex-direction:column}
 .page-content .content-body .topic-grid .topic-item p{flex:1}
-.page-content .content-body .topic-item{background:#f8f9fa;border-radius:10px;padding:25px 30px;margin-bottom:20px;border-left:4px solid #525fe1}
+.page-content .content-body .topic-item{background:#f8f9fa;border-radius:10px;padding:25px 30px;margin-bottom:20px;}
 .page-content .content-body .topic-item h3{margin-top:0;font-size:18px}
 .page-content .content-body .topic-item h3 ion-icon{vertical-align:middle;margin-right:6px;font-size:22px;color:#525fe1}
-.page-content .content-body .topic-item p{margin-bottom:0;font-size:16px}
+.page-content .content-body .topic-item p{margin-bottom:0;font-size: 14px;text-align: left;line-height: 23px;}
 .page-content .content-body .highlight-box{background:linear-gradient(135deg,#f0f4ff 0%,#e8eef9 100%);border-radius:12px;padding:30px;margin:35px 0}
 .page-content .content-body .highlight-box ul{list-style:none;padding:0;margin:0}
 .page-content .content-body .highlight-box ul li{font-size:16px;color:#444;padding:10px 0;border-bottom:1px solid rgba(0,0,0,.06);display:flex;align-items:flex-start;gap:12px}
@@ -60,74 +60,78 @@
 /* Pattern base */
 .pattern-section{position:relative;overflow:hidden}
 .pattern-section::before,
-.pattern-section::after{content:'';position:absolute;pointer-events:none;z-index:0;opacity:.06}
+.pattern-section::after{content:'';position:absolute;pointer-events:none;z-index:0}
 
 /* Dots pattern - esquerda */
 .pattern-dots::before{
-  top:40px;left:-20px;width:200px;height:200px;
-  background-image:radial-gradient(circle, #525fe1 2px, transparent 2px);
-  background-size:24px 24px;
+  top: 80px;
+  left:0;
+  width:240px;
+  height:240px;
+  opacity: .30;
+  background-image:radial-gradient(circle, #525fe1 2.5px, transparent 2.5px);
+  background-size:22px 22px;
 }
 /* Dots pattern - direita */
 .pattern-dots::after{
-  bottom:60px;right:-20px;width:180px;height:180px;
-  background-image:radial-gradient(circle, #525fe1 2px, transparent 2px);
-  background-size:24px 24px;
+  bottom:40px;right:0;width:220px;height:220px;opacity:.10;
+  background-image:radial-gradient(circle, #525fe1 2.5px, transparent 2.5px);
+  background-size:22px 22px;
 }
 
 /* Circle pattern - esquerda */
 .pattern-circles::before{
-  top:-60px;left:-60px;width:220px;height:220px;
-  border:3px solid #525fe1;border-radius:50%;opacity:.05;
+  top:-50px;left:-50px;width:260px;height:260px;
+  border:3px solid #525fe1;border-radius:50%;opacity:.10;
 }
 .pattern-circles::after{
-  bottom:-40px;right:-40px;width:160px;height:160px;
-  border:3px solid #525fe1;border-radius:50%;opacity:.05;
+  bottom:-30px;right:-30px;width:200px;height:200px;
+  border:3px solid #525fe1;border-radius:50%;opacity:.08;
 }
 
 /* Ring decorativo duplo */
 .pattern-rings::before{
-  top:20%;left:-30px;width:120px;height:120px;
-  border:2px solid #525fe1;border-radius:50%;opacity:.07;
-  box-shadow:30px 30px 0 0 rgba(82,95,225,.05);
+  top:15%;left:0;width:150px;height:150px;
+  border:3px solid #525fe1;border-radius:50%;opacity:.12;
+  box-shadow:35px 35px 0 0 rgba(82,95,225,.08);
 }
 .pattern-rings::after{
-  bottom:15%;right:-20px;width:100px;height:100px;
-  border:2px solid #1a2a4a;border-radius:50%;opacity:.05;
-  box-shadow:-25px -25px 0 0 rgba(26,42,74,.04);
+  bottom:10%;right:0;width:120px;height:120px;
+  border:3px solid #1a2a4a;border-radius:50%;opacity:.10;
+  box-shadow:-30px -30px 0 0 rgba(26,42,74,.07);
 }
 
 /* Cross/Plus pattern */
 .pattern-cross::before{
-  top:30px;left:20px;width:180px;height:180px;opacity:.04;
+  top:20px;left:10px;width:220px;height:220px;opacity:.08;
   background-image:
     linear-gradient(#525fe1 1px, transparent 1px),
     linear-gradient(90deg, #525fe1 1px, transparent 1px);
-  background-size:30px 30px;
+  background-size:28px 28px;
 }
 .pattern-cross::after{
-  bottom:30px;right:20px;width:150px;height:150px;opacity:.04;
+  bottom:20px;right:10px;width:200px;height:200px;opacity:.08;
   background-image:
     linear-gradient(#525fe1 1px, transparent 1px),
     linear-gradient(90deg, #525fe1 1px, transparent 1px);
-  background-size:30px 30px;
+  background-size:28px 28px;
 }
 
 /* Diamond/Losango pattern */
 .pattern-diamond::before{
-  top:10%;left:-10px;width:80px;height:80px;
-  border:2px solid #525fe1;opacity:.06;
+  top:8%;left:10px;width:100px;height:100px;
+  border:3px solid #525fe1;opacity:.12;
   transform:rotate(45deg);
 }
 .pattern-diamond::after{
-  bottom:10%;right:10px;width:60px;height:60px;
-  border:2px solid #525fe1;opacity:.06;
+  bottom:8%;right:20px;width:80px;height:80px;
+  border:3px solid #525fe1;opacity:.10;
   transform:rotate(45deg);
 }
 
 /* Linhas diagonais */
 .pattern-lines::before{
-  top:0;left:-10px;width:200px;height:100%;opacity:.03;
+  top:0;left:0;width:250px;height:100%;opacity:.06;
   background-image:repeating-linear-gradient(
     -45deg,
     transparent,
@@ -137,7 +141,7 @@
   );
 }
 .pattern-lines::after{
-  top:0;right:-10px;width:200px;height:100%;opacity:.03;
+  top:0;right:0;width:250px;height:100%;opacity:.06;
   background-image:repeating-linear-gradient(
     45deg,
     transparent,
@@ -154,40 +158,48 @@
 /* Page content patterns */
 .page-content{position:relative;overflow:hidden}
 .page-content::before{
-  content:'';position:absolute;top:80px;left:-30px;width:200px;height:200px;
-  background-image:radial-gradient(circle, #525fe1 1.5px, transparent 1.5px);
-  background-size:20px 20px;opacity:.04;pointer-events:none;z-index:0;
+  content:'';
+  position:absolute;
+  top:60px;
+  left:0;
+  width:240px;
+  height:240px;
+  background-image:radial-gradient(circle, #525fe1 2px, transparent 2px);
+  background-size:20px 20px;
+  opacity: 0.4;
+  pointer-events:none;
+  z-index:0;
 }
 .page-content::after{
-  content:'';position:absolute;bottom:100px;right:-30px;width:180px;height:180px;
-  border:2px solid #525fe1;border-radius:50%;opacity:.04;pointer-events:none;z-index:0;
-  box-shadow:25px 25px 0 0 rgba(82,95,225,.03);
+  content:'';position:absolute;bottom:80px;right:0;width:200px;height:200px;
+  border:3px solid #525fe1;border-radius:50%;opacity:.08;pointer-events:none;z-index:0;
+  box-shadow:30px 30px 0 0 rgba(82,95,225,.06);
 }
 .page-content>.container{position:relative;z-index:1}
 
 /* Page header pattern */
 .page-header{position:relative;overflow:hidden}
 .page-header::before{
-  content:'';position:absolute;top:-20px;right:-20px;width:200px;height:200px;
-  background-image:radial-gradient(circle, rgba(255,255,255,.15) 2px, transparent 2px);
+  content:'';position:absolute;top:-10px;right:0;width:240px;height:240px;
+  background-image:radial-gradient(circle, rgba(255,255,255,.25) 2.5px, transparent 2.5px);
   background-size:20px 20px;pointer-events:none;z-index:0;
 }
 .page-header::after{
-  content:'';position:absolute;bottom:-30px;left:-30px;width:160px;height:160px;
-  border:2px solid rgba(255,255,255,.1);border-radius:50%;pointer-events:none;z-index:0;
+  content:'';position:absolute;bottom:-20px;left:-20px;width:180px;height:180px;
+  border:3px solid rgba(255,255,255,.15);border-radius:50%;pointer-events:none;z-index:0;
 }
 .page-header>.container{position:relative;z-index:1}
 
 /* Formações grid pattern */
 .formacoes-grid{position:relative;overflow:hidden}
 .formacoes-grid::before{
-  content:'';position:absolute;top:20px;left:-15px;width:160px;height:160px;
-  background-image:radial-gradient(circle, #525fe1 1.5px, transparent 1.5px);
-  background-size:22px 22px;opacity:.04;pointer-events:none;z-index:0;
+  content:'';position:absolute;top:20px;left:0;width:200px;height:200px;
+  background-image:radial-gradient(circle, #525fe1 2px, transparent 2px);
+  background-size:22px 22px;opacity:.08;pointer-events:none;z-index:0;
 }
 .formacoes-grid::after{
-  content:'';position:absolute;bottom:20px;right:-15px;width:120px;height:120px;
-  border:2px solid #525fe1;border-radius:50%;opacity:.04;pointer-events:none;z-index:0;
+  content:'';position:absolute;bottom:20px;right:0;width:150px;height:150px;
+  border:3px solid #525fe1;border-radius:50%;opacity:.08;pointer-events:none;z-index:0;
 }
 
 @media(max-width:768px){

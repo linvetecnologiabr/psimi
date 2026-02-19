@@ -1,5 +1,5 @@
 <?php
-$page_title = 'Quando o Sofrimento Parece Não Ter Fim | Psicóloga Michely Ciardulo';
+$page_title = 'Quando o sofrimento parece não ter fim | Psicóloga Michely Ciardulo';
 $meta_description = 'Reflexão sobre o mito de Sísifo e a repetição do sofrimento. Por que repetimos padrões dolorosos? Psicóloga Michely Ciardulo explica à luz de Camus e Freud.';
 $meta_keywords = 'sofrimento, mito de sísifo, repetição, freud, camus, psicóloga sofrimento, sintoma psicanálise';
 $og_type = 'article';
@@ -24,12 +24,7 @@ require_once __DIR__ . '/../header.php';
 
 <section class="page-header">
     <div class="container">
-        <div class="breadcrumb-nav">
-            <a href="<?= $base_url ?>/">Início</a><span>›</span>
-            <a href="<?= $base_url ?>/blog">Blog</a><span>›</span>
-            <a href="#">Quando o Sofrimento Parece Não Ter Fim</a>
-        </div>
-        <h1>Quando o Sofrimento Parece Não Ter Fim</h1>
+        <h1>Sofrimento Parece Não Ter Fim</h1>
         <div class="post-meta">Por <strong>Psicóloga Michely Ciardulo</strong> — CRP: 06/176130</div>
     </div>
 </section>
@@ -37,7 +32,7 @@ require_once __DIR__ . '/../header.php';
 <section class="page-content">
     <div class="container">
         <div class="content-body">
-            <img src="" alt="Quando o Sofrimento Parece Não Ter Fim" class="featured-img">
+            <img src="<?= $assets ?>/img/img-sofrimento.jpg" alt="Quando o Sofrimento Parece Não Ter Fim" class="featured-img">
 
             <p class="lead">O mito de Sísifo, interpretado à luz das ideias de Albert Camus e Sigmund Freud, oferece uma perspectiva intrigante sobre como algumas pessoas se encontram aprisionadas aos seus próprios sintomas, repetindo-os incessantemente como Sísifo carrega sua pedra.</p>
 

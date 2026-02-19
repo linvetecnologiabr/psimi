@@ -190,15 +190,17 @@ require_once __DIR__ . '/header.php';
 			<div class="col-lg-12 col-sm-12 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s" data-wow-offset="0">
 				<div class="cat_list">
 					<ul>
-						<li><a href="<?= $base_url ?>/especialidades/terapia-de-casal"><img src="<?= $assets ?>/img/box-01.jpg" alt="Terapia de casal" loading="lazy"> Terapia de casal</a></li>
-						<li><a href="<?= $base_url ?>/especialidades/violencia-domestica"><img src="<?= $assets ?>/img/box-02.jpg" alt="Violência doméstica" loading="lazy"> Violência doméstica</a></li>
-						<li><a href="<?= $base_url ?>/especialidades/depressao"><img src="<?= $assets ?>/img/box-03.jpg" alt="Depressão" loading="lazy"> Depressão</a></li>
-						<li><a href="<?= $base_url ?>/especialidades/morte-e-luto"><img src="<?= $assets ?>/img/box-04.jpg" alt="Morte e Luto" loading="lazy"> Morte e Luto</a></li>
-						<li><a href="<?= $base_url ?>/especialidades/ansiedade"><img src="<?= $assets ?>/img/box-05.jpg" alt="Ansiedade" loading="lazy"> Ansiedade</a></li>
-						<li><a href="<?= $base_url ?>/especialidades/inseguranca"><img src="<?= $assets ?>/img/box-06.jpg" alt="Insegurança" loading="lazy"> Insegurança</a></li>
-						<li><a href="<?= $base_url ?>/especialidades/baixa-autoestima"><img src="<?= $assets ?>/img/box-07.jpg" alt="Baixa autoestima" loading="lazy"> Baixa autoestima</a></li>
-						<li><a href="<?= $base_url ?>/especialidades/dependencia-emocional"><img src="<?= $assets ?>/img/box-08.jpg" alt="Dependência emocional" loading="lazy"> Dependência emocional</a></li>
-						<li><a href="<?= $base_url ?>/especialidades/mudanca-de-carreira"><img src="<?= $assets ?>/img/box-01.jpg" alt="Mudança de Carreira" loading="lazy"> Mudança de Carreira</a></li>
+						<li><a href="<?= $base_url ?>/especialidades/terapia-de-casal"><img src="<?= $assets ?>/img/thumb01.jpg" alt="Terapia de casal" loading="lazy"> Terapia de casal</a></li>
+						<li><a href="<?= $base_url ?>/especialidades/violencia-domestica"><img src="<?= $assets ?>/img/thumb02.jpg" alt="Violência doméstica" loading="lazy"> Violência doméstica</a></li>
+						<li><a href="<?= $base_url ?>/especialidades/depressao"><img src="<?= $assets ?>/img/thumb03.jpg" alt="Depressão" loading="lazy"> Depressão</a></li>
+						<li><a href="<?= $base_url ?>/especialidades/morte-e-luto"><img src="<?= $assets ?>/img/thumb04.jpg" alt="Morte e Luto" loading="lazy"> Morte e Luto</a></li>
+						<li><a href="<?= $base_url ?>/especialidades/ansiedade"><img src="<?= $assets ?>/img/thumb05.jpg" alt="Ansiedade" loading="lazy"> Ansiedade</a></li>
+						<li><a href="<?= $base_url ?>/especialidades/inseguranca"><img src="<?= $assets ?>/img/thumb06.jpg" alt="Insegurança" loading="lazy"> Insegurança</a></li>
+						<li><a href="<?= $base_url ?>/especialidades/baixa-autoestima"><img src="<?= $assets ?>/img/thumb07.jpg" alt="Baixa autoestima" loading="lazy"> Baixa autoestima</a></li>
+						<li><a href="<?= $base_url ?>/especialidades/dependencia-emocional"><img src="<?= $assets ?>/img/thumb08.jpg" alt="Dependência emocional" loading="lazy"> Dependência emocional</a></li>
+						<li><a href="<?= $base_url ?>/especialidades/burnout"><img src="<?= $assets ?>/img/thumb09.jpg" alt="Burnout" loading="lazy"> Burnout</a></li>
+						<li><a href="<?= $base_url ?>/especialidades/mudanca-de-carreira"><img src="<?= $assets ?>/img/thumb10.jpg" alt="Mudança de Carreira" loading="lazy"> Mudança de Carreira</a></li>
+						
 					</ul>
 				</div>
 			</div>
@@ -362,7 +364,7 @@ require_once __DIR__ . '/header.php';
 			<div class="col-lg-4 col-sm-6 col-xs-12">
 				<div class="single_course" onclick="location.href='<?= $base_url ?>/blog/equilibrando-os-pratos-da-vida'">
 					<div class="single_c_img">
-						<img src="" class="img-fluid" alt="Equilibrando os pratos da vida">
+						<img src="<?= $assets ?>/img/img-pratos.jpg" class="img-fluid" alt="Equilibrando os pratos da vida" loading="lazy">
 						<span class="item-artigo">Reflexão</span>
 					</div>
 					<h4>Equilibrando os pratos da vida</h4>
@@ -373,7 +375,7 @@ require_once __DIR__ . '/header.php';
 			<div class="col-lg-4 col-sm-6 col-xs-12">
 				<div class="single_course" onclick="location.href='<?= $base_url ?>/blog/quando-o-sofrimento-parece-nao-ter-fim'">
 					<div class="single_c_img">
-						<img src="" class="img-fluid" alt="Quando o sofrimento parece não ter fim">
+						<img src="<?= $assets ?>/img/img-sofrimento.jpg" class="img-fluid" alt="Quando o sofrimento parece não ter fim" loading="lazy">
 						<span class="item-artigo">Reflexão</span>
 					</div>
 					<h4>Quando o sofrimento parece não ter fim</h4>
@@ -384,7 +386,7 @@ require_once __DIR__ . '/header.php';
 			<div class="col-lg-4 col-sm-6 col-xs-12">
 				<div class="single_course" onclick="location.href='<?= $base_url ?>/blog/terapia-de-casal'">
 					<div class="single_c_img">
-						<img src="" class="img-fluid" alt="Terapia de Casal - Psicóloga Michely Ciardulo">
+						<img src="<?= $assets ?>/img/box-01.jpg" class="img-fluid" alt="Terapia de Casal - Psicóloga Michely Ciardulo" loading="lazy">
 						<span class="item-artigo">Artigo</span>
 					</div>
 					<h4>Como funciona a Terapia de Casal?</h4>

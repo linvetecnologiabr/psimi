@@ -1,5 +1,5 @@
 <?php
-$page_title = 'Como funciona a Terapia de Casal? | Psicóloga Michely Ciardulo';
+$page_title = 'Como funciona a terapia de casal? | Psicóloga Michely Ciardulo';
 $meta_description = 'Entenda como funciona a terapia de casal na psicanálise. Psicóloga Michely Ciardulo explica vínculos afetivos, papéis de gênero, transmissão geracional e o papel do terapeuta.';
 $meta_keywords = 'terapia de casal, psicóloga terapia de casal, como funciona terapia de casal, terapia casal são paulo, psicanálise casal';
 $og_type = 'article';
@@ -241,7 +241,7 @@ require_once __DIR__ . '/../header.php';
     <div class="container">
         <div class="post-body">
 
-            <img src="" alt="Terapia de Casal - Psicóloga Michely Ciardulo" class="post-featured-img">
+            <img src="<?= $assets ?>/img/img-casal.jpg" alt="Terapia de Casal - Psicóloga Michely Ciardulo" class="post-featured-img">
 
             <p class="lead">A terapia de casal se insere como uma ferramenta essencial na jornada de compreensão e fortalecimento dos vínculos afetivos. Neste contexto, mergulhamos nas profundezas da conjugalidade contemporânea, onde as influências familiares, expectativas sociais e dinâmicas inconscientes desempenham papéis fundamentais.</p>
 

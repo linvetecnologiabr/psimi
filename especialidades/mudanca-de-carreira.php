@@ -12,11 +12,7 @@ require_once __DIR__ . '/../header.php';
 
 <section class="page-header">
     <div class="container">
-        <div class="breadcrumb-nav">
-            <a href="<?= $base_url ?>/">Início</a><span>›</span>
-            <a href="<?= $base_url ?>/especialidades">Especialidades</a><span>›</span>
-            <a href="#">Mudança de Carreira</a>
-        </div>
+      
         <h1>Mudança de Carreira</h1>
         <div class="post-meta">Especialidade da <strong>Psicóloga Michely Ciardulo</strong> — CRP 06/176130</div>
     </div>
@@ -27,7 +23,7 @@ require_once __DIR__ . '/../header.php';
         <div class="content-body">
 
             <div class="content-intro">
-                <img src="<?= $assets ?>/img/box-01.jpg" alt="Mudança de Carreira" class="featured-img">
+                <img src="<?= $assets ?>/img/box-09.jpg" alt="Mudança de Carreira" class="featured-img">
                 <div class="intro-text">
                     <p class="lead">A mudança de carreira é um momento de profunda reflexão sobre quem somos, o que desejamos e qual sentido queremos dar à nossa vida profissional. A terapia oferece suporte para essa transição.</p>
                     <p>Muitas vezes, a insatisfação profissional não é apenas sobre o trabalho em si, mas sobre o lugar que ocupamos no mundo. Escolhas feitas sob pressão familiar, social ou financeira podem nos afastar dos nossos desejos mais autênticos, gerando um sentimento de vazio e falta de propósito.</p>

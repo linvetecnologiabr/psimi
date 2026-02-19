@@ -1,5 +1,5 @@
 <?php
-$page_title = 'Como você tem lidado com seu Tempo? | Psicóloga Michely Ciardulo';
+$page_title = 'Como você tem lidado com seu tempo? | Psicóloga Michely Ciardulo';
 $meta_description = 'Reflexão sobre o tempo e nossa relação com ele. Como lidamos com a pressa, a presença e a qualidade das nossas experiências. Por Psicóloga Michely Ciardulo.';
 $meta_keywords = 'tempo, reflexão sobre tempo, qualidade de vida, presença, psicóloga reflexão, saúde mental tempo';
 $og_type = 'article';
@@ -24,11 +24,7 @@ require_once __DIR__ . '/../header.php';
 
 <section class="page-header">
     <div class="container">
-        <div class="breadcrumb-nav">
-            <a href="<?= $base_url ?>/">Início</a><span>›</span>
-            <a href="<?= $base_url ?>/blog">Blog</a><span>›</span>
-            <a href="#">Como você tem lidado com seu Tempo?</a>
-        </div>
+      
         <h1>Como você tem lidado com seu Tempo?</h1>
         <div class="post-meta">Por <strong>Psicóloga Michely Ciardulo</strong> — CRP: 06/176130</div>
     </div>
@@ -37,7 +33,7 @@ require_once __DIR__ . '/../header.php';
 <section class="page-content">
     <div class="container">
         <div class="content-body">
-            <img src="" alt="Como você tem lidado com seu Tempo?" class="featured-img">
+            <img src="<?= $assets ?>/img/img-tempo.jpg" alt="Como você tem lidado com seu Tempo?" class="featured-img">
 
             <p class="lead">Há quem diga que o bem mais precioso é o tempo!</p>
 

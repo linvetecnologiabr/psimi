@@ -1,6 +1,6 @@
 <?php
 $page_title = 'Especialidades | Psicóloga Michely Ciardulo';
-$meta_description = 'Conheça as especialidades da Psicóloga Michely Ciardulo: terapia de casal, violência doméstica, depressão, luto, ansiedade, insegurança, baixa autoestima e dependência emocional.';
+$meta_description = 'Conheça as especialidades da Psicóloga Michely Ciardulo: terapia de casal, violência doméstica, depressão, luto, ansiedade, insegurança, baixa autoestima, dependência emocional e burnout.';
 $meta_keywords = 'especialidades psicóloga, terapia de casal, depressão, ansiedade, luto, violência doméstica, baixa autoestima, dependência emocional';
 $breadcrumb_items = [
     ['name' => 'Início', 'url' => 'https://michelyciardulo.com.br/'],
@@ -17,7 +17,9 @@ $especialidades = [
     ['title' => 'Insegurança', 'slug' => 'inseguranca', 'img' => 'box-06.jpg', 'desc' => 'Trabalho terapêutico para fortalecimento da autoconfiança e segurança emocional.'],
     ['title' => 'Baixa Autoestima', 'slug' => 'baixa-autoestima', 'img' => 'box-07.jpg', 'desc' => 'Reconstrução da autoimagem e valorização pessoal.'],
     ['title' => 'Dependência Emocional', 'slug' => 'dependencia-emocional', 'img' => 'box-08.jpg', 'desc' => 'Compreensão dos padrões de dependência afetiva e construção de autonomia.'],
-    ['title' => 'Mudança de Carreira', 'slug' => 'mudanca-de-carreira', 'img' => 'box-01.jpg', 'desc' => 'Apoio psicológico para transições profissionais e redescoberta de propósito.'],
+    ['title' => 'Burnout', 'slug' => 'burnout', 'img' => 'box-03.jpg', 'desc' => 'Tratamento para esgotamento profissional, exaustão emocional e recuperação da qualidade de vida.'],
+    ['title' => 'Mudança de Carreira', 'slug' => 'mudanca-de-carreira', 'img' => 'box-09.jpg', 'desc' => 'Apoio psicológico para transições profissionais e redescoberta de propósito.']
+   
 ];
 ?>
 
