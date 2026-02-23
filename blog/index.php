@@ -1,7 +1,7 @@
 <?php
 $page_title = 'Blog | Psicóloga Michely Ciardulo - Insights Psicanalíticos';
-$meta_description = 'Blog da Psicóloga Michely Ciardulo. Artigos sobre psicanálise, terapia de casal, ansiedade, depressão, autoconhecimento e saúde mental.';
-$meta_keywords = 'blog psicologia, artigos psicanálise, terapia de casal, ansiedade, depressão, saúde mental';
+$meta_description = 'Blog da Psicóloga Michely Ciardulo com artigos sobre psicanálise, terapia de casal, ansiedade, depressão, autoconhecimento e saúde mental. São Paulo.';
+$meta_keywords = 'blog psicologia, artigos psicanálise, terapia de casal, ansiedade, depressão, saúde mental, psicóloga são paulo, terapia online';
 $breadcrumb_items = [
     ['name' => 'Início', 'url' => 'https://michelyciardulo.com.br/'],
     ['name' => 'Blog', 'url' => 'https://michelyciardulo.com.br/blog'],

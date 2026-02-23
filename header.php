@@ -10,9 +10,7 @@ $page_title = $page_title ?? 'Psicóloga Michely Ciardulo | CRP 06/176130';
 $meta_description = $meta_description ?? 'Psicóloga Michely Ciardulo - Atendimento psicológico presencial e online. Especialista em Psicanálise, terapia de casal, ansiedade, burnout, depressão e autoconhecimento. CRP 06/176130';
 $meta_keywords = $meta_keywords ?? 'psicóloga são paulo, psicanálise, terapia online, terapia presencial, psicóloga clínica, burnout, terapia de casal, ansiedade, depressão, autoconhecimento';
 $og_type = $og_type ?? 'website';
-$og_image = $og_image ?? $site_url . '/assets-new
-
-/img/og-image.jpg';
+$og_image = $og_image ?? $site_url . '/assets-new/img/og-image.jpg';
 $current_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https://' : 'http://') . ($_SERVER['HTTP_HOST'] ?? 'michelyciardulo.com.br') . ($_SERVER['REQUEST_URI'] ?? '/');
 
 // Gerar classe do body automaticamente

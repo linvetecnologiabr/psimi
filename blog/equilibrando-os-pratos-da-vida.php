@@ -1,7 +1,7 @@
 <?php
 $page_title = 'Equilibrando os pratos da vida | Psicóloga Michely Ciardulo';
 $meta_description = 'Reflexão sobre a pressão de ser bom demais e como equilibrar as demandas da vida. Freud nos lembra: cada um deve procurar, por si, tornar-se feliz.';
-$meta_keywords = 'equilíbrio emocional, pressão social, freud felicidade, psicóloga equilíbrio, saúde mental, psicoterapia';
+$meta_keywords = 'equilíbrio emocional, pressão social, freud felicidade, psicóloga equilíbrio, saúde mental, psicoterapia, psicóloga são paulo';
 $og_type = 'article';
 $breadcrumb_items = [
     ['name' => 'Início', 'url' => 'https://michelyciardulo.com.br/'],

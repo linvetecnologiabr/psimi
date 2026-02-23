@@ -1,7 +1,7 @@
 <?php
 $page_title = 'Insegurança | Psicóloga Michely Ciardulo - São Paulo';
 $meta_description = 'Tratamento psicológico para insegurança. Fortaleça sua autoconfiança com acompanhamento da Psicóloga Michely Ciardulo. Atendimento online e presencial em São Paulo.';
-$meta_keywords = 'insegurança psicóloga, tratamento insegurança, autoconfiança terapia, psicóloga insegurança são paulo';
+$meta_keywords = 'insegurança psicóloga, tratamento insegurança, autoconfiança terapia, psicóloga insegurança são paulo, terapia insegurança online, terapia insegurança presencial';
 $breadcrumb_items = [
     ['name' => 'Início', 'url' => 'https://michelyciardulo.com.br/'],
     ['name' => 'Especialidades', 'url' => 'https://michelyciardulo.com.br/especialidades'],

@@ -1,7 +1,7 @@
 <?php
-$page_title = 'Especialidades | Psicóloga Michely Ciardulo';
-$meta_description = 'Conheça as especialidades da Psicóloga Michely Ciardulo: terapia de casal, violência doméstica, depressão, luto, ansiedade, insegurança, baixa autoestima, dependência emocional e burnout.';
-$meta_keywords = 'especialidades psicóloga, terapia de casal, depressão, ansiedade, luto, violência doméstica, baixa autoestima, dependência emocional';
+$page_title = 'Especialidades | Psicóloga Michely Ciardulo - São Paulo';
+$meta_description = 'Especialidades da Psicóloga Michely Ciardulo: terapia de casal, depressão, ansiedade, luto, autoconhecimento e mais. Online e presencial em São Paulo.';
+$meta_keywords = 'especialidades psicóloga, terapia de casal, depressão, ansiedade, luto, violência doméstica, baixa autoestima, dependência emocional, burnout, autoconhecimento, psicóloga são paulo, terapia online, terapia presencial';
 $breadcrumb_items = [
     ['name' => 'Início', 'url' => 'https://michelyciardulo.com.br/'],
     ['name' => 'Especialidades', 'url' => 'https://michelyciardulo.com.br/especialidades'],
@@ -18,8 +18,8 @@ $especialidades = [
     ['title' => 'Baixa Autoestima', 'slug' => 'baixa-autoestima', 'img' => 'box-07.jpg', 'desc' => 'Reconstrução da autoimagem e valorização pessoal.'],
     ['title' => 'Dependência Emocional', 'slug' => 'dependencia-emocional', 'img' => 'box-08.jpg', 'desc' => 'Compreensão dos padrões de dependência afetiva e construção de autonomia.'],
     ['title' => 'Burnout', 'slug' => 'burnout', 'img' => 'box-03.jpg', 'desc' => 'Tratamento para esgotamento profissional, exaustão emocional e recuperação da qualidade de vida.'],
-    ['title' => 'Mudança de Carreira', 'slug' => 'mudanca-de-carreira', 'img' => 'box-09.jpg', 'desc' => 'Apoio psicológico para transições profissionais e redescoberta de propósito.']
-   
+    ['title' => 'Autoconhecimento', 'slug' => 'mudanca-de-carreira', 'img' => 'box-09.jpg', 'desc' => 'Reconhecer padrões inconscientes, ampliar a consciência sobre si e construir maior autenticidade.'],
+    ['title' => 'Solidão e Conexão Social', 'slug' => 'solidao-e-conexao-social', 'img' => 'thumb-solidao.jpg', 'desc' => 'Compreensão da solidão como fenômeno psíquico e social, e a busca por vínculos significativos.']
 ];
 ?>
 

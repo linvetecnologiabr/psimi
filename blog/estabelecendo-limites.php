@@ -1,7 +1,7 @@
 <?php
 $page_title = 'Estabelecendo limites | Psicóloga Michely Ciardulo';
 $meta_description = 'Estabelecer limites é um ato de amor próprio. Reflexão sobre como validar nossos desejos e afetos nas relações. Por Psicóloga Michely Ciardulo.';
-$meta_keywords = 'estabelecer limites, limites saudáveis, amor próprio, psicóloga limites, relações saudáveis, autoestima';
+$meta_keywords = 'estabelecer limites, limites saudáveis, amor próprio, psicóloga limites, relações saudáveis, autoestima, psicóloga são paulo';
 $og_type = 'article';
 $breadcrumb_items = [
     ['name' => 'Início', 'url' => 'https://michelyciardulo.com.br/'],

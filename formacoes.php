@@ -1,7 +1,7 @@
 <?php
 $page_title = 'Formações e Especializações | Psicóloga Michely Ciardulo';
 $meta_description = 'Formações e especializações da Psicóloga Michely Ciardulo. Bacharel em Psicologia, Pós-graduada em Psicanálise, Saúde Mental e Psiquiatria, Terapia de Casal e Família.';
-$meta_keywords = 'formação psicóloga, pós-graduação psicanálise, especialização saúde mental, psicóloga qualificada são paulo';
+$meta_keywords = 'formação psicóloga, pós-graduação psicanálise, especialização saúde mental, psicóloga qualificada são paulo, terapia online, terapia presencial';
 $breadcrumb_items = [
     ['name' => 'Início', 'url' => 'https://michelyciardulo.com.br/'],
     ['name' => 'Formações', 'url' => 'https://michelyciardulo.com.br/formacoes'],

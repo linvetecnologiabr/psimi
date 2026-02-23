@@ -1,7 +1,7 @@
 <?php
-$page_title = 'Quando o sofrimento parece não ter fim | Psicóloga Michely Ciardulo';
+$page_title = 'Quando o sofrimento não tem fim | Psi. Michely Ciardulo';
 $meta_description = 'Reflexão sobre o mito de Sísifo e a repetição do sofrimento. Por que repetimos padrões dolorosos? Psicóloga Michely Ciardulo explica à luz de Camus e Freud.';
-$meta_keywords = 'sofrimento, mito de sísifo, repetição, freud, camus, psicóloga sofrimento, sintoma psicanálise';
+$meta_keywords = 'sofrimento, mito de sísifo, repetição, freud, camus, psicóloga sofrimento, sintoma psicanálise, psicóloga são paulo';
 $og_type = 'article';
 $breadcrumb_items = [
     ['name' => 'Início', 'url' => 'https://michelyciardulo.com.br/'],

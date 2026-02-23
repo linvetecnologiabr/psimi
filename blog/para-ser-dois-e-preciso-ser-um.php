@@ -1,7 +1,7 @@
 <?php
 $page_title = 'Para ser dois, é preciso ser um! | Psicóloga Michely Ciardulo';
 $meta_description = 'Reflexão sobre a importância do autoconhecimento antes de se relacionar. Para ser dois, é preciso primeiro se reconhecer como um. Por Psicóloga Michely Ciardulo.';
-$meta_keywords = 'relacionamento saudável, autoconhecimento, ser um antes de ser dois, psicóloga relacionamento, amor próprio';
+$meta_keywords = 'relacionamento saudável, autoconhecimento, ser um antes de ser dois, psicóloga relacionamento, amor próprio, psicóloga são paulo';
 $og_type = 'article';
 $breadcrumb_items = [
     ['name' => 'Início', 'url' => 'https://michelyciardulo.com.br/'],

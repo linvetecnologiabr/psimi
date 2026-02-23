@@ -23,6 +23,7 @@ $pages = [
     ['url' => '/especialidades/dependencia-emocional', 'priority' => '0.7', 'changefreq' => 'monthly'],
     ['url' => '/especialidades/mudanca-de-carreira',   'priority' => '0.7', 'changefreq' => 'monthly'],
     ['url' => '/especialidades/burnout',                'priority' => '0.7', 'changefreq' => 'monthly'],
+    ['url' => '/especialidades/solidao-e-conexao-social', 'priority' => '0.7', 'changefreq' => 'monthly'],
     
     // Blog
     ['url' => '/blog/terapia-de-casal',                         'priority' => '0.6', 'changefreq' => 'monthly'],

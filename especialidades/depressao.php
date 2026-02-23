@@ -1,7 +1,7 @@
 <?php
 $page_title = 'Depressão | Psicóloga Michely Ciardulo - São Paulo';
 $meta_description = 'Tratamento psicológico para depressão com Psicóloga Michely Ciardulo. Abordagem psicanalítica, atendimento online e presencial em São Paulo. CRP 06/176130.';
-$meta_keywords = 'depressão psicóloga, tratamento depressão, psicóloga depressão são paulo, terapia depressão online';
+$meta_keywords = 'depressão psicóloga, tratamento depressão, psicóloga depressão são paulo, terapia depressão online, terapia depressão presencial';
 $breadcrumb_items = [
     ['name' => 'Início', 'url' => 'https://michelyciardulo.com.br/'],
     ['name' => 'Especialidades', 'url' => 'https://michelyciardulo.com.br/especialidades'],

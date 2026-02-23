@@ -1,7 +1,7 @@
 <?php
 $page_title = 'Paixão e objeto fantasmático | Psicóloga Michely Ciardulo';
-$meta_description = 'Reflexão psicanalítica sobre a paixão, idealização e o objeto fantasmático nas relações amorosas. Por Psicóloga Michely Ciardulo.';
-$meta_keywords = 'paixão, objeto fantasmático, idealização amorosa, narcisismo, psicóloga relações amorosas, psicanálise amor';
+$meta_description = 'Reflexão psicanalítica sobre a paixão, idealização e o objeto fantasmático nas relações amorosas. Por Psicóloga Michely Ciardulo em São Paulo, SP.';
+$meta_keywords = 'paixão, objeto fantasmático, idealização amorosa, narcisismo, psicóloga relações amorosas, psicanálise amor, psicóloga são paulo';
 $og_type = 'article';
 $breadcrumb_items = [
     ['name' => 'Início', 'url' => 'https://michelyciardulo.com.br/'],

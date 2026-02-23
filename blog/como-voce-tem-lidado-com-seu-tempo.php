@@ -1,7 +1,7 @@
 <?php
 $page_title = 'Como você tem lidado com seu tempo? | Psicóloga Michely Ciardulo';
 $meta_description = 'Reflexão sobre o tempo e nossa relação com ele. Como lidamos com a pressa, a presença e a qualidade das nossas experiências. Por Psicóloga Michely Ciardulo.';
-$meta_keywords = 'tempo, reflexão sobre tempo, qualidade de vida, presença, psicóloga reflexão, saúde mental tempo';
+$meta_keywords = 'tempo, reflexão sobre tempo, qualidade de vida, presença, psicóloga reflexão, saúde mental tempo, psicóloga são paulo';
 $og_type = 'article';
 $breadcrumb_items = [
     ['name' => 'Início', 'url' => 'https://michelyciardulo.com.br/'],

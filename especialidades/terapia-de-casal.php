@@ -1,7 +1,7 @@
 <?php
-$page_title = 'Terapia de Casal | Psicóloga Michely Ciardulo - Online e Presencial em São Paulo';
-$meta_description = 'Terapia de casal com Psicóloga Michely Ciardulo. Fortalecimento de vínculos, comunicação, papéis de gênero e dinâmicas conjugais. Online e presencial em São Paulo.';
-$meta_keywords = 'terapia de casal, terapia de casal, psicóloga terapia casal, terapia casal online, casal psicanálise, terapia de casal presencial';
+$page_title = 'Terapia de Casal | Psicóloga Michely Ciardulo - São Paulo';
+$meta_description = 'Terapia de casal com Psicóloga Michely Ciardulo. Fortalecimento de vínculos, comunicação e dinâmicas conjugais. Atendimento online e presencial em São Paulo.';
+$meta_keywords = 'terapia de casal, psicóloga terapia casal, terapia casal online, terapia casal presencial, casal psicanálise, terapia de casal são paulo';
 $breadcrumb_items = [
     ['name' => 'Início', 'url' => 'https://michelyciardulo.com.br/'],
     ['name' => 'Especialidades', 'url' => 'https://michelyciardulo.com.br/especialidades'],

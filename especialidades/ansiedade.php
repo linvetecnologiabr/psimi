@@ -1,7 +1,7 @@
 <?php
 $page_title = 'Ansiedade | Psicóloga Michely Ciardulo - São Paulo';
 $meta_description = 'Tratamento psicológico para ansiedade. Psicóloga Michely Ciardulo ajuda a compreender e manejar os sintomas ansiosos. Atendimento online e presencial em São Paulo.';
-$meta_keywords = 'ansiedade psicóloga, tratamento ansiedade, psicóloga ansiedade são paulo, terapia ansiedade online, crise de ansiedade';
+$meta_keywords = 'ansiedade psicóloga, tratamento ansiedade, psicóloga ansiedade são paulo, terapia ansiedade online, terapia ansiedade presencial, crise de ansiedade';
 $breadcrumb_items = [
     ['name' => 'Início', 'url' => 'https://michelyciardulo.com.br/'],
     ['name' => 'Especialidades', 'url' => 'https://michelyciardulo.com.br/especialidades'],

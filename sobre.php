@@ -1,7 +1,7 @@
 <?php
 $page_title = 'Sobre Mim | Psicóloga Michely Ciardulo - CRP 06/176130';
 $meta_description = 'Conheça a Psicóloga Michely Ciardulo. Pós-graduada em Psicanálise e Saúde Mental. Atendimento psicológico online e presencial em São Paulo. CRP 06/176130.';
-$meta_keywords = 'psicóloga michely ciardulo, sobre psicóloga, psicóloga são paulo, psicanálise, CRP 06/176130';
+$meta_keywords = 'psicóloga michely ciardulo, sobre psicóloga, psicóloga são paulo, psicanálise, CRP 06/176130, terapia online, terapia presencial';
 $breadcrumb_items = [
     ['name' => 'Início', 'url' => 'https://michelyciardulo.com.br/'],
     ['name' => 'Sobre mim', 'url' => 'https://michelyciardulo.com.br/sobre'],

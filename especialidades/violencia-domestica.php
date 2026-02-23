@@ -1,7 +1,7 @@
 <?php
 $page_title = 'Violência Doméstica | Psicóloga Michely Ciardulo - São Paulo';
-$meta_description = 'Atendimento psicológico especializado para vítimas de violência doméstica. Acolhimento, escuta e suporte terapêutico com a Psicóloga Michely Ciardulo em São Paulo.';
-$meta_keywords = 'violência doméstica psicóloga, atendimento violência doméstica, psicóloga vítimas violência, acolhimento violência doméstica são paulo';
+$meta_description = 'Atendimento psicológico para vítimas de violência doméstica. Acolhimento e suporte terapêutico com Psicóloga Michely Ciardulo. Online e presencial em São Paulo.';
+$meta_keywords = 'violência doméstica psicóloga, atendimento violência doméstica, psicóloga vítimas violência, acolhimento violência doméstica são paulo, violência doméstica online, violência doméstica presencial';
 $breadcrumb_items = [
     ['name' => 'Início', 'url' => 'https://michelyciardulo.com.br/'],
     ['name' => 'Especialidades', 'url' => 'https://michelyciardulo.com.br/especialidades'],

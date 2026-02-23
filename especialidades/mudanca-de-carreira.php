@@ -1,11 +1,11 @@
 <?php
-$page_title = 'Mudança de Carreira | Psicóloga Michely Ciardulo - São Paulo';
-$meta_description = 'Apoio psicológico para mudança de carreira e transição profissional. Psicóloga Michely Ciardulo ajuda a compreender seus desejos e construir novos caminhos.';
-$meta_keywords = 'mudança de carreira psicóloga, transição profissional terapia, psicóloga carreira são paulo, orientação profissional psicanálise';
+$page_title = 'Autoconhecimento | Psicóloga Michely Ciardulo - São Paulo';
+$meta_description = 'Autoconhecimento na perspectiva psicanalítica. Psicóloga Michely Ciardulo ajuda a reconhecer padrões inconscientes. Atendimento online e presencial em São Paulo.';
+$meta_keywords = 'autoconhecimento psicóloga, autoconhecimento psicanálise, psicóloga autoconhecimento são paulo, terapia autoconhecimento online, terapia autoconhecimento presencial';
 $breadcrumb_items = [
     ['name' => 'Início', 'url' => 'https://michelyciardulo.com.br/'],
     ['name' => 'Especialidades', 'url' => 'https://michelyciardulo.com.br/especialidades'],
-    ['name' => 'Mudança de Carreira', 'url' => 'https://michelyciardulo.com.br/especialidades/mudanca-de-carreira'],
+    ['name' => 'Autoconhecimento', 'url' => 'https://michelyciardulo.com.br/especialidades/mudanca-de-carreira'],
 ];
 require_once __DIR__ . '/../header.php';
 ?>
@@ -13,7 +13,7 @@ require_once __DIR__ . '/../header.php';
 <section class="page-header">
     <div class="container">
       
-        <h1>Mudança de Carreira</h1>
+        <h1>Autoconhecimento</h1>
         <div class="post-meta">Especialidade da <strong>Psicóloga Michely Ciardulo</strong> — CRP 06/176130</div>
     </div>
 </section>
@@ -23,49 +23,18 @@ require_once __DIR__ . '/../header.php';
         <div class="content-body">
 
             <div class="content-intro">
-                <img src="<?= $assets ?>/img/box-09.jpg" alt="Mudança de Carreira" class="featured-img">
+                <img src="<?= $assets ?>/img/box-09.jpg" alt="Autoconhecimento" class="featured-img">
                 <div class="intro-text">
-                    <p class="lead">A mudança de carreira é um momento de profunda reflexão sobre quem somos, o que desejamos e qual sentido queremos dar à nossa vida profissional. A terapia oferece suporte para essa transição.</p>
-                    <p>Muitas vezes, a insatisfação profissional não é apenas sobre o trabalho em si, mas sobre o lugar que ocupamos no mundo. Escolhas feitas sob pressão familiar, social ou financeira podem nos afastar dos nossos desejos mais autênticos, gerando um sentimento de vazio e falta de propósito.</p>
+                    <p class="lead">Autoconhecer-se não é um exercício de autoanálise solitária nem uma busca por uma versão ideal de si mesmo. Também não se trata de alcançar um estado permanente de equilíbrio ou clareza absoluta.</p>
+                    <p>Na perspectiva psicanalítica, o autoconhecimento implica reconhecer que não somos inteiramente transparentes para nós mesmos. Há desejos, fantasias, conflitos e ambivalências que operam para além da consciência imediata. Muitas escolhas que parecem racionais ou "naturais" estão atravessadas por marcas inconscientes, por experiências precoces e por modos de vínculo que foram se estruturando ao longo da vida.</p>
                 </div>
             </div>
 
-            <h2>Quando a carreira pede reflexão</h2>
-
-            <div class="topic-grid">
-            <div class="topic-item">
-                <h3><ion-icon name="sad-outline"></ion-icon> Esgotamento profissional</h3>
-                <p>Burnout, desmotivação constante, sensação de que o trabalho perdeu o sentido. Quando ir trabalhar se torna um fardo diário.</p>
-            </div>
-
-            <div class="topic-item">
-                <h3><ion-icon name="sync-outline"></ion-icon> Sensação de estar no lugar errado</h3>
-                <p>A percepção de que a carreira atual não corresponde a quem você é, seus valores e seus desejos mais profundos.</p>
-            </div>
-
-            <div class="topic-item">
-                <h3><ion-icon name="alert-circle-outline"></ion-icon> Medo de mudar</h3>
-                <p>O desejo de mudança existe, mas o medo da instabilidade financeira, do julgamento dos outros e do desconhecido paralisa a ação.</p>
-            </div>
-
-            <div class="topic-item">
-                <h3><ion-icon name="help-circle-outline"></ion-icon> Crise de identidade profissional</h3>
-                <p>"Não sei o que quero fazer" — quando a dúvida sobre o caminho profissional reflete questões mais profundas sobre identidade e propósito.</p>
-            </div>
-            </div>
-
-            <h2>O papel da terapia na transição</h2>
-            <p>A psicoterapia não é orientação vocacional — é um espaço para compreender as motivações inconscientes por trás das escolhas profissionais, os medos que impedem a mudança e os desejos que pedem espaço.</p>
-
-            <p>Ao investigar sua história, suas relações e seus padrões, torna-se possível fazer escolhas mais alinhadas com quem você verdadeiramente é, construindo uma carreira que faça sentido para sua vida.</p>
-
-            <div class="highlight-box">
-                <ul>
-                    <li><ion-icon name="checkmark-circle"></ion-icon><span><strong>Nunca é tarde para recomeçar.</strong> A mudança é possível em qualquer fase da vida.</span></li>
-                    <li><ion-icon name="checkmark-circle"></ion-icon><span>A terapia ajuda a <strong>separar o desejo próprio das expectativas alheias</strong>.</span></li>
-                    <li><ion-icon name="checkmark-circle"></ion-icon><span>Mudar de carreira é <strong>um ato de coragem e autoconhecimento</strong>.</span></li>
-                </ul>
-            </div>
+            <p>Conhecer-se exige coragem para sustentar perguntas. Perguntas sobre repetições, sobre sofrimentos que retornam, sobre relações que seguem um mesmo roteiro. Não se trata de buscar culpados no passado, mas de compreender como determinadas experiências foram inscritas na história subjetiva e continuam produzindo efeitos.</p>
+            <p>Na clínica, o autoconhecimento não acontece por meio de técnicas rápidas ou fórmulas motivacionais. Ele se constrói na fala. Ao falar e ser escutado, o sujeito começa a reconhecer sentidos que antes estavam dispersos. Aquilo que era apenas mal-estar pode ganhar nome. Aquilo que parecia destino pode revelar-se como repetição.</p>
+            <p>Autoconhecer-se não significa controlar tudo o que se sente ou eliminar conflitos internos. Significa ampliar a consciência sobre a própria implicação nas escolhas e nos vínculos. Significa reconhecer limites, assumir responsabilidades e também legitimar desejos.</p>
+            <p>Esse processo não produz perfeição. Produz maior autenticidade.</p>
+            <p>E é a partir dessa autenticidade que novas formas de viver e de se relacionar podem se tornar possíveis.</p>
         </div>
     </div>
 </section>

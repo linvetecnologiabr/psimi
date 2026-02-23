@@ -1,7 +1,7 @@
 <?php
 $page_title = 'Baixa Autoestima | Psicóloga Michely Ciardulo - São Paulo';
 $meta_description = 'Tratamento psicológico para baixa autoestima. Reconstrua sua autoimagem com a Psicóloga Michely Ciardulo. Atendimento online e presencial em São Paulo.';
-$meta_keywords = 'baixa autoestima psicóloga, tratamento autoestima, psicóloga autoestima são paulo, terapia autoestima, autoimagem';
+$meta_keywords = 'baixa autoestima psicóloga, tratamento autoestima, psicóloga autoestima são paulo, terapia autoestima online, terapia autoestima presencial, autoimagem';
 $breadcrumb_items = [
     ['name' => 'Início', 'url' => 'https://michelyciardulo.com.br/'],
     ['name' => 'Especialidades', 'url' => 'https://michelyciardulo.com.br/especialidades'],
