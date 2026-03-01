@@ -35,6 +35,7 @@ if (!$body_class) {
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="google-site-verification" content="k9_XxkrrdBLo_RJjRzkJtV71ol3NOVTOnzEOePHCc7g" />
 
 		<title><?= htmlspecialchars($page_title) ?></title>
 
@@ -96,18 +97,78 @@ if (!$body_class) {
 		<link rel="stylesheet" href="<?= $assets ?>/css/pages.css?v=<?= time() ?>">
 		<link rel="stylesheet" href="<?= $assets ?>/css/custom.css?v=<?= time() ?>">
 
-		<!-- Schema.org -->
+		<!-- Schema.org: WebSite (habilita sitelinks no Google) -->
 		<script type="application/ld+json">
 		{
 			"@context": "https://schema.org",
-			"@type": "ProfessionalService",
-			"@id": "<?= $site_url ?>",
+			"@type": "WebSite",
+			"@id": "<?= $site_url ?>#website",
 			"name": "Psicóloga Michely Ciardulo",
-			"alternateName": "Michely Mendes Ciardulo Trajano",
+			"alternateName": "Michely Ciardulo - Psicóloga Clínica CRP 06/176130",
+			"url": "<?= $site_url ?>",
+			"description": "Psicóloga clínica especializada em Psicanálise. Atendimento presencial e online para adolescentes, adultos e casais em São Paulo.",
+			"inLanguage": "pt-BR",
+			"publisher": {
+				"@id": "<?= $site_url ?>#person"
+			}
+		}
+		</script>
+
+		<!-- Schema.org: Person (entidade principal — psicóloga) -->
+		<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "Person",
+			"@id": "<?= $site_url ?>#person",
+			"name": "Michely Mendes Ciardulo Trajano",
+			"alternateName": "Michely Ciardulo",
+			"jobTitle": "Psicóloga Clínica",
+			"description": "Psicóloga CRP 06/176130, pós-graduada em Teoria Psicanalítica e Saúde Mental e Psiquiatria. Atendimento presencial e online em São Paulo.",
+			"url": "<?= $site_url ?>/sobre",
+			"image": "<?= $site_url ?>/assets-new/img/img-home05.jpg",
+			"telephone": "+55-11-91341-8537",
+			"email": "contato@michelyciardulo.com.br",
+			"sameAs": [
+				"<?= $instagram_url ?>"
+			],
+			"alumniOf": [
+				{"@type": "EducationalOrganization", "name": "Universidade Nove de Julho"},
+				{"@type": "EducationalOrganization", "name": "Faculdade Venda Nova do Imigrante - FAVENI"},
+				{"@type": "EducationalOrganization", "name": "Faculdade Única"}
+			],
+			"hasCredential": {
+				"@type": "EducationalOccupationalCredential",
+				"credentialCategory": "Professional License",
+				"recognizedBy": {
+					"@type": "Organization",
+					"name": "Conselho Regional de Psicologia de São Paulo",
+					"alternateName": "CRP-SP"
+				},
+				"identifier": "CRP 06/176130"
+			},
+			"knowsAbout": [
+				"Psicanálise", "Terapia de Casal", "Ansiedade", "Depressão",
+				"Burnout", "Luto", "Baixa Autoestima", "Dependência Emocional",
+				"Violência Doméstica", "Insegurança", "Mudança de Carreira",
+				"Solidão e Conexão Social"
+			],
+			"worksFor": {
+				"@id": "<?= $site_url ?>#business"
+			}
+		}
+		</script>
+
+		<!-- Schema.org: ProfessionalService / LocalBusiness -->
+		<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": ["ProfessionalService", "HealthAndBeautyBusiness"],
+			"@id": "<?= $site_url ?>#business",
+			"name": "Psicóloga Michely Ciardulo",
 			"url": "<?= $site_url ?>",
 			"logo": "<?= $site_url ?>/assets-new/img/logo3.png",
 			"image": "<?= $site_url ?>/assets-new/img/og-image.jpg",
-			"description": "Psicóloga clínica especializada em Psicanálise, oferecendo atendimento presencial e online para adolescentes, adultos e casais em São Paulo.",
+			"description": "Consultório de Psicologia Clínica — Atendimento psicológico presencial e online. Especialista em Psicanálise, terapia de casal, ansiedade, burnout, depressão e autoconhecimento.",
 			"priceRange": "$$",
 			"telephone": "+55-11-91341-8537",
 			"address": {
@@ -120,35 +181,84 @@ if (!$body_class) {
 			},
 			"geo": {
 				"@type": "GeoCoordinates",
-				"latitude": "-23.5402828",
-				"longitude": "-46.5658437"
+				"latitude": -23.5402828,
+				"longitude": -46.5658437
 			},
-			"openingHoursSpecification": {
-				"@type": "OpeningHoursSpecification",
-				"dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-				"opens": "08:00",
-				"closes": "20:00"
-			},
-			"sameAs": ["<?= $instagram_url ?>"],
-			"founder": {
-				"@type": "Person",
-				"name": "Michely Mendes Ciardulo Trajano",
-				"jobTitle": "Psicóloga Clínica",
-				"description": "Psicóloga CRP 06/176130, pós-graduada em Teoria Psicanalítica e Saúde Mental e Psiquiatria",
-				"url": "<?= $site_url ?>",
-				"image": "<?= $site_url ?>/assets-new/img/img-home05.jpg",
-				"sameAs": ["<?= $instagram_url ?>"],
-				"alumniOf": [
-					{"@type": "EducationalOrganization", "name": "Universidade Nove de Julho"},
-					{"@type": "EducationalOrganization", "name": "Faculdade Venda Nova do Imigrante - FAVENI"},
-					{"@type": "EducationalOrganization", "name": "Faculdade Única"}
-				],
-				"memberOf": {
-					"@type": "Organization",
-					"name": "Conselho Regional de Psicologia - CRP",
-					"identifier": "06/176130"
+			"openingHoursSpecification": [
+				{
+					"@type": "OpeningHoursSpecification",
+					"dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+					"opens": "08:00",
+					"closes": "20:00"
+				},
+				{
+					"@type": "OpeningHoursSpecification",
+					"dayOfWeek": "Saturday",
+					"opens": "08:00",
+					"closes": "14:00"
 				}
+			],
+			"sameAs": ["<?= $instagram_url ?>"],
+			"areaServed": [
+				{"@type": "City", "name": "São Paulo"},
+				{"@type": "Country", "name": "Brasil", "description": "Atendimento online para todo o Brasil"}
+			],
+			"hasOfferCatalog": {
+				"@type": "OfferCatalog",
+				"name": "Serviços de Psicologia",
+				"itemListElement": [
+					{"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Terapia Individual", "description": "Atendimento psicológico individual para adolescentes e adultos"}},
+					{"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Terapia de Casal", "description": "Atendimento psicológico para casais, fortalecimento de vínculos afetivos"}},
+					{"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Terapia Online", "description": "Atendimento psicológico online para todo o Brasil"}},
+					{"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Terapia Presencial", "description": "Atendimento presencial em São Paulo, SP"}}
+				]
 			}
+		}
+		</script>
+
+		<!-- Schema.org: SiteNavigationElement (orienta Google sobre links principais → sitelinks) -->
+		<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "ItemList",
+			"name": "Navegação Principal",
+			"itemListElement": [
+				{
+					"@type": "SiteNavigationElement",
+					"position": 1,
+					"name": "Sobre Mim",
+					"description": "Conheça a Psicóloga Michely Ciardulo, sua formação e abordagem terapêutica.",
+					"url": "<?= $site_url ?>/sobre"
+				},
+				{
+					"@type": "SiteNavigationElement",
+					"position": 2,
+					"name": "Especialidades",
+					"description": "Áreas de atuação: ansiedade, depressão, terapia de casal, burnout, luto e mais.",
+					"url": "<?= $site_url ?>/especialidades"
+				},
+				{
+					"@type": "SiteNavigationElement",
+					"position": 3,
+					"name": "Formações",
+					"description": "Graduação, pós-graduações e especializações em Psicologia e Psicanálise.",
+					"url": "<?= $site_url ?>/formacoes"
+				},
+				{
+					"@type": "SiteNavigationElement",
+					"position": 4,
+					"name": "Blog",
+					"description": "Artigos sobre psicanálise, terapia de casal, autoconhecimento e saúde mental.",
+					"url": "<?= $site_url ?>/blog"
+				},
+				{
+					"@type": "SiteNavigationElement",
+					"position": 5,
+					"name": "Agendar Consulta",
+					"description": "Agende sua consulta de psicologia presencial ou online pelo WhatsApp.",
+					"url": "<?= $whatsapp_url ?>"
+				}
+			]
 		}
 		</script>
 
