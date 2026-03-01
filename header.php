@@ -295,12 +295,12 @@ if (!$body_class) {
 	<body class="<?= $body_class ?>" data-spy="scroll" data-offset="80">
 
 	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-9WCQRY9YHJ"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-8S4YL352QX"></script>
 	<script>
 	  window.dataLayer = window.dataLayer || [];
 	  function gtag(){dataLayer.push(arguments);}
 	  gtag('js', new Date());
-	  gtag('config', 'G-9WCQRY9YHJ');
+	  gtag('config', 'G-8S4YL352QX');
 	</script>
 
 	<!-- Google Tag Manager (noscript) -->
