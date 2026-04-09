@@ -12,39 +12,53 @@
 		</div>
 	</div>
 	<style>
-		@keyframes exitModalIn { from { opacity:0; transform:scale(0.8); } to { opacity:1; transform:scale(1); } }
+		@keyframes exitModalIn {
+			from {
+				opacity: 0;
+				transform: scale(0.8);
+			}
+
+			to {
+				opacity: 1;
+				transform: scale(1);
+			}
+		}
 	</style>
 	<script>
-	(function(){
-		if (sessionStorage.getItem('exitModalShown')) return;
-		var shown = false;
-		document.addEventListener('mouseout', function(e) {
-			if (!e.toElement && !e.relatedTarget && e.clientY < 10 && !shown) {
-				shown = true;
-				document.getElementById('exitModal').style.display = 'flex';
-				sessionStorage.setItem('exitModalShown', '1');
-			}
-		});
-	})();
+		(function() {
+			if (sessionStorage.getItem('exitModalShown')) return;
+			var shown = false;
+			document.addEventListener('mouseout', function(e) {
+				if (!e.toElement && !e.relatedTarget && e.clientY < 10 && !shown) {
+					shown = true;
+					document.getElementById('exitModal').style.display = 'flex';
+					sessionStorage.setItem('exitModalShown', '1');
+				}
+			});
+		})();
 	</script>
 
 	<!-- START FOOTER -->
 	<div class="footer section-padding">
-		<div class="container">				
-			<div class="row">						
+		<div class="container">
+			<div class="row">
 				<div class="col-lg-5 col-sm-6 col-xs-12">
 					<div class="single_footer">
-						<a href="<?= $base_url ?>/"><picture><source srcset="<?= $assets ?>/img/logo3.webp" type="image/webp"><img src="<?= $assets ?>/img/logo3.png" alt="Michely Ciardulo" width="150" height="50" loading="lazy"></picture></a>         
+						<a href="<?= $base_url ?>/">
+							<picture>
+								<source srcset="<?= $assets ?>/img/logo3.webp" type="image/webp"><img src="<?= $assets ?>/img/logo3.png" alt="Michely Ciardulo" width="150" height="50" loading="lazy">
+							</picture>
+						</a>
 						<p>Esteja por dentro das últimas novidades, insights e compartilhamentos sobre psicologia, psicanálise e bem-estar. Convido você a me seguir nas redes sociais.</p>
 						<div class="social_profile">
 							<ul>
-							<li><a href="<?= $whatsapp_url ?>" class="bt-whatsapp" rel="noopener nofollow" target="_blank" aria-label="WhatsApp da Psicóloga Michely Ciardulo"><ion-icon name="logo-whatsapp"></ion-icon></a></li>
-							<li><a href="<?= $instagram_url ?>" class="bt-instagram" rel="noopener nofollow" target="_blank" aria-label="Instagram da Psicóloga Michely Ciardulo"><ion-icon name="logo-instagram"></ion-icon></a></li>
+								<li><a href="<?= $whatsapp_url ?>" class="bt-whatsapp" rel="noopener nofollow" target="_blank" aria-label="WhatsApp da Psicóloga Michely Ciardulo"><ion-icon name="logo-whatsapp"></ion-icon></a></li>
+								<li><a href="<?= $instagram_url ?>" class="bt-instagram" rel="noopener nofollow" target="_blank" aria-label="Instagram da Psicóloga Michely Ciardulo"><ion-icon name="logo-instagram"></ion-icon></a></li>
 							</ul>
 						</div>
-					</div>			
+					</div>
 				</div>
-				
+
 				<div class="col-lg-2 col-sm-6 col-xs-12 menu-link">
 					<div class="single_footer">
 						<h4>Menu</h4>
@@ -53,7 +67,7 @@
 							<li><a href="<?= $base_url ?>/sobre">Sobre mim</a></li>
 							<li><a href="<?= $base_url ?>/formacoes">Formações</a></li>
 							<li><a href="<?= $base_url ?>/especialidades">Especialidades</a></li>
-							<li><a href="<?= $base_url ?>/blog">Blog</a></li>								
+							<li><a href="<?= $base_url ?>/blog">Blog</a></li>
 						</ul>
 					</div>
 				</div>
@@ -81,42 +95,43 @@
 			</div>
 		</div>
 	</div>
-	<!-- END FOOTER -->	
+	<!-- END FOOTER -->
 
-	<!-- START FOOTER COPYRIGHT -->	
+	<!-- START FOOTER COPYRIGHT -->
 	<div class="foot_copy">
 		<div class="footer_copyright">
 			<p>&copy; <?= date("Y") ?>. Todos os direitos reservados - CNPJ 45.333.337/0001-59 - All Rights Reserved.</p>
-		</div>	
+		</div>
 	</div>
-	<!-- END FOOTER COPYRIGHT -->	
+	<!-- END FOOTER COPYRIGHT -->
 
-	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" defer></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" defer></script>
-	<script src="<?= $assets ?>/js/jquery-simple-mobilemenu.js" defer></script>		
-	<script src="<?= $assets ?>/owlcarousel/js/owl.carousel.min.js" defer></script>		
-	<script src="<?= $assets ?>/js/jquery.magnific-popup.min.js" defer></script>						
-	<script src="<?= $assets ?>/js/jquery.inview.min.js" defer></script>										
-	<script src="<?= $assets ?>/js/scrolltopcontrol.js" defer></script>	
+	<script src="<?= $assets ?>/js/jquery-1.12.4.min.js"></script>
+	<script src="<?= $assets ?>/js/popper.min.js" defer></script>
+	<script src="<?= $assets ?>/bootstrap/js/bootstrap.min.js" defer></script>
+	<script src="<?= $assets ?>/js/jquery-simple-mobilemenu.js" defer></script>
+	<script src="<?= $assets ?>/owlcarousel/js/owl.carousel.min.js" defer></script>
+	<script src="<?= $assets ?>/js/jquery.magnific-popup.min.js" defer></script>
+	<script src="<?= $assets ?>/js/jquery.inview.min.js" defer></script>
+	<script src="<?= $assets ?>/js/scrolltopcontrol.js" defer></script>
 	<script src="<?= $assets ?>/js/scripts.js?v2" defer></script>
 	<script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 	<script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 	<script>
-	document.addEventListener('DOMContentLoaded', function() {
-		var links = document.querySelectorAll('.mobile_menu a');
-		links.forEach(function(link) {
-			link.addEventListener('click', function() {
-				var smMenuOuter = document.querySelector('.sm_menu_outer');
-				var openMenu = document.querySelector('#sm_menu_ham');
-				if (smMenuOuter && smMenuOuter.classList.contains('active')) {
-					smMenuOuter.classList.remove('active');
-					if (openMenu) openMenu.classList.remove('open');
-				}
-				document.body.classList.remove('mmactive');
+		document.addEventListener('DOMContentLoaded', function() {
+			var links = document.querySelectorAll('.mobile_menu a');
+			links.forEach(function(link) {
+				link.addEventListener('click', function() {
+					var smMenuOuter = document.querySelector('.sm_menu_outer');
+					var openMenu = document.querySelector('#sm_menu_ham');
+					if (smMenuOuter && smMenuOuter.classList.contains('active')) {
+						smMenuOuter.classList.remove('active');
+						if (openMenu) openMenu.classList.remove('open');
+					}
+					document.body.classList.remove('mmactive');
+				});
 			});
 		});
-	});
 	</script>
 	</body>
-</html>
+
+	</html>

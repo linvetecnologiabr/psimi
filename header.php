@@ -88,22 +88,24 @@ if (!$body_class) {
 		})(window, document, 'script', 'dataLayer', 'GTM-KL6QCM4Z');
 	</script>
 
-	<link rel="icon" type="image/png" href="<?= $assets ?>/img/favicon.png">
-	<link rel="apple-touch-icon" href="<?= $assets ?>/img/favicon.png">
+	<link rel="icon" type="image/png" sizes="64x64" href="<?= $assets ?>/img/favicon-64.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="<?= $assets ?>/img/apple-touch-icon.png">
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link rel="preconnect" href="https://www.googletagmanager.com">
 	<link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
 
 	<!-- Preload LCP image -->
 	<?php if ($body_class === 'page-home'): ?>
-	<link rel="preload" as="image" href="<?= $assets ?>/img/img-slider01.webp" type="image/webp">
+		<link rel="preload" as="image" href="<?= $assets ?>/img/img-slider01.webp" type="image/webp">
 	<?php endif; ?>
+
+	<!-- Preload fonte principal -->
+	<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,700&display=swap">
 
 	<!-- CSS crítico -->
 	<link rel="stylesheet" href="<?= $assets ?>/bootstrap/css/bootstrap.min.css">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 	<link rel="stylesheet" href="<?= $assets ?>/css/style.css">
 	<link rel="stylesheet" href="<?= $assets ?>/css/pages.css?v=<?= filemtime(__DIR__ . '/assets-new/css/pages.css') ?>">
 	<link rel="stylesheet" href="<?= $assets ?>/css/custom.css?v=<?= filemtime(__DIR__ . '/assets-new/css/custom.css') ?>">
@@ -384,7 +386,11 @@ if (!$body_class) {
 			<div class="row">
 				<div class="col-20 align-self-center">
 					<div class="site-logo">
-						<a href="<?= $base_url ?>/"><picture><source srcset="<?= $assets ?>/img/logo3.webp" type="image/webp"><img src="<?= $assets ?>/img/logo3.png" alt="Michely Ciardulo" width="150" height="50"></picture></a>
+						<a href="<?= $base_url ?>/">
+							<picture>
+								<source srcset="<?= $assets ?>/img/logo3.webp" type="image/webp"><img src="<?= $assets ?>/img/logo3.png" alt="Michely Ciardulo" width="150" height="50">
+							</picture>
+						</a>
 					</div>
 				</div>
 
