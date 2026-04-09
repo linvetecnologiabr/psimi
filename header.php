@@ -96,18 +96,24 @@ if (!$body_class) {
 	<link rel="preconnect" href="https://www.googletagmanager.com">
 	<link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
 
+	<!-- Preload LCP image -->
+	<?php if ($body_class === 'page-home'): ?>
+	<link rel="preload" as="image" href="<?= $assets ?>/img/img-slider01.webp" type="image/webp">
+	<?php endif; ?>
+
+	<!-- CSS crítico -->
 	<link rel="stylesheet" href="<?= $assets ?>/bootstrap/css/bootstrap.min.css">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,700&display=swap" rel="stylesheet">
-	<script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-	<script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-	<link rel="stylesheet" href="<?= $assets ?>/owlcarousel/css/owl.carousel.css">
-	<link rel="stylesheet" href="<?= $assets ?>/owlcarousel/css/owl.theme.css">
-	<link rel="stylesheet" href="<?= $assets ?>/css/jquery-simple-mobilemenu.css">
-	<link rel="stylesheet" href="<?= $assets ?>/css/magnific-popup.css">
-	<link rel="stylesheet" href="<?= $assets ?>/css/animate.css">
 	<link rel="stylesheet" href="<?= $assets ?>/css/style.css">
-	<link rel="stylesheet" href="<?= $assets ?>/css/pages.css?v=<?= time() ?>">
-	<link rel="stylesheet" href="<?= $assets ?>/css/custom.css?v=<?= time() ?>">
+	<link rel="stylesheet" href="<?= $assets ?>/css/pages.css?v=<?= filemtime(__DIR__ . '/assets-new/css/pages.css') ?>">
+	<link rel="stylesheet" href="<?= $assets ?>/css/custom.css?v=<?= filemtime(__DIR__ . '/assets-new/css/custom.css') ?>">
+
+	<!-- CSS não-crítico (carregamento diferido) -->
+	<link rel="stylesheet" href="<?= $assets ?>/owlcarousel/css/owl.carousel.css" media="print" onload="this.media='all'">
+	<link rel="stylesheet" href="<?= $assets ?>/owlcarousel/css/owl.theme.css" media="print" onload="this.media='all'">
+	<link rel="stylesheet" href="<?= $assets ?>/css/jquery-simple-mobilemenu.css" media="print" onload="this.media='all'">
+	<link rel="stylesheet" href="<?= $assets ?>/css/magnific-popup.css" media="print" onload="this.media='all'">
+	<link rel="stylesheet" href="<?= $assets ?>/css/animate.css" media="print" onload="this.media='all'">
 
 	<!-- Schema.org: WebSite (habilita sitelinks no Google) -->
 	<script type="application/ld+json">
@@ -366,7 +372,10 @@ if (!$body_class) {
 	</div>
 
 	<div class="top-mobile show-mobile">
-		<img src="<?= $assets ?>/img/logo3.png" alt="Michely Ciardulo">
+		<picture>
+			<source srcset="<?= $assets ?>/img/logo3.webp" type="image/webp">
+			<img src="<?= $assets ?>/img/logo3.png" alt="Michely Ciardulo" width="150" height="50">
+		</picture>
 	</div>
 
 	<!-- START NAVBAR -->
@@ -375,7 +384,7 @@ if (!$body_class) {
 			<div class="row">
 				<div class="col-20 align-self-center">
 					<div class="site-logo">
-						<a href="<?= $base_url ?>/"><img src="<?= $assets ?>/img/logo3.png" alt="Michely Ciardulo"></a>
+						<a href="<?= $base_url ?>/"><picture><source srcset="<?= $assets ?>/img/logo3.webp" type="image/webp"><img src="<?= $assets ?>/img/logo3.png" alt="Michely Ciardulo" width="150" height="50"></picture></a>
 					</div>
 				</div>
 

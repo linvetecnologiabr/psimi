@@ -22,7 +22,10 @@ require_once __DIR__ . '/header.php';
 		<div class="row">
 			<div class="col-lg-6 col-sm-12 col-xs-12">
 				<div class="imagem-topo-mobile">
-					<img class="show-mobile" src="<?= $assets ?>/img/img-slider01.jpg" alt="Psicóloga Michely Ciardulo">
+					<picture>
+						<source srcset="<?= $assets ?>/img/img-slider01.webp" type="image/webp">
+						<img class="show-mobile" src="<?= $assets ?>/img/img-slider01.jpg" alt="Psicóloga Michely Ciardulo" width="600" height="700" fetchpriority="high">
+					</picture>
 					<span class="sobre-psi show-mobile">
 						<ion/psimi/assets-new/img/img-home05.jpg-icon name="checkmark-circle-outline"></ion-icon>
 						<h2>Michely Ciardulo - Psicóloga Clínica</h2>
@@ -40,7 +43,10 @@ require_once __DIR__ . '/header.php';
 				</div>					
 			</div>
 			<div class="col-lg-6 col-sm-12 col-xs-12">
-				<img class="no-show-mobile" src="<?= $assets ?>/img/img-slider01.jpg" alt="Psicóloga Michely Ciardulo">
+				<picture>
+					<source srcset="<?= $assets ?>/img/img-slider01.webp" type="image/webp">
+					<img class="no-show-mobile" src="<?= $assets ?>/img/img-slider01.jpg" alt="Psicóloga Michely Ciardulo" width="600" height="700" fetchpriority="high">
+				</picture>
 				<span class="sobre-psi no-show-mobile">
 					<ion-icon name="checkmark-circle-outline"></ion-icon>
 					<h2>Michely Ciardulo - Psicóloga Clínica</h2>
@@ -88,7 +94,10 @@ require_once __DIR__ . '/header.php';
 		<div class="row">								
 			<div class="col-lg-6 col-sm-12 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">
 				<div class="ab_img">
-					<img src="<?= $assets ?>/img/img-home05.jpg" class="img-fluid" alt="Psicóloga Michely Ciardulo" loading="lazy" width="540" height="540">
+					<picture>
+						<source srcset="<?= $assets ?>/img/img-home05.webp" type="image/webp">
+						<img src="<?= $assets ?>/img/img-home05.jpg" class="img-fluid" alt="Psicóloga Michely Ciardulo" loading="lazy" width="540" height="540">
+					</picture>
 				</div>
 			</div>
 			<div class="col-lg-6 col-sm-12 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s" data-wow-offset="0">
@@ -364,7 +373,10 @@ require_once __DIR__ . '/header.php';
 			<div class="col-lg-4 col-sm-6 col-xs-12">
 				<div class="single_course" onclick="location.href='<?= $base_url ?>/blog/equilibrando-os-pratos-da-vida'">
 					<div class="single_c_img">
-						<img src="<?= $assets ?>/img/img-pratos.jpg" class="img-fluid" alt="Equilibrando os pratos da vida" loading="lazy">
+						<picture>
+							<source srcset="<?= $assets ?>/img/img-pratos.webp" type="image/webp">
+							<img src="<?= $assets ?>/img/img-pratos.jpg" class="img-fluid" alt="Equilibrando os pratos da vida" loading="lazy" width="400" height="250">
+						</picture>
 						<span class="item-artigo">Reflexão</span>
 					</div>
 					<h4>Equilibrando os pratos da vida</h4>
@@ -375,7 +387,10 @@ require_once __DIR__ . '/header.php';
 			<div class="col-lg-4 col-sm-6 col-xs-12">
 				<div class="single_course" onclick="location.href='<?= $base_url ?>/blog/quando-o-sofrimento-parece-nao-ter-fim'">
 					<div class="single_c_img">
-						<img src="<?= $assets ?>/img/img-sofrimento.jpg" class="img-fluid" alt="Quando o sofrimento parece não ter fim" loading="lazy">
+						<picture>
+							<source srcset="<?= $assets ?>/img/img-sofrimento.webp" type="image/webp">
+							<img src="<?= $assets ?>/img/img-sofrimento.jpg" class="img-fluid" alt="Quando o sofrimento parece não ter fim" loading="lazy" width="400" height="250">
+						</picture>
 						<span class="item-artigo">Reflexão</span>
 					</div>
 					<h4>Quando o sofrimento parece não ter fim</h4>
@@ -386,7 +401,10 @@ require_once __DIR__ . '/header.php';
 			<div class="col-lg-4 col-sm-6 col-xs-12">
 				<div class="single_course" onclick="location.href='<?= $base_url ?>/blog/terapia-de-casal'">
 					<div class="single_c_img">
-						<img src="<?= $assets ?>/img/box-01.jpg" class="img-fluid" alt="Terapia de Casal - Psicóloga Michely Ciardulo" loading="lazy">
+						<picture>
+							<source srcset="<?= $assets ?>/img/box-01.webp" type="image/webp">
+							<img src="<?= $assets ?>/img/box-01.jpg" class="img-fluid" alt="Terapia de Casal - Psicóloga Michely Ciardulo" loading="lazy" width="400" height="250">
+						</picture>
 						<span class="item-artigo">Artigo</span>
 					</div>
 					<h4>Como funciona a Terapia de Casal?</h4>

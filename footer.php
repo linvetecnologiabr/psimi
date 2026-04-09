@@ -2,7 +2,7 @@
 	<div id="exitModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.7); z-index:99999; justify-content:center; align-items:center;">
 		<div style="background:#fff; border-radius:12px; max-width:420px; width:90%; position:relative; overflow:hidden; box-shadow:0 20px 60px rgba(0,0,0,0.3); animation: exitModalIn 0.4s ease;">
 			<button onclick="document.getElementById('exitModal').style.display='none'" style="position:absolute; top:10px; right:15px; background:none; border:none; font-size:28px; cursor:pointer; color:#666; z-index:2;">&times;</button>
-			<img src="<?= $assets ?>/img/img-home05.jpg" class="img-psi" alt="Psicóloga Michely Ciardulo" style="width:100%; height:250px; object-fit:cover; object-position:top;">
+			<img src="<?= $assets ?>/img/img-home05.jpg" class="img-psi" alt="Psicóloga Michely Ciardulo" style="width:100%; height:250px; object-fit:cover; object-position:top;" loading="lazy" width="420" height="250">
 			<div style="padding:25px 30px 30px; text-align:center;">
 				<p style="color:#555; font-size:15px; margin:0 0 5px;">Não sai antes de falar comigo!</p>
 				<h3 style="color:#22B05E; font-size:28px; font-weight:800; margin:0 0 10px; font-style:italic;">ESTOU ONLINE</h3>
@@ -34,7 +34,7 @@
 			<div class="row">						
 				<div class="col-lg-5 col-sm-6 col-xs-12">
 					<div class="single_footer">
-						<a href="<?= $base_url ?>/"><img src="<?= $assets ?>/img/logo3.png" alt="Michely Ciardulo"></a>         
+						<a href="<?= $base_url ?>/"><picture><source srcset="<?= $assets ?>/img/logo3.webp" type="image/webp"><img src="<?= $assets ?>/img/logo3.png" alt="Michely Ciardulo" width="150" height="50" loading="lazy"></picture></a>         
 						<p>Esteja por dentro das últimas novidades, insights e compartilhamentos sobre psicologia, psicanálise e bem-estar. Convido você a me seguir nas redes sociais.</p>
 						<div class="social_profile">
 							<ul>
@@ -92,16 +92,16 @@
 	<!-- END FOOTER COPYRIGHT -->	
 
 	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-	<script src="<?= $assets ?>/js/modernizr-2.8.3.min.js"></script>	
-	<script src="<?= $assets ?>/js/jquery-simple-mobilemenu.js"></script>		
-	<script src="<?= $assets ?>/owlcarousel/js/owl.carousel.min.js"></script>		
-	<script src="<?= $assets ?>/js/jquery.magnific-popup.min.js"></script>						
-	<script src="<?= $assets ?>/js/jquery.inview.min.js"></script>								
-	<script src="<?= $assets ?>/js/scrolltopcontrol.js"></script>	
-	<script src="<?= $assets ?>/js/scripts.js?v2"></script>
-	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" defer></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" defer></script>
+	<script src="<?= $assets ?>/js/jquery-simple-mobilemenu.js" defer></script>		
+	<script src="<?= $assets ?>/owlcarousel/js/owl.carousel.min.js" defer></script>		
+	<script src="<?= $assets ?>/js/jquery.magnific-popup.min.js" defer></script>						
+	<script src="<?= $assets ?>/js/jquery.inview.min.js" defer></script>										
+	<script src="<?= $assets ?>/js/scrolltopcontrol.js" defer></script>	
+	<script src="<?= $assets ?>/js/scripts.js?v2" defer></script>
+	<script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 	<script>
 	document.addEventListener('DOMContentLoaded', function() {
 		var links = document.querySelectorAll('.mobile_menu a');
