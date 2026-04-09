@@ -23,8 +23,8 @@ require_once __DIR__ . '/header.php';
 			<div class="col-lg-6 col-sm-12 col-xs-12">
 				<div class="imagem-topo-mobile">
 					<picture>
-						<source srcset="<?= $assets ?>/img/img-slider01.webp" type="image/webp">
-						<img class="show-mobile" src="<?= $assets ?>/img/img-slider01.jpg" alt="Psicóloga Michely Ciardulo" width="600" height="700" fetchpriority="high">
+						<source srcset="<?= $assets ?>/img/img-slider01-mobile.webp" type="image/webp">
+						<img class="show-mobile" src="<?= $assets ?>/img/img-slider01-mobile.jpg" alt="Psicóloga Michely Ciardulo" width="480" height="345" fetchpriority="high">
 					</picture>
 					<span class="sobre-psi show-mobile">
 						<ion /psimi/assets-new/img/img-home05.jpg-icon name="checkmark-circle-outline"></ion-icon>

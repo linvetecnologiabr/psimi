@@ -95,22 +95,371 @@ if (!$body_class) {
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
 
-	<!-- Preload LCP image -->
+	<!-- Preload LCP -->
 	<?php if ($body_class === 'page-home'): ?>
-		<link rel="preload" as="image" href="<?= $assets ?>/img/img-slider01.webp" type="image/webp">
+		<link rel="preload" as="image" href="<?= $assets ?>/img/img-slider01-mobile.webp" type="image/webp" media="(max-width: 768px)">
+		<link rel="preload" as="image" href="<?= $assets ?>/img/img-slider01.webp" type="image/webp" media="(min-width: 769px)">
 	<?php endif; ?>
 
-	<!-- Preload fonte principal -->
-	<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,700&display=swap">
+	<!-- Critical CSS inline -->
+	<style>
+		*,
+		::after,
+		::before {
+			box-sizing: border-box
+		}
 
-	<!-- CSS crítico -->
-	<link rel="stylesheet" href="<?= $assets ?>/bootstrap/css/bootstrap.min.css">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-	<link rel="stylesheet" href="<?= $assets ?>/css/style.css">
+		body {
+			color: #6d7193;
+			font-family: "Roboto", sans-serif;
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 28px;
+			background: #fff;
+			overflow-x: hidden;
+			margin: 0
+		}
+
+		html,
+		body {
+			height: 100%;
+			position: relative
+		}
+
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			letter-spacing: 0;
+			margin: 0
+		}
+
+		a {
+			text-decoration: none;
+			transition: all .3s;
+			color: #525fe1
+		}
+
+		img {
+			max-width: 100%;
+			height: auto;
+			border-style: none
+		}
+
+		.container {
+			width: 100%;
+			padding-right: 15px;
+			padding-left: 15px;
+			margin-right: auto;
+			margin-left: auto;
+			max-width: 1180px
+		}
+
+		.container-fluid {
+			width: 100%;
+			padding-right: 15px;
+			padding-left: 15px;
+			margin-right: auto;
+			margin-left: auto
+		}
+
+		.row {
+			display: flex;
+			flex-wrap: wrap;
+			margin-right: -15px;
+			margin-left: -15px
+		}
+
+		.col-lg-6,
+		.col-lg-4,
+		.col-lg-8,
+		.col-lg-3,
+		.col-lg-2,
+		.col-lg-5,
+		.col-sm-12,
+		.col-sm-6,
+		.col-sm-4,
+		.col-sm-8,
+		.col-xs-12,
+		.col-12 {
+			position: relative;
+			width: 100%;
+			padding-right: 15px;
+			padding-left: 15px
+		}
+
+		@media(min-width:992px) {
+			.col-lg-6 {
+				flex: 0 0 50%;
+				max-width: 50%
+			}
+
+			.col-lg-4 {
+				flex: 0 0 33.333%;
+				max-width: 33.333%
+			}
+
+			.col-lg-8 {
+				flex: 0 0 66.666%;
+				max-width: 66.666%
+			}
+
+			.col-lg-3 {
+				flex: 0 0 25%;
+				max-width: 25%
+			}
+
+			.col-lg-2 {
+				flex: 0 0 16.666%;
+				max-width: 16.666%
+			}
+
+			.col-lg-5 {
+				flex: 0 0 41.666%;
+				max-width: 41.666%
+			}
+
+			.d-none {
+				display: none !important
+			}
+
+			.d-xl-block {
+				display: block !important
+			}
+		}
+
+		@media(min-width:576px) {
+			.col-sm-12 {
+				flex: 0 0 100%;
+				max-width: 100%
+			}
+
+			.col-sm-6 {
+				flex: 0 0 50%;
+				max-width: 50%
+			}
+
+			.col-sm-4 {
+				flex: 0 0 33.333%;
+				max-width: 33.333%
+			}
+
+			.col-sm-8 {
+				flex: 0 0 66.666%;
+				max-width: 66.666%
+			}
+		}
+
+		.text-center {
+			text-align: center
+		}
+
+		.text-end {
+			text-align: right
+		}
+
+		.d-flex {
+			display: flex
+		}
+
+		.d-none {
+			display: none
+		}
+
+		.align-self-center {
+			align-self: center
+		}
+
+		.col-20 {
+			width: 20%
+		}
+
+		.col-60 {
+			width: 60%
+		}
+
+		.site-logo {
+			width: 150px
+		}
+
+		.site-logo a {
+			display: block
+		}
+
+		.site-logo img {
+			max-width: 100%
+		}
+
+		#navigation {
+			padding: 20px 65px;
+			border-bottom: 1px solid #ddd
+		}
+
+		.navigation2 {
+			border-bottom: 0 !important;
+			background: #fff
+		}
+
+		#main-menu ul {
+			list-style-type: none
+		}
+
+		#main-menu ul li {
+			display: inline-block;
+			padding: 0 15px;
+			position: relative;
+			line-height: 60px
+		}
+
+		#main-menu ul li a {
+			position: relative;
+			text-transform: uppercase;
+			font-size: 16px;
+			font-weight: 500;
+			color: #0b104a;
+			transition: all .5s
+		}
+
+		.btn_one {
+			background: #525fe1;
+			border: 1px solid #525fe1;
+			padding: 15px 30px;
+			border-radius: 2px;
+			color: #fff;
+			transition: .3s;
+			font-weight: 600;
+			display: inline-block
+		}
+
+		.home_bg {
+			height: 850px;
+			position: relative
+		}
+
+		.hero-text {
+			position: relative
+		}
+
+		.hero-text h1 span {
+			color: #525fe1
+		}
+
+		.hero-text h1 {
+			color: #0b104a;
+			font-size: 64px;
+			font-weight: 700;
+			letter-spacing: 0;
+			line-height: 74px;
+			padding-top: 250px;
+			margin-bottom: 20px
+		}
+
+		.hero-text p {
+			width: 80%;
+			font-weight: 500;
+			margin-bottom: 30px
+		}
+
+		.btn-online {
+			position: fixed;
+			bottom: 30px;
+			right: 30px;
+			z-index: 999;
+			cursor: pointer
+		}
+
+		.btn-online .whatsapp {
+			background: #25D366;
+			color: #fff;
+			width: 60px;
+			height: 60px;
+			border-radius: 50%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-size: 30px;
+			box-shadow: 0 4px 15px rgba(37, 211, 102, .4)
+		}
+
+		.top-mobile {
+			display: none
+		}
+
+		.show-mobile {
+			display: none
+		}
+
+		.no-show-mobile {
+			display: block
+		}
+
+		.section-padding {
+			padding: 80px 0
+		}
+
+		@media(max-width:960px) {
+			#navigation {
+				border-bottom: 0;
+				padding: 30px 20px
+			}
+
+			.home_bg {
+				height: 650px
+			}
+
+			.hero-text h1 {
+				padding-top: 150px;
+				font-size: 64px;
+				line-height: 74px
+			}
+
+			.col-60 {
+				display: none !important
+			}
+
+			.btn_one {
+				padding: 14px 25px;
+				margin-top: 0
+			}
+
+			.show-mobile {
+				display: block
+			}
+
+			.no-show-mobile {
+				display: none
+			}
+
+			.top-mobile {
+				display: block
+			}
+		}
+
+		@media(max-width:480px) {
+			.home_bg {
+				height: 800px
+			}
+
+			.hero-text h1 {
+				padding-top: 150px;
+				font-size: 34px;
+				line-height: 44px
+			}
+		}
+	</style>
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="<?= $assets ?>/bootstrap/css/bootstrap.min.css" media="print" onload="this.media='all'">
+	<link rel="stylesheet" href="<?= $assets ?>/css/style.css" media="print" onload="this.media='all'">
 	<link rel="stylesheet" href="<?= $assets ?>/css/pages.css?v=<?= filemtime(__DIR__ . '/assets-new/css/pages.css') ?>">
 	<link rel="stylesheet" href="<?= $assets ?>/css/custom.css?v=<?= filemtime(__DIR__ . '/assets-new/css/custom.css') ?>">
 
-	<!-- CSS não-crítico (carregamento diferido) -->
+	<!-- CSS não-crítico -->
 	<link rel="stylesheet" href="<?= $assets ?>/owlcarousel/css/owl.carousel.css" media="print" onload="this.media='all'">
 	<link rel="stylesheet" href="<?= $assets ?>/owlcarousel/css/owl.theme.css" media="print" onload="this.media='all'">
 	<link rel="stylesheet" href="<?= $assets ?>/css/jquery-simple-mobilemenu.css" media="print" onload="this.media='all'">
