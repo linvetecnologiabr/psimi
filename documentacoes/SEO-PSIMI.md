@@ -61,12 +61,38 @@ Validacao da correcao iniciada no Search Console em 27/08/2026.
 - `/sitemap.xml` reenviado em 27/08/2026 e relido no mesmo dia (antes a ultima leitura era 04/04/2026). 23 paginas.
 - **Pendente, manual:** remover `/sitemap-misc.xml` e `/post-sitemap.xml`, herdados do WordPress. Os dois respondem 404 hoje. Em Sitemaps, abrir o menu da linha e escolher remover.
 
+## NAP (nome, endereco, telefone)
+
+Estes tres precisam ser **identicos** no site e no Perfil da Empresa no Google. Divergencia enfraquece a busca local, que e o principal canal do consultorio.
+
+```
+Psicologa Michely Ciardulo
+R. Restinga, 113 - Tatuape, Sao Paulo - SP, CEP 03065-020
+(11) 91341-8537
+```
+
+Quando o endereco mudar, alterar nos **quatro** lugares de uma vez, senao o site fica falando duas coisas:
+
+1. `header.php` — `streetAddress` e `postalCode` do schema
+2. `header.php` — `geo.latitude` / `geo.longitude` (conferir a coordenada real, nao chutar)
+3. `index.php` — resposta do FAQ "Onde sao realizadas as sessoes presenciais?"
+4. `footer.php` — bloco `<address>` visivel em todas as paginas
+
+E depois atualizar o Perfil da Empresa no Google.
+
+Corrigido em 27/08/2026: o site declarava `R. Vilela, 665 - 8o Andar, CEP 03314-000`, com coordenada apontando para a Rua Vilela. O Perfil da Empresa, verificado, mostrava R. Restinga, 113. Ruas diferentes, cerca de 2 km de distancia. O usuario confirmou que o correto e o do Google.
+
+### Avaliacoes
+
+O Perfil da Empresa tem **5,0 com 7 avaliacoes reais**. Elas **nao** podem virar `aggregateRating` no schema do site: a politica de dados estruturados do Google proibe marcar como propria uma avaliacao coletada em outra plataforma, e a penalidade e manual. As avaliacoes ja aparecem sozinhas no resultado local.
+
 ## Pendencias
 
 Tecnicas, do nosso lado:
 
 - Schema completo de `Organization`/`Person`/`Service` e repetido inteiro em todas as 23 paginas. O padrao pede referenciar por `@id` nas internas. Nao e erro, e peso e risco de divergencia.
 - `FAQPage` na home: desde 2023 o Google restringiu o rich result de FAQ a sites de governo e saude publica. O markup nao prejudica, mas nao vai render resultado rico.
+- Horario: o schema declara seg-sex 08:00-20:00 e sab 08:00-14:00, mas o Perfil da Empresa mostra abertura sexta as 15:00. Confirmar com a Michely qual e o real e alinhar os dois.
 - Header `X-Frame-Options` sai duplicado (`SAMEORIGIN, SAMEORIGIN`): a conf global do Apache e o `.htaccess` do projeto setam os dois.
 - Fontes Google carregadas de `fonts.googleapis.com` + `fonts.gstatic.com`: duas origens de terceiro no caminho critico. Hospedar local reduz latencia e evita enviar IP do visitante ao Google (relevante em site de saude).
 
