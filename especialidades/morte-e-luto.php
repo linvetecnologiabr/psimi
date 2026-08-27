@@ -1,7 +1,6 @@
 <?php
 $page_title = 'Morte e Luto | Psicóloga Michely Ciardulo - São Paulo';
 $meta_description = 'Acompanhamento psicológico para elaboração do luto. Psicóloga Michely Ciardulo oferece acolhimento diante da perda e da finitude. Online e presencial em São Paulo.';
-$meta_keywords = 'luto psicóloga, elaboração do luto, morte e luto terapia, psicóloga luto são paulo, perda terapia, luto online, luto presencial';
 $breadcrumb_items = [
     ['name' => 'Início', 'url' => 'https://michelyciardulo.com.br/'],
     ['name' => 'Especialidades', 'url' => 'https://michelyciardulo.com.br/especialidades'],

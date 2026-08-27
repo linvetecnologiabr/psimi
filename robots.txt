@@ -1,19 +1,16 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://michelyciardulo.com.br/sitemap.xml
+# CSS, JS, fontes e imagens ficam liberados de proposito: o Google precisa
+# renderizar a pagina como um visitante ve. Bloquear esses arquivos degrada
+# a avaliacao de conteudo e de mobile.
 
-# Bloquear assets e pastas internas
-Disallow: /assets-new/js/
-Disallow: /assets-new/fonts/
-Disallow: /assets-new/css/
-Disallow: /assets-new/bootstrap/
-Disallow: /assets-new/owlcarousel/
-
-# Bloquear arquivos de sistema
+# Arquivos de sistema, sem valor de busca
 Disallow: /*.json$
 Disallow: /*.md$
 Disallow: /*.log$
+
+Sitemap: https://michelyciardulo.com.br/sitemap.xml
 
 # Crawl-delay para bots agressivos
 User-agent: AhrefsBot

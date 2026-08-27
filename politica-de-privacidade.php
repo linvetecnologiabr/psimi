@@ -1,7 +1,6 @@
 <?php
 $page_title = 'Política de Privacidade | Psicóloga Michely Ciardulo - CRP 06/176130';
 $meta_description = 'Política de Privacidade da Psicóloga Michely Ciardulo. Saiba como coletamos, usamos e protegemos seus dados pessoais conforme a LGPD.';
-$meta_keywords = 'política de privacidade, LGPD, dados pessoais, psicóloga michely ciardulo';
 $breadcrumb_items = [
     ['name' => 'Início', 'url' => 'https://michelyciardulo.com.br/'],
     ['name' => 'Política de Privacidade', 'url' => 'https://michelyciardulo.com.br/politica-de-privacidade'],

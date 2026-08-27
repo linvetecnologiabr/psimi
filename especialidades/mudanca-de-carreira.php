@@ -1,7 +1,6 @@
 <?php
 $page_title = 'Autoconhecimento | Psicóloga Michely Ciardulo - São Paulo';
 $meta_description = 'Autoconhecimento na perspectiva psicanalítica. Psicóloga Michely Ciardulo ajuda a reconhecer padrões inconscientes. Atendimento online e presencial em São Paulo.';
-$meta_keywords = 'autoconhecimento psicóloga, autoconhecimento psicanálise, psicóloga autoconhecimento são paulo, terapia autoconhecimento online, terapia autoconhecimento presencial';
 $breadcrumb_items = [
     ['name' => 'Início', 'url' => 'https://michelyciardulo.com.br/'],
     ['name' => 'Especialidades', 'url' => 'https://michelyciardulo.com.br/especialidades'],

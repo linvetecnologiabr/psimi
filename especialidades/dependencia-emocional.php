@@ -1,7 +1,6 @@
 <?php
 $page_title = 'Dependência Emocional | Psicóloga Michely Ciardulo - São Paulo';
 $meta_description = 'Tratamento para dependência emocional com Psicóloga Michely Ciardulo. Compreenda seus padrões afetivos e construa autonomia emocional. Online e presencial em SP.';
-$meta_keywords = 'dependência emocional psicóloga, tratamento dependência emocional, psicóloga dependência afetiva são paulo, autonomia emocional terapia, terapia dependência online, terapia dependência presencial';
 $breadcrumb_items = [
     ['name' => 'Início', 'url' => 'https://michelyciardulo.com.br/'],
     ['name' => 'Especialidades', 'url' => 'https://michelyciardulo.com.br/especialidades'],

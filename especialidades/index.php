@@ -1,7 +1,6 @@
 <?php
 $page_title = 'Especialidades | Psicóloga Michely Ciardulo - São Paulo';
 $meta_description = 'Especialidades da Psicóloga Michely Ciardulo: terapia de casal, depressão, ansiedade, luto, autoconhecimento e mais. Online e presencial em São Paulo.';
-$meta_keywords = 'especialidades psicóloga, terapia de casal, depressão, ansiedade, luto, violência doméstica, baixa autoestima, dependência emocional, burnout, autoconhecimento, psicóloga são paulo, terapia online, terapia presencial';
 $breadcrumb_items = [
     ['name' => 'Início', 'url' => 'https://michelyciardulo.com.br/'],
     ['name' => 'Especialidades', 'url' => 'https://michelyciardulo.com.br/especialidades'],

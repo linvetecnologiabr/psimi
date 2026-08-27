@@ -4,7 +4,7 @@
  * 
  * - Auto-descobre páginas PHP em especialidades/ e blog/
  * - Usa lastmod real (data de modificação do arquivo)
- * - Prioridades inteligentes por seção
+ * - 'priority' e 'changefreq' servem so para ordenar aqui; o Google os ignora e nao vao no XML
  * - Validado contra schema sitemaps.org
  */
 
@@ -19,8 +19,8 @@ $pages = [
     ['url' => '/',               'priority' => '1.0', 'changefreq' => 'weekly'],
     ['url' => '/sobre',          'priority' => '0.9', 'changefreq' => 'monthly'],
     ['url' => '/formacoes',      'priority' => '0.7', 'changefreq' => 'monthly'],
-    ['url' => '/especialidades', 'priority' => '0.9', 'changefreq' => 'weekly'],
-    ['url' => '/blog',           'priority' => '0.8', 'changefreq' => 'weekly'],
+    ['url' => '/especialidades/', 'priority' => '0.9', 'changefreq' => 'weekly'],
+    ['url' => '/blog/',          'priority' => '0.8', 'changefreq' => 'weekly'],
 ];
 
 // ========== Auto-descoberta: Especialidades ==========
@@ -61,8 +61,8 @@ foreach ($pages as &$page) {
             $page['file'] = $baseDir . '/index.php';
         } else {
             // Tenta arquivo direto ou index dentro de pasta
-            $candidate = $baseDir . $url . '.php';
-            $candidateDir = $baseDir . $url . '/index.php';
+            $candidate = $baseDir . rtrim($url, '/') . '.php';
+            $candidateDir = $baseDir . rtrim($url, '/') . '/index.php';
             if (file_exists($candidate)) {
                 $page['file'] = $candidate;
             } elseif (file_exists($candidateDir)) {
@@ -98,8 +98,6 @@ echo '<?xml version="1.0" encoding="UTF-8"?>' . PHP_EOL;
   <url>
     <loc><?= htmlspecialchars($domain . $page['url']) ?></loc>
     <lastmod><?= $page['lastmod'] ?></lastmod>
-    <changefreq><?= $page['changefreq'] ?></changefreq>
-    <priority><?= $page['priority'] ?></priority>
   </url>
 <?php endforeach; ?>
 </urlset>

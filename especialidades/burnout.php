@@ -1,7 +1,6 @@
 <?php
 $page_title = 'Burnout | Psicóloga Michely Ciardulo - São Paulo';
 $meta_description = 'Tratamento para Burnout e esgotamento profissional com Psicóloga Michely Ciardulo. Recupere sua qualidade de vida. Atendimento online e presencial em São Paulo.';
-$meta_keywords = 'burnout psicóloga, síndrome de burnout, esgotamento profissional, psicóloga burnout são paulo, tratamento burnout online, tratamento burnout presencial, exaustão emocional';
 $breadcrumb_items = [
     ['name' => 'Início', 'url' => 'https://michelyciardulo.com.br/'],
     ['name' => 'Especialidades', 'url' => 'https://michelyciardulo.com.br/especialidades'],

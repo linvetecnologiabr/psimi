@@ -1,7 +1,6 @@
 <?php
 $page_title = 'Solidão e Conexão Social | Psicóloga Michely Ciardulo - São Paulo';
 $meta_description = 'Solidão e conexão social: tratamento psicológico com Psicóloga Michely Ciardulo. Isolamento, vínculos e busca por conexão. Online e presencial em São Paulo.';
-$meta_keywords = 'solidão psicóloga, conexão social terapia, isolamento social psicologia, solidão tratamento, psicóloga solidão são paulo, terapia solidão online, terapia solidão presencial';
 $breadcrumb_items = [
     ['name' => 'Início', 'url' => 'https://michelyciardulo.com.br/'],
     ['name' => 'Especialidades', 'url' => 'https://michelyciardulo.com.br/especialidades'],

@@ -8,7 +8,6 @@ $instagram_url = 'https://www.instagram.com/psi.michelyciardulo/';
 
 $page_title = $page_title ?? 'Psicóloga Michely Ciardulo | CRP 06/176130';
 $meta_description = $meta_description ?? 'Psicóloga Michely Ciardulo - Atendimento psicológico presencial e online. Especialista em Psicanálise, terapia de casal, ansiedade, burnout, depressão e autoconhecimento. CRP 06/176130';
-$meta_keywords = $meta_keywords ?? 'psicóloga são paulo, psicanálise, terapia online, terapia presencial, psicóloga clínica, burnout, terapia de casal, ansiedade, depressão, autoconhecimento';
 $og_type = $og_type ?? 'website';
 $og_image = $og_image ?? $site_url . '/assets-new/img/og-image.jpg';
 $current_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https://' : 'http://') . ($_SERVER['HTTP_HOST'] ?? 'michelyciardulo.com.br') . ($_SERVER['REQUEST_URI'] ?? '/');
@@ -44,7 +43,6 @@ if (!$body_class) {
 	<link rel="alternate" hreflang="pt-BR" href="<?= htmlspecialchars($current_url) ?>">
 
 	<meta name="description" content="<?= htmlspecialchars($meta_description) ?>">
-	<meta name="keywords" content="<?= htmlspecialchars($meta_keywords) ?>">
 	<meta name="author" content="Michely Ciardulo">
 	<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 	<meta name="theme-color" content="#525fe1">
