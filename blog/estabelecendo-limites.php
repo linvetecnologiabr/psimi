@@ -53,7 +53,7 @@ require_once __DIR__ . '/../header.php';
 
             <div class="highlight-box">
                 <ul>
-                    <li><ion-icon name="checkmark-circle"></ion-icon><span><strong>Estabelecer limites é um ato de amor próprio</strong>, de respeito e saúde!</span></li>
+                    <li><ion-icon name="checkmark-circle"><svg aria-hidden="true"><use href="#i-checkmark-circle"></use></svg></ion-icon><span><strong>Estabelecer limites é um ato de amor próprio</strong>, de respeito e saúde!</span></li>
                 </ul>
             </div>
 
@@ -69,7 +69,7 @@ require_once __DIR__ . '/../header.php';
     <div class="container">
         <h3>Quer aprender a estabelecer limites saudáveis?</h3>
         <p>Agende uma consulta e descubra como cuidar de si mesmo nas relações.</p>
-        <a href="<?= $whatsapp_url ?>" class="btn-whatsapp" target="_blank"><ion-icon name="logo-whatsapp" style="vertical-align:middle; margin-right:8px;"></ion-icon>Agendar Consulta</a>
+        <a href="<?= $whatsapp_url ?>" class="btn-whatsapp" target="_blank"><ion-icon name="logo-whatsapp" style="vertical-align:middle; margin-right:8px;"><svg aria-hidden="true"><use href="#i-logo-whatsapp"></use></svg></ion-icon>Agendar Consulta</a>
     </div>
 </section>
 

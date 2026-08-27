@@ -39,19 +39,19 @@ require_once __DIR__ . '/header.php';
             <div class="highlight-box">
                 <ul>
                     <li>
-                        <ion-icon name="checkmark-circle"></ion-icon>
+                        <ion-icon name="checkmark-circle"><svg aria-hidden="true"><use href="#i-checkmark-circle"></use></svg></ion-icon>
                         <span><strong>Sessões online e presencial</strong> — Atendimento adaptado à sua rotina e necessidade.</span>
                     </li>
                     <li>
-                        <ion-icon name="checkmark-circle"></ion-icon>
+                        <ion-icon name="checkmark-circle"><svg aria-hidden="true"><use href="#i-checkmark-circle"></use></svg></ion-icon>
                         <span><strong>Adolescentes, adultos e casais</strong> — Acompanhamento terapêutico para diferentes fases da vida.</span>
                     </li>
                     <li>
-                        <ion-icon name="checkmark-circle"></ion-icon>
+                        <ion-icon name="checkmark-circle"><svg aria-hidden="true"><use href="#i-checkmark-circle"></use></svg></ion-icon>
                         <span><strong>Foco no sujeito</strong> — Em seus afetos e sua forma de ver o mundo.</span>
                     </li>
                     <li>
-                        <ion-icon name="checkmark-circle"></ion-icon>
+                        <ion-icon name="checkmark-circle"><svg aria-hidden="true"><use href="#i-checkmark-circle"></use></svg></ion-icon>
                         <span><strong>Ética e acolhimento</strong> — Sempre prezando pela escuta ativa e pelo respeito à sua singularidade.</span>
                     </li>
                 </ul>
@@ -66,17 +66,17 @@ require_once __DIR__ . '/header.php';
 
             <div class="topic-grid">
                 <div class="topic-item">
-                    <h3><ion-icon name="clipboard-outline"></ion-icon> Primeiro contato</h3>
+                    <h3><ion-icon name="clipboard-outline"><svg aria-hidden="true"><use href="#i-clipboard-outline"></use></svg></ion-icon> Primeiro contato</h3>
                     <p>Entre em contato pelo WhatsApp para agendar sua primeira sessão. Nesse momento, combinamos horário, modalidade (online ou presencial) e tiramos suas dúvidas.</p>
                 </div>
 
                 <div class="topic-item">
-                    <h3><ion-icon name="people-outline"></ion-icon> Primeira sessão</h3>
+                    <h3><ion-icon name="people-outline"><svg aria-hidden="true"><use href="#i-people-outline"></use></svg></ion-icon> Primeira sessão</h3>
                     <p>Na primeira sessão, conversamos sobre o que te trouxe até aqui, sua história, suas questões e expectativas. É um momento de acolhimento e de começar a construir o vínculo terapêutico.</p>
                 </div>
 
                 <div class="topic-item">
-                    <h3><ion-icon name="sync-outline"></ion-icon> Processo terapêutico</h3>
+                    <h3><ion-icon name="sync-outline"><svg aria-hidden="true"><use href="#i-sync-outline"></use></svg></ion-icon> Processo terapêutico</h3>
                     <p>As sessões acontecem semanalmente, com duração de 50 minutos. O processo é contínuo e respeita o seu tempo — cada pessoa tem seu próprio ritmo de elaboração e transformação.</p>
                 </div>
             </div>
@@ -90,7 +90,7 @@ require_once __DIR__ . '/header.php';
         <h3>Vamos juntos nessa jornada?</h3>
         <p>Agende sua consulta e dê o primeiro passo em direção ao autoconhecimento.</p>
         <a href="<?= $whatsapp_url ?>" class="btn-whatsapp" target="_blank">
-            <ion-icon name="logo-whatsapp" style="vertical-align:middle; margin-right:8px;"></ion-icon>
+            <ion-icon name="logo-whatsapp" style="vertical-align:middle; margin-right:8px;"><svg aria-hidden="true"><use href="#i-logo-whatsapp"></use></svg></ion-icon>
             Agendar Consulta
         </a>
     </div>

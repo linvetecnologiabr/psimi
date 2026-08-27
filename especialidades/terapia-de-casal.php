@@ -33,17 +33,17 @@ require_once __DIR__ . '/../header.php';
 
             <div class="topic-grid">
             <div class="topic-item">
-                <h3><ion-icon name="search-outline"></ion-icon> Intimidade Emocional</h3>
+                <h3><ion-icon name="search-outline"><svg aria-hidden="true"><use href="#i-search-outline"></use></svg></ion-icon> Intimidade Emocional</h3>
                 <p>Exploramos as responsabilidades de cada parceiro na construção e manutenção da intimidade emocional, reconhecendo influências de gênero e expectativas sociais.</p>
             </div>
 
             <div class="topic-item">
-                <h3><ion-icon name="scale-outline"></ion-icon> Papéis de Gênero</h3>
+                <h3><ion-icon name="scale-outline"><svg aria-hidden="true"><use href="#i-scale-outline"></use></svg></ion-icon> Papéis de Gênero</h3>
                 <p>Reflexão sobre questões relacionadas à sensação de perda de liberdade e sobre as diferenças de gênero, de acordo com as construções pessoais e sociais de cada parceiro.</p>
             </div>
 
             <div class="topic-item">
-                <h3><ion-icon name="home-outline"></ion-icon> Origens Familiares</h3>
+                <h3><ion-icon name="home-outline"><svg aria-hidden="true"><use href="#i-home-outline"></use></svg></ion-icon> Origens Familiares</h3>
                 <p>Um espaço seguro para explorar como as influências familiares moldam a dinâmica do relacionamento, permitindo compreender e reconstruir padrões relacionais.</p>
             </div>
 
@@ -52,9 +52,9 @@ require_once __DIR__ . '/../header.php';
 
             <div class="highlight-box">
                 <ul>
-                    <li><ion-icon name="checkmark-circle"></ion-icon><span>A terapia de casal <strong>não é exclusiva para casais casados</strong> — qualquer formato de relacionamento amoroso pode se beneficiar.</span></li>
-                    <li><ion-icon name="checkmark-circle"></ion-icon><span>O objetivo <strong>não é separar nem unir</strong>, mas promover compreensão mais profunda da relação.</span></li>
-                    <li><ion-icon name="checkmark-circle"></ion-icon><span>Fazer terapia de casal <strong>não é indicativo de relação falida</strong> — é um passo corajoso rumo a novos recursos relacionais.</span></li>
+                    <li><ion-icon name="checkmark-circle"><svg aria-hidden="true"><use href="#i-checkmark-circle"></use></svg></ion-icon><span>A terapia de casal <strong>não é exclusiva para casais casados</strong> — qualquer formato de relacionamento amoroso pode se beneficiar.</span></li>
+                    <li><ion-icon name="checkmark-circle"><svg aria-hidden="true"><use href="#i-checkmark-circle"></use></svg></ion-icon><span>O objetivo <strong>não é separar nem unir</strong>, mas promover compreensão mais profunda da relação.</span></li>
+                    <li><ion-icon name="checkmark-circle"><svg aria-hidden="true"><use href="#i-checkmark-circle"></use></svg></ion-icon><span>Fazer terapia de casal <strong>não é indicativo de relação falida</strong> — é um passo corajoso rumo a novos recursos relacionais.</span></li>
                 </ul>
             </div>
         </div>
@@ -65,7 +65,7 @@ require_once __DIR__ . '/../header.php';
     <div class="container">
         <h3>Quer fortalecer seu relacionamento?</h3>
         <p>Agende uma sessão de terapia de casal e descubra novas formas de se conectar.</p>
-        <a href="<?= $whatsapp_url ?>" class="btn-whatsapp" target="_blank"><ion-icon name="logo-whatsapp" style="vertical-align:middle; margin-right:8px;"></ion-icon>Agendar Consulta</a>
+        <a href="<?= $whatsapp_url ?>" class="btn-whatsapp" target="_blank"><ion-icon name="logo-whatsapp" style="vertical-align:middle; margin-right:8px;"><svg aria-hidden="true"><use href="#i-logo-whatsapp"></use></svg></ion-icon>Agendar Consulta</a>
     </div>
 </section>
 

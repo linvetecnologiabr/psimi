@@ -52,8 +52,8 @@
 						<p>Esteja por dentro das últimas novidades, insights e compartilhamentos sobre psicologia, psicanálise e bem-estar. Convido você a me seguir nas redes sociais.</p>
 						<div class="social_profile">
 							<ul>
-								<li><a href="<?= $whatsapp_url ?>" class="bt-whatsapp" rel="noopener nofollow" target="_blank" aria-label="WhatsApp da Psicóloga Michely Ciardulo"><ion-icon name="logo-whatsapp"></ion-icon></a></li>
-								<li><a href="<?= $instagram_url ?>" class="bt-instagram" rel="noopener nofollow" target="_blank" aria-label="Instagram da Psicóloga Michely Ciardulo"><ion-icon name="logo-instagram"></ion-icon></a></li>
+								<li><a href="<?= $whatsapp_url ?>" class="bt-whatsapp" rel="noopener nofollow" target="_blank" aria-label="WhatsApp da Psicóloga Michely Ciardulo"><ion-icon name="logo-whatsapp"><svg aria-hidden="true"><use href="#i-logo-whatsapp"></use></svg></ion-icon></a></li>
+								<li><a href="<?= $instagram_url ?>" class="bt-instagram" rel="noopener nofollow" target="_blank" aria-label="Instagram da Psicóloga Michely Ciardulo"><ion-icon name="logo-instagram"><svg aria-hidden="true"><use href="#i-logo-instagram"></use></svg></ion-icon></a></li>
 							</ul>
 						</div>
 					</div>
@@ -76,11 +76,11 @@
 					<div class="single_footer">
 						<h4>Entre em contato</h4>
 						<div class="sf_contact">
-							<ion-icon name="call-outline"></ion-icon>
+							<ion-icon name="call-outline"><svg aria-hidden="true"><use href="#i-call-outline"></use></svg></ion-icon>
 							<p>55 11 91341-8537</p>
 						</div>
 						<div class="sf_contact">
-							<ion-icon name="mail-outline"></ion-icon>
+							<ion-icon name="mail-outline"><svg aria-hidden="true"><use href="#i-mail-outline"></use></svg></ion-icon>
 							<p>psi.michelyciardulo@gmail.com</p>
 						</div>
 					</div>
@@ -114,8 +114,6 @@
 	<script src="<?= $assets ?>/js/jquery.inview.min.js" defer></script>
 	<script src="<?= $assets ?>/js/scrolltopcontrol.js" defer></script>
 	<script src="<?= $assets ?>/js/scripts.js?v2" defer></script>
-	<script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-	<script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 	<script>
 		document.addEventListener('DOMContentLoaded', function() {
 			var links = document.querySelectorAll('.mobile_menu a');

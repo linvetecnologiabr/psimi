@@ -50,7 +50,7 @@ require_once __DIR__ . '/../header.php';
     <div class="container">
         <h3>Construa sua autonomia emocional</h3>
         <p>Agende uma consulta e descubra novas formas de se relacionar.</p>
-        <a href="<?= $whatsapp_url ?>" class="btn-whatsapp" target="_blank"><ion-icon name="logo-whatsapp" style="vertical-align:middle; margin-right:8px;"></ion-icon>Agendar Consulta</a>
+        <a href="<?= $whatsapp_url ?>" class="btn-whatsapp" target="_blank"><ion-icon name="logo-whatsapp" style="vertical-align:middle; margin-right:8px;"><svg aria-hidden="true"><use href="#i-logo-whatsapp"></use></svg></ion-icon>Agendar Consulta</a>
     </div>
 </section>
 

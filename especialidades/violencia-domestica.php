@@ -34,22 +34,22 @@ require_once __DIR__ . '/../header.php';
 
             <div class="topic-grid">
             <div class="topic-item">
-                <h3><ion-icon name="heart-dislike-outline"></ion-icon> Violência Psicológica</h3>
+                <h3><ion-icon name="heart-dislike-outline"><svg aria-hidden="true"><use href="#i-heart-dislike-outline"></use></svg></ion-icon> Violência Psicológica</h3>
                 <p>Manipulação, humilhação, controle excessivo, ciúmes patológicos, isolamento social e desvalorização constante. Muitas vezes invisível, mas profundamente destrutiva.</p>
             </div>
 
             <div class="topic-item">
-                <h3><ion-icon name="chatbubble-outline"></ion-icon> Violência Moral</h3>
+                <h3><ion-icon name="chatbubble-outline"><svg aria-hidden="true"><use href="#i-chatbubble-outline"></use></svg></ion-icon> Violência Moral</h3>
                 <p>Calúnia, difamação e injúria — ataques à reputação e dignidade da vítima perante família, amigos e sociedade.</p>
             </div>
 
             <div class="topic-item">
-                <h3><ion-icon name="hand-left-outline"></ion-icon> Violência Física</h3>
+                <h3><ion-icon name="hand-left-outline"><svg aria-hidden="true"><use href="#i-hand-left-outline"></use></svg></ion-icon> Violência Física</h3>
                 <p>Qualquer ação que cause dano à integridade física, desde empurrões até agressões graves. A violência física frequentemente coexiste com outras formas de violência.</p>
             </div>
 
             <div class="topic-item">
-                <h3><ion-icon name="cash-outline"></ion-icon> Violência Patrimonial</h3>
+                <h3><ion-icon name="cash-outline"><svg aria-hidden="true"><use href="#i-cash-outline"></use></svg></ion-icon> Violência Patrimonial</h3>
                 <p>Controle financeiro, destruição de pertences, impedimento de trabalhar — formas de manter a vítima em situação de dependência e submissão.</p>
             </div>
             </div>
@@ -61,9 +61,9 @@ require_once __DIR__ . '/../header.php';
 
             <div class="highlight-box">
                 <ul>
-                    <li><ion-icon name="checkmark-circle"></ion-icon><span><strong>Você não está sozinha.</strong> Buscar ajuda é um ato de coragem e amor próprio.</span></li>
-                    <li><ion-icon name="checkmark-circle"></ion-icon><span>A terapia oferece <strong>sigilo absoluto</strong> e um espaço seguro para falar sobre suas experiências.</span></li>
-                    <li><ion-icon name="checkmark-circle"></ion-icon><span>Central de Atendimento à Mulher: <strong>Ligue 180</strong> (24 horas, gratuito).</span></li>
+                    <li><ion-icon name="checkmark-circle"><svg aria-hidden="true"><use href="#i-checkmark-circle"></use></svg></ion-icon><span><strong>Você não está sozinha.</strong> Buscar ajuda é um ato de coragem e amor próprio.</span></li>
+                    <li><ion-icon name="checkmark-circle"><svg aria-hidden="true"><use href="#i-checkmark-circle"></use></svg></ion-icon><span>A terapia oferece <strong>sigilo absoluto</strong> e um espaço seguro para falar sobre suas experiências.</span></li>
+                    <li><ion-icon name="checkmark-circle"><svg aria-hidden="true"><use href="#i-checkmark-circle"></use></svg></ion-icon><span>Central de Atendimento à Mulher: <strong>Ligue 180</strong> (24 horas, gratuito).</span></li>
                 </ul>
             </div>
         </div>
@@ -74,7 +74,7 @@ require_once __DIR__ . '/../header.php';
     <div class="container">
         <h3>Precisa de acolhimento profissional?</h3>
         <p>Agende uma consulta em um espaço seguro e sigiloso.</p>
-        <a href="<?= $whatsapp_url ?>" class="btn-whatsapp" target="_blank"><ion-icon name="logo-whatsapp" style="vertical-align:middle; margin-right:8px;"></ion-icon>Agendar Consulta</a>
+        <a href="<?= $whatsapp_url ?>" class="btn-whatsapp" target="_blank"><ion-icon name="logo-whatsapp" style="vertical-align:middle; margin-right:8px;"><svg aria-hidden="true"><use href="#i-logo-whatsapp"></use></svg></ion-icon>Agendar Consulta</a>
     </div>
 </section>
 

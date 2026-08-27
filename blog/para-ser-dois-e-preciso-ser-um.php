@@ -57,7 +57,7 @@ require_once __DIR__ . '/../header.php';
     <div class="container">
         <h3>Quer construir relações mais saudáveis?</h3>
         <p>O primeiro passo é se conhecer. Agende uma consulta.</p>
-        <a href="<?= $whatsapp_url ?>" class="btn-whatsapp" target="_blank"><ion-icon name="logo-whatsapp" style="vertical-align:middle; margin-right:8px;"></ion-icon>Agendar Consulta</a>
+        <a href="<?= $whatsapp_url ?>" class="btn-whatsapp" target="_blank"><ion-icon name="logo-whatsapp" style="vertical-align:middle; margin-right:8px;"><svg aria-hidden="true"><use href="#i-logo-whatsapp"></use></svg></ion-icon>Agendar Consulta</a>
     </div>
 </section>
 

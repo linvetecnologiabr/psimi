@@ -174,7 +174,7 @@ $posts = [
                     <?php if ($post['image']): ?>
                         <img src="<?= $post['image'] ?>" alt="<?= $post['title'] ?>">
                     <?php else: ?>
-                        <div class="no-img"><ion-icon name="create-outline"></ion-icon></div>
+                        <div class="no-img"><ion-icon name="create-outline"><svg aria-hidden="true"><use href="#i-create-outline"></use></svg></ion-icon></div>
                     <?php endif; ?>
                     <div class="blog-card-body">
                         <span class="tag"><?= $post['tag'] ?></span>

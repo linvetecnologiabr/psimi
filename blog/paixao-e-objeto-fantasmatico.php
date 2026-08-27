@@ -45,7 +45,7 @@ require_once __DIR__ . '/../header.php';
             <p>É esperado que exista uma certa fantasia ao se relacionar com o objeto amoroso e é esperado que isso ocorra. No entanto, os inúmeros desdobramentos da idealização, do fusionamento e das relações com ideal de amor romântico merecem atenção.</p>
 
             <div class="topic-item">
-                <h3><ion-icon name="chatbubble-ellipses-outline"></ion-icon> O ideal de amor romântico</h3>
+                <h3><ion-icon name="chatbubble-ellipses-outline"><svg aria-hidden="true"><use href="#i-chatbubble-ellipses-outline"></use></svg></ion-icon> O ideal de amor romântico</h3>
                 <p>Existe um amor que irá me "salvar", que dará conta das minhas faltas e que será perfeito. Esse ideal, quando não questionado, pode gerar frustrações intensas e repetições de padrões relacionais adoecidos.</p>
             </div>
 
@@ -62,7 +62,7 @@ require_once __DIR__ . '/../header.php';
     <div class="container">
         <h3>Quer compreender seus padrões amorosos?</h3>
         <p>Agende uma consulta e explore suas relações com mais consciência.</p>
-        <a href="<?= $whatsapp_url ?>" class="btn-whatsapp" target="_blank"><ion-icon name="logo-whatsapp" style="vertical-align:middle; margin-right:8px;"></ion-icon>Agendar Consulta</a>
+        <a href="<?= $whatsapp_url ?>" class="btn-whatsapp" target="_blank"><ion-icon name="logo-whatsapp" style="vertical-align:middle; margin-right:8px;"><svg aria-hidden="true"><use href="#i-logo-whatsapp"></use></svg></ion-icon>Agendar Consulta</a>
     </div>
 </section>
 

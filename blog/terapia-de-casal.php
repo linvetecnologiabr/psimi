@@ -246,42 +246,42 @@ require_once __DIR__ . '/../header.php';
             <p class="lead">A terapia de casal se insere como uma ferramenta essencial na jornada de compreensão e fortalecimento dos vínculos afetivos. Neste contexto, mergulhamos nas profundezas da conjugalidade contemporânea, onde as influências familiares, expectativas sociais e dinâmicas inconscientes desempenham papéis fundamentais.</p>
 
             <div class="topic-item">
-                <h3><ion-icon name="search-outline"></ion-icon> Explorando a Responsabilidade na Intimidade Emocional</h3>
+                <h3><ion-icon name="search-outline"><svg aria-hidden="true"><use href="#i-search-outline"></use></svg></ion-icon> Explorando a Responsabilidade na Intimidade Emocional</h3>
                 <p>Na terapia de casal, os parceiros são convidados a explorar suas responsabilidades na construção e manutenção da intimidade emocional, reconhecendo as influências de gênero e as expectativas sociais associadas (Nunan, 2003).</p>
             </div>
 
             <div class="topic-item">
-                <h3><ion-icon name="scale-outline"></ion-icon> Papéis de Gênero</h3>
+                <h3><ion-icon name="scale-outline"><svg aria-hidden="true"><use href="#i-scale-outline"></use></svg></ion-icon> Papéis de Gênero</h3>
                 <p>Na terapia de casal, os casais são convidados a refletirem sobre questões relacionadas à sensação de perda de liberdade e sobre as diferenças de gênero, de acordo com as construções pessoais e sociais de cada um dos pares (Nunan, 2003).</p>
             </div>
 
             <div class="topic-item">
-                <h3><ion-icon name="water-outline"></ion-icon> Certezas Efêmeras</h3>
+                <h3><ion-icon name="water-outline"><svg aria-hidden="true"><use href="#i-water-outline"></use></svg></ion-icon> Certezas Efêmeras</h3>
                 <p>Dentro do contexto terapêutico, os casais são convidados a explorar suas expectativas em relação ao relacionamento, reconhecendo a natureza transitória das certezas e buscando construir uma base mais sólida de confiança mútua.</p>
             </div>
 
             <div class="topic-item">
-                <h3><ion-icon name="home-outline"></ion-icon> Investigando as Origens Familiares na Conjugalidade</h3>
+                <h3><ion-icon name="home-outline"><svg aria-hidden="true"><use href="#i-home-outline"></use></svg></ion-icon> Investigando as Origens Familiares na Conjugalidade</h3>
                 <p>A terapia de casal proporciona um espaço seguro para a exploração das influências familiares na dinâmica do relacionamento, permitindo que os parceiros compreendam e reconstruam padrões relacionais patológicos e ou adoecidos (McDougall, 1993).</p>
             </div>
 
             <div class="topic-item">
-                <h3><ion-icon name="brain-outline"></ion-icon> Vínculos Inconscientes</h3>
+                <h3><ion-icon name="bulb-outline"><svg aria-hidden="true"><use href="#i-bulb-outline"></use></svg></ion-icon> Vínculos Inconscientes</h3>
                 <p>A terapia de casal auxilia os casais a identificarem e explorarem os vínculos inconscientes que moldam suas interações, promovendo uma maior consciência e compreensão mútua de como conteúdos por vezes inconscientes se atualizam na relação (Eiguer, 1984).</p>
             </div>
 
             <div class="topic-item">
-                <h3><ion-icon name="people-outline"></ion-icon> Colusões e Expectativas Não Expressas</h3>
+                <h3><ion-icon name="people-outline"><svg aria-hidden="true"><use href="#i-people-outline"></use></svg></ion-icon> Colusões e Expectativas Não Expressas</h3>
                 <p>A terapia de casal abre espaço para a investigação das colusões (acordo secreto) e expectativas não expressas que podem gerar conflitos e ressentimentos, incentivando uma comunicação autêntica e empática entre os parceiros (Willi, 1978).</p>
             </div>
 
             <div class="topic-item">
-                <h3><ion-icon name="leaf-outline"></ion-icon> Espaço Transicional</h3>
+                <h3><ion-icon name="leaf-outline"><svg aria-hidden="true"><use href="#i-leaf-outline"></use></svg></ion-icon> Espaço Transicional</h3>
                 <p>Durante o processo terapêutico, os casais são encorajados a cultivar um espaço de exploração e crescimento mútuo, onde possam integrar suas realidades internas e externas de forma criativa e enriquecedora (Winnicott, 1971).</p>
             </div>
 
             <div class="topic-item">
-                <h3><ion-icon name="git-branch-outline"></ion-icon> Transmissão Psíquica Geracional</h3>
+                <h3><ion-icon name="git-branch-outline"><svg aria-hidden="true"><use href="#i-git-branch-outline"></use></svg></ion-icon> Transmissão Psíquica Geracional</h3>
                 <p>A terapia de casal reconhece a importância da transmissão psíquica geracional na construção da identidade e dos padrões relacionais individuais, incentivando os parceiros a explorarem suas heranças familiares e a construírem narrativas mais conscientes e autênticas (Kaës, 1993).</p>
             </div>
 
@@ -291,19 +291,19 @@ require_once __DIR__ . '/../header.php';
             <div class="highlight-box">
                 <ul>
                     <li>
-                        <ion-icon name="checkmark-circle"></ion-icon>
+                        <ion-icon name="checkmark-circle"><svg aria-hidden="true"><use href="#i-checkmark-circle"></use></svg></ion-icon>
                         <span>A terapia de casal <strong>não é exclusiva para casais casados</strong>; qualquer formato de relacionamento amoroso pode realizar terapia de casal.</span>
                     </li>
                     <li>
-                        <ion-icon name="checkmark-circle"></ion-icon>
+                        <ion-icon name="checkmark-circle"><svg aria-hidden="true"><use href="#i-checkmark-circle"></use></svg></ion-icon>
                         <span>O objetivo da terapia de casal <strong>não é separar nem unir o casal</strong>, mas sim promover uma compreensão mais profunda da relação.</span>
                     </li>
                     <li>
-                        <ion-icon name="checkmark-circle"></ion-icon>
+                        <ion-icon name="checkmark-circle"><svg aria-hidden="true"><use href="#i-checkmark-circle"></use></svg></ion-icon>
                         <span>Assim como na psicoterapia individual, a terapia de casal <strong>não busca direcionar o casal para uma decisão específica</strong>, mas sim explorar as questões subjacentes, insatisfações e queixas do par amoroso.</span>
                     </li>
                     <li>
-                        <ion-icon name="checkmark-circle"></ion-icon>
+                        <ion-icon name="checkmark-circle"><svg aria-hidden="true"><use href="#i-checkmark-circle"></use></svg></ion-icon>
                         <span>Fazer terapia de casal <strong>não é indicativo de uma relação falida</strong>; ao contrário, é um passo corajoso em direção à construção de novos recursos relacionais e conscientização de pontos conflituosos.</span>
                     </li>
                 </ul>
@@ -323,7 +323,7 @@ require_once __DIR__ . '/../header.php';
         <h3>Quer saber mais sobre terapia de casal?</h3>
         <p>Agende uma consulta e descubra como a terapia pode transformar seu relacionamento.</p>
         <a href="<?= $whatsapp_url ?>" class="btn-whatsapp" target="_blank">
-            <ion-icon name="logo-whatsapp" style="vertical-align:middle; margin-right:8px;"></ion-icon>
+            <ion-icon name="logo-whatsapp" style="vertical-align:middle; margin-right:8px;"><svg aria-hidden="true"><use href="#i-logo-whatsapp"></use></svg></ion-icon>
             Agendar Consulta
         </a>
     </div>

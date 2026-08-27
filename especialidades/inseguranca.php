@@ -34,17 +34,17 @@ require_once __DIR__ . '/../header.php';
 
             <div class="topic-grid">
             <div class="topic-item">
-                <h3><ion-icon name="eye-off-outline"></ion-icon> Comparação constante</h3>
+                <h3><ion-icon name="eye-off-outline"><svg aria-hidden="true"><use href="#i-eye-off-outline"></use></svg></ion-icon> Comparação constante</h3>
                 <p>Sentir-se sempre inferior aos outros, comparar-se constantemente e acreditar que nunca é bom o suficiente. A busca por aprovação externa se torna um ciclo sem fim.</p>
             </div>
 
             <div class="topic-item">
-                <h3><ion-icon name="alert-circle-outline"></ion-icon> Medo de errar</h3>
+                <h3><ion-icon name="alert-circle-outline"><svg aria-hidden="true"><use href="#i-alert-circle-outline"></use></svg></ion-icon> Medo de errar</h3>
                 <p>Evitar desafios, procrastinar decisões importantes e permanecer na zona de conforto por medo de falhar e ser julgado.</p>
             </div>
 
             <div class="topic-item">
-                <h3><ion-icon name="people-outline"></ion-icon> Nos relacionamentos</h3>
+                <h3><ion-icon name="people-outline"><svg aria-hidden="true"><use href="#i-people-outline"></use></svg></ion-icon> Nos relacionamentos</h3>
                 <p>Ciúmes excessivo, necessidade de controle, dificuldade de confiar no outro e medo constante de abandono ou rejeição.</p>
             </div>
             </div>
@@ -56,9 +56,9 @@ require_once __DIR__ . '/../header.php';
 
             <div class="highlight-box">
                 <ul>
-                    <li><ion-icon name="checkmark-circle"></ion-icon><span>A insegurança <strong>tem raízes que podem ser compreendidas</strong> e transformadas.</span></li>
-                    <li><ion-icon name="checkmark-circle"></ion-icon><span>Segurança emocional é <strong>uma construção</strong>, não algo que se nasce tendo.</span></li>
-                    <li><ion-icon name="checkmark-circle"></ion-icon><span>A terapia ajuda a <strong>validar quem você é</strong>, sem depender da aprovação alheia.</span></li>
+                    <li><ion-icon name="checkmark-circle"><svg aria-hidden="true"><use href="#i-checkmark-circle"></use></svg></ion-icon><span>A insegurança <strong>tem raízes que podem ser compreendidas</strong> e transformadas.</span></li>
+                    <li><ion-icon name="checkmark-circle"><svg aria-hidden="true"><use href="#i-checkmark-circle"></use></svg></ion-icon><span>Segurança emocional é <strong>uma construção</strong>, não algo que se nasce tendo.</span></li>
+                    <li><ion-icon name="checkmark-circle"><svg aria-hidden="true"><use href="#i-checkmark-circle"></use></svg></ion-icon><span>A terapia ajuda a <strong>validar quem você é</strong>, sem depender da aprovação alheia.</span></li>
                 </ul>
             </div>
         </div>
@@ -69,7 +69,7 @@ require_once __DIR__ . '/../header.php';
     <div class="container">
         <h3>Construa uma relação mais segura consigo</h3>
         <p>Agende uma consulta e comece a fortalecer sua autoconfiança.</p>
-        <a href="<?= $whatsapp_url ?>" class="btn-whatsapp" target="_blank"><ion-icon name="logo-whatsapp" style="vertical-align:middle; margin-right:8px;"></ion-icon>Agendar Consulta</a>
+        <a href="<?= $whatsapp_url ?>" class="btn-whatsapp" target="_blank"><ion-icon name="logo-whatsapp" style="vertical-align:middle; margin-right:8px;"><svg aria-hidden="true"><use href="#i-logo-whatsapp"></use></svg></ion-icon>Agendar Consulta</a>
     </div>
 </section>
 

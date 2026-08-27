@@ -34,22 +34,22 @@ require_once __DIR__ . '/../header.php';
 
             <div class="topic-grid">
             <div class="topic-item">
-                <h3><ion-icon name="sad-outline"></ion-icon> Tristeza persistente</h3>
+                <h3><ion-icon name="sad-outline"><svg aria-hidden="true"><use href="#i-sad-outline"></use></svg></ion-icon> Tristeza persistente</h3>
                 <p>Sentimento de tristeza profunda que não passa, acompanhado de desesperança e sensação de vazio, mesmo sem um motivo aparente.</p>
             </div>
 
             <div class="topic-item">
-                <h3><ion-icon name="moon-outline"></ion-icon> Alterações no sono e apetite</h3>
+                <h3><ion-icon name="moon-outline"><svg aria-hidden="true"><use href="#i-moon-outline"></use></svg></ion-icon> Alterações no sono e apetite</h3>
                 <p>Insônia ou excesso de sono, perda ou aumento significativo de apetite. O corpo também expressa o sofrimento psíquico.</p>
             </div>
 
             <div class="topic-item">
-                <h3><ion-icon name="volume-mute-outline"></ion-icon> Perda de interesse</h3>
+                <h3><ion-icon name="volume-mute-outline"><svg aria-hidden="true"><use href="#i-volume-mute-outline"></use></svg></ion-icon> Perda de interesse</h3>
                 <p>Desinteresse por atividades que antes eram prazerosas, isolamento social e dificuldade de sentir prazer nas coisas cotidianas.</p>
             </div>
 
             <div class="topic-item">
-                <h3><ion-icon name="brain-outline"></ion-icon> Dificuldade de concentração</h3>
+                <h3><ion-icon name="bulb-outline"><svg aria-hidden="true"><use href="#i-bulb-outline"></use></svg></ion-icon> Dificuldade de concentração</h3>
                 <p>Pensamentos negativos recorrentes, dificuldade para tomar decisões, sensação de cansaço mental constante.</p>
             </div>
             </div>
@@ -61,9 +61,9 @@ require_once __DIR__ . '/../header.php';
 
             <div class="highlight-box">
                 <ul>
-                    <li><ion-icon name="checkmark-circle"></ion-icon><span><strong>Depressão não é frescura.</strong> É um sofrimento real que merece atenção e cuidado profissional.</span></li>
-                    <li><ion-icon name="checkmark-circle"></ion-icon><span>A terapia pode ser combinada com <strong>acompanhamento psiquiátrico</strong> quando necessário.</span></li>
-                    <li><ion-icon name="checkmark-circle"></ion-icon><span>O primeiro passo é <strong>pedir ajuda</strong>. Você não precisa enfrentar isso sozinho(a).</span></li>
+                    <li><ion-icon name="checkmark-circle"><svg aria-hidden="true"><use href="#i-checkmark-circle"></use></svg></ion-icon><span><strong>Depressão não é frescura.</strong> É um sofrimento real que merece atenção e cuidado profissional.</span></li>
+                    <li><ion-icon name="checkmark-circle"><svg aria-hidden="true"><use href="#i-checkmark-circle"></use></svg></ion-icon><span>A terapia pode ser combinada com <strong>acompanhamento psiquiátrico</strong> quando necessário.</span></li>
+                    <li><ion-icon name="checkmark-circle"><svg aria-hidden="true"><use href="#i-checkmark-circle"></use></svg></ion-icon><span>O primeiro passo é <strong>pedir ajuda</strong>. Você não precisa enfrentar isso sozinho(a).</span></li>
                 </ul>
             </div>
         </div>
@@ -74,7 +74,7 @@ require_once __DIR__ . '/../header.php';
     <div class="container">
         <h3>Você não precisa sofrer sozinho(a)</h3>
         <p>Agende uma consulta e dê o primeiro passo em direção ao cuidado.</p>
-        <a href="<?= $whatsapp_url ?>" class="btn-whatsapp" target="_blank"><ion-icon name="logo-whatsapp" style="vertical-align:middle; margin-right:8px;"></ion-icon>Agendar Consulta</a>
+        <a href="<?= $whatsapp_url ?>" class="btn-whatsapp" target="_blank"><ion-icon name="logo-whatsapp" style="vertical-align:middle; margin-right:8px;"><svg aria-hidden="true"><use href="#i-logo-whatsapp"></use></svg></ion-icon>Agendar Consulta</a>
     </div>
 </section>
 

@@ -93,7 +93,6 @@ if (!$body_class) {
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
 
 	<!-- Preload LCP -->
 	<?php if ($body_class === 'page-home'): ?>
@@ -701,6 +700,7 @@ if (!$body_class) {
 </head>
 
 <body class="<?= $body_class ?>" data-spy="scroll" data-offset="80">
+<?php include __DIR__ . '/assets-new/icons.php'; ?>
 
 	<!-- Google tag (gtag.js) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-8S4YL352QX"></script>
@@ -719,7 +719,7 @@ if (!$body_class) {
 			height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 	<div class="btn-online animated fadeInUp" onclick="location.href='<?= $whatsapp_url ?>'" role="button" aria-label="Abrir WhatsApp para agendar consulta">
-		<i class="whatsapp"><ion-icon name="logo-whatsapp"></ion-icon></i>
+		<i class="whatsapp"><ion-icon name="logo-whatsapp"><svg aria-hidden="true"><use href="#i-logo-whatsapp"></use></svg></ion-icon></i>
 	</div>
 
 	<div class="top-mobile show-mobile">

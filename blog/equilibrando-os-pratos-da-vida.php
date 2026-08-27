@@ -44,12 +44,12 @@ require_once __DIR__ . '/../header.php';
             <p>Freud nos ensinou que a tentativa de ser perfeito é, paradoxalmente, uma das maiores fontes de adoecimento psíquico. Quando tentamos corresponder a um ideal inatingível, nos afastamos daquilo que realmente somos e do que realmente precisamos.</p>
 
             <div class="topic-item">
-                <h3><ion-icon name="scale-outline"></ion-icon> O "adoecimento saudável"</h3>
+                <h3><ion-icon name="scale-outline"><svg aria-hidden="true"><use href="#i-scale-outline"></use></svg></ion-icon> O "adoecimento saudável"</h3>
                 <p>Existe um momento em que o corpo e a mente dizem "basta". Ansiedade, insônia, irritabilidade, sensação de vazio — são sinais de que os pratos estão pesados demais. E reconhecer isso não é fraqueza: é o primeiro passo para uma reorganização genuína.</p>
             </div>
 
             <div class="topic-item">
-                <h3><ion-icon name="compass-outline"></ion-icon> A psicoterapia como caminho</h3>
+                <h3><ion-icon name="compass-outline"><svg aria-hidden="true"><use href="#i-compass-outline"></use></svg></ion-icon> A psicoterapia como caminho</h3>
                 <p>Na terapia, não se trata de aprender a segurar mais pratos, mas de entender quais são realmente seus e quais você carrega por obrigação, culpa ou medo. É um espaço para se perguntar: o que EU quero? O que faz sentido para a MINHA vida?</p>
             </div>
 
@@ -71,7 +71,7 @@ require_once __DIR__ . '/../header.php';
     <div class="container">
         <h3>Precisa de ajuda para equilibrar sua vida?</h3>
         <p>Agende uma consulta e encontre seu próprio ritmo.</p>
-        <a href="<?= $whatsapp_url ?>" class="btn-whatsapp" target="_blank"><ion-icon name="logo-whatsapp" style="vertical-align:middle; margin-right:8px;"></ion-icon>Agendar Consulta</a>
+        <a href="<?= $whatsapp_url ?>" class="btn-whatsapp" target="_blank"><ion-icon name="logo-whatsapp" style="vertical-align:middle; margin-right:8px;"><svg aria-hidden="true"><use href="#i-logo-whatsapp"></use></svg></ion-icon>Agendar Consulta</a>
     </div>
 </section>
 

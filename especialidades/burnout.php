@@ -33,17 +33,17 @@ require_once __DIR__ . '/../header.php';
 
             <div class="topic-grid">
                 <div class="topic-item">
-                    <h3><ion-icon name="battery-dead-outline"></ion-icon> Exaustão emocional</h3>
+                    <h3><ion-icon name="battery-dead-outline"><svg aria-hidden="true"><use href="#i-battery-dead-outline"></use></svg></ion-icon> Exaustão emocional</h3>
                     <p>Sensação constante de esgotamento, como se não houvesse mais energia para nada. O cansaço não passa com descanso, porque não é apenas físico — é um esvaziamento profundo do sujeito.</p>
                 </div>
 
                 <div class="topic-item">
-                    <h3><ion-icon name="shield-outline"></ion-icon> Despersonalização</h3>
+                    <h3><ion-icon name="shield-outline"><svg aria-hidden="true"><use href="#i-shield-outline"></use></svg></ion-icon> Despersonalização</h3>
                     <p>Um distanciamento afetivo das pessoas e do trabalho. Cinismo, irritabilidade, frieza emocional — mecanismos inconscientes de defesa contra um sofrimento que se tornou insuportável.</p>
                 </div>
 
                 <div class="topic-item">
-                    <h3><ion-icon name="trending-down-outline"></ion-icon> Redução da realização</h3>
+                    <h3><ion-icon name="trending-down-outline"><svg aria-hidden="true"><use href="#i-trending-down-outline"></use></svg></ion-icon> Redução da realização</h3>
                     <p>Sentimento de incompetência, de que nada do que faz é suficiente. A autoestima profissional desmorona, trazendo culpa, frustração e a sensação de ter fracassado.</p>
                 </div>
             </div>
@@ -53,17 +53,17 @@ require_once __DIR__ . '/../header.php';
 
             <div class="topic-grid">
                 <div class="topic-item">
-                    <h3><ion-icon name="moon-outline"></ion-icon> Insônia e fadiga crônica</h3>
+                    <h3><ion-icon name="moon-outline"><svg aria-hidden="true"><use href="#i-moon-outline"></use></svg></ion-icon> Insônia e fadiga crônica</h3>
                     <p>Dificuldade para dormir mesmo exausto, acordar cansado, sentir que o corpo não recupera. O sono perde sua função reparadora.</p>
                 </div>
 
                 <div class="topic-item">
-                    <h3><ion-icon name="heart-dislike-outline"></ion-icon> Perda de prazer</h3>
+                    <h3><ion-icon name="heart-dislike-outline"><svg aria-hidden="true"><use href="#i-heart-dislike-outline"></use></svg></ion-icon> Perda de prazer</h3>
                     <p>Atividades que antes traziam satisfação perdem o sentido. O trabalho vira obrigação pura, e até o lazer parece um esforço a mais.</p>
                 </div>
 
                 <div class="topic-item">
-                    <h3><ion-icon name="medkit-outline"></ion-icon> Somatizações</h3>
+                    <h3><ion-icon name="medkit-outline"><svg aria-hidden="true"><use href="#i-medkit-outline"></use></svg></ion-icon> Somatizações</h3>
                     <p>Dores de cabeça frequentes, problemas gástricos, queda de imunidade, tensão muscular. O corpo carrega o que a mente não consegue processar.</p>
                 </div>
             </div>
@@ -80,10 +80,10 @@ require_once __DIR__ . '/../header.php';
 
             <div class="highlight-box">
                 <ul>
-                    <li><ion-icon name="checkmark-circle"></ion-icon><span><strong>Burnout não é fraqueza.</strong> É o resultado de uma entrega que ultrapassou o limite do suportável.</span></li>
-                    <li><ion-icon name="checkmark-circle"></ion-icon><span>A terapia ajuda a <strong>compreender os padrões inconscientes</strong> que alimentam o esgotamento.</span></li>
-                    <li><ion-icon name="checkmark-circle"></ion-icon><span><strong>Redescobrir o prazer</strong> no trabalho e na vida é possível — com escuta e acolhimento.</span></li>
-                    <li><ion-icon name="checkmark-circle"></ion-icon><span>Atendimento <strong>online e presencial</strong> para sua comodidade.</span></li>
+                    <li><ion-icon name="checkmark-circle"><svg aria-hidden="true"><use href="#i-checkmark-circle"></use></svg></ion-icon><span><strong>Burnout não é fraqueza.</strong> É o resultado de uma entrega que ultrapassou o limite do suportável.</span></li>
+                    <li><ion-icon name="checkmark-circle"><svg aria-hidden="true"><use href="#i-checkmark-circle"></use></svg></ion-icon><span>A terapia ajuda a <strong>compreender os padrões inconscientes</strong> que alimentam o esgotamento.</span></li>
+                    <li><ion-icon name="checkmark-circle"><svg aria-hidden="true"><use href="#i-checkmark-circle"></use></svg></ion-icon><span><strong>Redescobrir o prazer</strong> no trabalho e na vida é possível — com escuta e acolhimento.</span></li>
+                    <li><ion-icon name="checkmark-circle"><svg aria-hidden="true"><use href="#i-checkmark-circle"></use></svg></ion-icon><span>Atendimento <strong>online e presencial</strong> para sua comodidade.</span></li>
                 </ul>
             </div>
         </div>
@@ -94,7 +94,7 @@ require_once __DIR__ . '/../header.php';
     <div class="container">
         <h3>Você não precisa continuar se esgotando</h3>
         <p>Agende uma consulta e comece a reconstruir sua relação com o trabalho e consigo mesmo.</p>
-        <a href="<?= $whatsapp_url ?>" class="btn-whatsapp" target="_blank"><ion-icon name="logo-whatsapp" style="vertical-align:middle; margin-right:8px;"></ion-icon>Agendar Consulta</a>
+        <a href="<?= $whatsapp_url ?>" class="btn-whatsapp" target="_blank"><ion-icon name="logo-whatsapp" style="vertical-align:middle; margin-right:8px;"><svg aria-hidden="true"><use href="#i-logo-whatsapp"></use></svg></ion-icon>Agendar Consulta</a>
     </div>
 </section>
 

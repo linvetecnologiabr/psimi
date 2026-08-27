@@ -34,17 +34,17 @@ require_once __DIR__ . '/../header.php';
 
             <div class="topic-grid">
             <div class="topic-item">
-                <h3><ion-icon name="volume-mute-outline"></ion-icon> Autocrítica excessiva</h3>
+                <h3><ion-icon name="volume-mute-outline"><svg aria-hidden="true"><use href="#i-volume-mute-outline"></use></svg></ion-icon> Autocrítica excessiva</h3>
                 <p>Um diálogo interno severo e punitivo, onde nada que a pessoa faz parece ser bom o suficiente. A autocrítica constante paralisa e gera sofrimento.</p>
             </div>
 
             <div class="topic-item">
-                <h3><ion-icon name="eye-off-outline"></ion-icon> Dificuldade de receber elogios</h3>
+                <h3><ion-icon name="eye-off-outline"><svg aria-hidden="true"><use href="#i-eye-off-outline"></use></svg></ion-icon> Dificuldade de receber elogios</h3>
                 <p>Desconforto ao receber reconhecimento, minimizar conquistas e atribuir seus méritos ao acaso ou aos outros.</p>
             </div>
 
             <div class="topic-item">
-                <h3><ion-icon name="person-outline"></ion-icon> Anulação nas relações</h3>
+                <h3><ion-icon name="person-outline"><svg aria-hidden="true"><use href="#i-person-outline"></use></svg></ion-icon> Anulação nas relações</h3>
                 <p>Colocar-se sempre em segundo plano, dificuldade de dizer não, aceitar situações que causam sofrimento por medo de não ser aceito.</p>
             </div>
             </div>
@@ -56,9 +56,9 @@ require_once __DIR__ . '/../header.php';
 
             <div class="highlight-box">
                 <ul>
-                    <li><ion-icon name="checkmark-circle"></ion-icon><span>A autoestima <strong>pode ser reconstruída</strong> a qualquer momento da vida.</span></li>
-                    <li><ion-icon name="checkmark-circle"></ion-icon><span>Você <strong>merece se ver com mais gentileza</strong> e reconhecer seu valor.</span></li>
-                    <li><ion-icon name="checkmark-circle"></ion-icon><span>A terapia oferece um <strong>espaço seguro</strong> para essa transformação.</span></li>
+                    <li><ion-icon name="checkmark-circle"><svg aria-hidden="true"><use href="#i-checkmark-circle"></use></svg></ion-icon><span>A autoestima <strong>pode ser reconstruída</strong> a qualquer momento da vida.</span></li>
+                    <li><ion-icon name="checkmark-circle"><svg aria-hidden="true"><use href="#i-checkmark-circle"></use></svg></ion-icon><span>Você <strong>merece se ver com mais gentileza</strong> e reconhecer seu valor.</span></li>
+                    <li><ion-icon name="checkmark-circle"><svg aria-hidden="true"><use href="#i-checkmark-circle"></use></svg></ion-icon><span>A terapia oferece um <strong>espaço seguro</strong> para essa transformação.</span></li>
                 </ul>
             </div>
         </div>
@@ -69,7 +69,7 @@ require_once __DIR__ . '/../header.php';
     <div class="container">
         <h3>Você merece se ver com outros olhos</h3>
         <p>Agende uma consulta e comece a reconstruir sua autoestima.</p>
-        <a href="<?= $whatsapp_url ?>" class="btn-whatsapp" target="_blank"><ion-icon name="logo-whatsapp" style="vertical-align:middle; margin-right:8px;"></ion-icon>Agendar Consulta</a>
+        <a href="<?= $whatsapp_url ?>" class="btn-whatsapp" target="_blank"><ion-icon name="logo-whatsapp" style="vertical-align:middle; margin-right:8px;"><svg aria-hidden="true"><use href="#i-logo-whatsapp"></use></svg></ion-icon>Agendar Consulta</a>
     </div>
 </section>
 

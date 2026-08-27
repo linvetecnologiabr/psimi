@@ -35,7 +35,7 @@ $formacoes = [
             <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
                 <div style="background:#fff; border-radius:12px; padding:30px; height:100%; box-shadow:0 4px 20px rgba(0,0,0,0.06); border-left:4px solid  #6371fd;">
                     <div style="display:flex; align-items:center; gap:15px; margin-bottom:15px;">
-                        <span class="sc_two" style="width:60px; height:60px; line-height:60px; text-align:center; border-radius:30px; font-size:26px; flex-shrink:0; display:inline-block;"><ion-icon name="<?= $f['icon'] ?>"></ion-icon></span>
+                        <span class="sc_two" style="width:60px; height:60px; line-height:60px; text-align:center; border-radius:30px; font-size:26px; flex-shrink:0; display:inline-block;"><ion-icon name="<?= $f['icon'] ?>"><svg aria-hidden="true"><use href="#i-<?= $f['icon'] ?>"></use></svg></ion-icon></span>
                         <div>
                             <h3 style="font-size:18px; font-weight:700; color:#525fe1; margin:0;"><?= $f['titulo'] ?></h3>
                             <p style="font-size:13px; color:#2d4a7a; font-weight:600; margin:5px 0 0;"><?= $f['inst'] ?></p>
@@ -54,7 +54,7 @@ $formacoes = [
         <h3>Qualificação a serviço do seu bem-estar</h3>
         <p>Agende sua consulta com uma profissional especializada.</p>
         <a href="<?= $whatsapp_url ?>" class="btn-whatsapp" target="_blank">
-            <ion-icon name="logo-whatsapp" style="vertical-align:middle; margin-right:8px;"></ion-icon>
+            <ion-icon name="logo-whatsapp" style="vertical-align:middle; margin-right:8px;"><svg aria-hidden="true"><use href="#i-logo-whatsapp"></use></svg></ion-icon>
             Agendar Consulta
         </a>
     </div>

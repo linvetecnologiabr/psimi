@@ -39,7 +39,7 @@ require_once __DIR__ . '/header.php';
 					<p>Psicóloga, dedicada à Psicanálise e a relacionamentos autênticos.</p>
 				</div>
 				<div class="home_sb">
-					<a href="<?= $whatsapp_url ?>" class="btn_one"><ion-icon name="calendar-outline"></ion-icon> Agendar consulta</a>
+					<a href="<?= $whatsapp_url ?>" class="btn_one"><ion-icon name="calendar-outline"><svg aria-hidden="true"><use href="#i-calendar-outline"></use></svg></ion-icon> Agendar consulta</a>
 				</div>
 			</div>
 			<div class="col-lg-6 col-sm-12 col-xs-12">
@@ -48,7 +48,7 @@ require_once __DIR__ . '/header.php';
 					<img class="no-show-mobile" src="<?= $assets ?>/img/img-slider01.jpg" alt="Psicóloga Michely Ciardulo" width="600" height="700" fetchpriority="high">
 				</picture>
 				<span class="sobre-psi no-show-mobile">
-					<ion-icon name="checkmark-circle-outline"></ion-icon>
+					<ion-icon name="checkmark-circle-outline"><svg aria-hidden="true"><use href="#i-checkmark-circle-outline"></use></svg></ion-icon>
 					<h2>Michely Ciardulo - Psicóloga Clínica</h2>
 					<h3>CRP-06/176130</h3>
 				</span>
@@ -70,15 +70,15 @@ require_once __DIR__ . '/header.php';
 				<div class="expertice-psicanalitica">
 					<ul>
 						<li>
-							<ion-icon name="medal-outline"></ion-icon>
+							<ion-icon name="medal-outline"><svg aria-hidden="true"><use href="#i-medal-outline"></use></svg></ion-icon>
 							<p>Homologada e ativa no CRP</p>
 						</li>
 						<li>
-							<ion-icon name="school-outline"></ion-icon>
+							<ion-icon name="school-outline"><svg aria-hidden="true"><use href="#i-school-outline"></use></svg></ion-icon>
 							<p>Pós-graduada em teoria Psicanalítica</p>
 						</li>
 						<li>
-							<ion-icon name="school-outline"></ion-icon>
+							<ion-icon name="school-outline"><svg aria-hidden="true"><use href="#i-school-outline"></use></svg></ion-icon>
 							<p>Pós-graduada em sáude mental e psiquiatria</p>
 						</li>
 					</ul>
@@ -106,9 +106,9 @@ require_once __DIR__ . '/header.php';
 					<p>Sou Psicóloga, me oriento pela teoria psicanalítica, te ajudo a compreender e refletir seu lugar nas relações e no mundo, promovendo o autoconhecimento.</p>
 					<p>Sou pós-graduada em teoria psicanalítica e pós-graduada em saúde mental e psiquiatria. Realizo atendimento psicológico na modalidade online e presencial, sempre prezando pela ética, escuta ativa e acolhimento.</p>
 					<ul>
-						<li><ion-icon name="checkmark-circle-outline"></ion-icon>Sessões online e presencial.</li>
-						<li><ion-icon name="checkmark-circle-outline"></ion-icon>Acompanhamento terapêutico à adolescentes, adultos e casais.</li>
-						<li><ion-icon name="checkmark-circle-outline"></ion-icon>Focada no sujeito, em seus afetos e sua <br>forma de ver o mundo.</li>
+						<li><ion-icon name="checkmark-circle-outline"><svg aria-hidden="true"><use href="#i-checkmark-circle-outline"></use></svg></ion-icon>Sessões online e presencial.</li>
+						<li><ion-icon name="checkmark-circle-outline"><svg aria-hidden="true"><use href="#i-checkmark-circle-outline"></use></svg></ion-icon>Acompanhamento terapêutico à adolescentes, adultos e casais.</li>
+						<li><ion-icon name="checkmark-circle-outline"><svg aria-hidden="true"><use href="#i-checkmark-circle-outline"></use></svg></ion-icon>Focada no sujeito, em seus afetos e sua <br>forma de ver o mundo.</li>
 					</ul>
 					<a class="btn_one" href="<?= $whatsapp_url ?>">Vamos juntos nessa jornada, agende sua sessão! <i class="ti-arrow-top-right"></i></a>
 				</div>
@@ -127,28 +127,28 @@ require_once __DIR__ . '/header.php';
 		<div class="row">
 			<div class="col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">
 				<div class="single_tp">
-					<span class="sc_two"><ion-icon name="school"></ion-icon></span>
+					<span class="sc_two"><ion-icon name="school"><svg aria-hidden="true"><use href="#i-school"></use></svg></ion-icon></span>
 					<h3>Bacharel em <br>Psicologia</h3>
 					<h5>Universidade nove de Julho</h5>
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="0">
 				<div class="single_tp">
-					<span class="sc_two"><ion-icon name="school"></ion-icon></span>
+					<span class="sc_two"><ion-icon name="school"><svg aria-hidden="true"><use href="#i-school"></use></svg></ion-icon></span>
 					<h3>Pós-graduada em Teoria Psicanalítica</h3>
 					<h5>Faculdade Venda Nova do Imigrante – FAVENI</h5>
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s" data-wow-offset="0">
 				<div class="single_tp">
-					<span class="sc_two"><ion-icon name="school"></ion-icon></span>
+					<span class="sc_two"><ion-icon name="school"><svg aria-hidden="true"><use href="#i-school"></use></svg></ion-icon></span>
 					<h3>Pós-graduada em Saúde Mental e Psiquiatria</h3>
 					<h5>Faculdade Única</h5>
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s" data-wow-offset="0">
 				<div class="single_tp">
-					<span class="sc_two"><ion-icon name="school"></ion-icon></span>
+					<span class="sc_two"><ion-icon name="school"><svg aria-hidden="true"><use href="#i-school"></use></svg></ion-icon></span>
 					<h3>Gestão de Recursos Humanos</h3>
 					<h5>Universidade Anhembi Morumbi</h5>
 				</div>
@@ -157,28 +157,28 @@ require_once __DIR__ . '/header.php';
 		<div class="row">
 			<div class="col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">
 				<div class="single_tp">
-					<span class="sc_two"><ion-icon name="school"></ion-icon></span>
+					<span class="sc_two"><ion-icon name="school"><svg aria-hidden="true"><use href="#i-school"></use></svg></ion-icon></span>
 					<h3>Terapia de Casal e Familia</h3>
 					<h5>Instituto Gaio</h5>
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="0">
 				<div class="single_tp">
-					<span class="sc_two"><ion-icon name="school"></ion-icon></span>
+					<span class="sc_two"><ion-icon name="school"><svg aria-hidden="true"><use href="#i-school"></use></svg></ion-icon></span>
 					<h3>Casal e <br>Família</h3>
 					<h5>Livraria do Psicanalista</h5>
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s" data-wow-offset="0">
 				<div class="single_tp">
-					<span class="sc_two"><ion-icon name="school"></ion-icon></span>
+					<span class="sc_two"><ion-icon name="school"><svg aria-hidden="true"><use href="#i-school"></use></svg></ion-icon></span>
 					<h3>Instituto <br>Escutha</h3>
 					<h5>Aperfeiçoamento em psicologia Perinatal</h5>
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s" data-wow-offset="0">
 				<div class="single_tp">
-					<span class="sc_two"><ion-icon name="school"></ion-icon></span>
+					<span class="sc_two"><ion-icon name="school"><svg aria-hidden="true"><use href="#i-school"></use></svg></ion-icon></span>
 					<h3>Formação em Psicanálise - Em percurso</h3>
 					<h5>Instituto Távola</h5>
 				</div>
@@ -250,13 +250,13 @@ require_once __DIR__ . '/header.php';
 					];
 					foreach ($depoimentos as $dep): ?>
 						<div class="testimonial">
-							<ion-icon class="icon-chat" name="chatbox-ellipses-outline"></ion-icon>
+							<ion-icon class="icon-chat" name="chatbox-ellipses-outline"><svg aria-hidden="true"><use href="#i-chatbox-ellipses-outline"></use></svg></ion-icon>
 							<div class="testimonial_content">
 								<p><?= $dep['texto'] ?></p>
 							</div>
 							<div class="testi_pic_title">
 								<div class="test-pacient">
-									<div class="esq"><ion-icon name="person"></ion-icon></div>
+									<div class="esq"><ion-icon name="person"><svg aria-hidden="true"><use href="#i-person"></use></svg></ion-icon></div>
 									<div class="dir">
 										<h4><?= $dep['nome'] ?></h4>
 										<p>Paciente</p>
@@ -264,11 +264,11 @@ require_once __DIR__ . '/header.php';
 								</div>
 								<span class="stars">
 									<ul>
-										<li><ion-icon name="star"></ion-icon></li>
-										<li><ion-icon name="star"></ion-icon></li>
-										<li><ion-icon name="star"></ion-icon></li>
-										<li><ion-icon name="star"></ion-icon></li>
-										<li><ion-icon name="star"></ion-icon></li>
+										<li><ion-icon name="star"><svg aria-hidden="true"><use href="#i-star"></use></svg></ion-icon></li>
+										<li><ion-icon name="star"><svg aria-hidden="true"><use href="#i-star"></use></svg></ion-icon></li>
+										<li><ion-icon name="star"><svg aria-hidden="true"><use href="#i-star"></use></svg></ion-icon></li>
+										<li><ion-icon name="star"><svg aria-hidden="true"><use href="#i-star"></use></svg></ion-icon></li>
+										<li><ion-icon name="star"><svg aria-hidden="true"><use href="#i-star"></use></svg></ion-icon></li>
 									</ul>
 								</span>
 							</div>
@@ -299,11 +299,11 @@ require_once __DIR__ . '/header.php';
 				<div class="expertice-psicanalitica">
 					<ul>
 						<li onclick="location.href='<?= $instagram_url ?>'">
-							<ion-icon name="logo-instagram"></ion-icon>
+							<ion-icon name="logo-instagram"><svg aria-hidden="true"><use href="#i-logo-instagram"></use></svg></ion-icon>
 							<p>Instagram</p>
 						</li>
 						<li onclick="location.href='<?= $whatsapp_url ?>'">
-							<ion-icon name="logo-whatsapp"></ion-icon>
+							<ion-icon name="logo-whatsapp"><svg aria-hidden="true"><use href="#i-logo-whatsapp"></use></svg></ion-icon>
 							<p>Whatsapp</p>
 						</li>
 					</ul>

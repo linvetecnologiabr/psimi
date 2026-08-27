@@ -34,17 +34,17 @@ require_once __DIR__ . '/../header.php';
 
             <div class="topic-grid">
             <div class="topic-item">
-                <h3><ion-icon name="pulse-outline"></ion-icon> Sintomas físicos</h3>
+                <h3><ion-icon name="pulse-outline"><svg aria-hidden="true"><use href="#i-pulse-outline"></use></svg></ion-icon> Sintomas físicos</h3>
                 <p>Taquicardia, falta de ar, tremores, sudorese, tensão muscular, dores de cabeça e problemas gastrointestinais. O corpo fala quando a mente não encontra palavras.</p>
             </div>
 
             <div class="topic-item">
-                <h3><ion-icon name="brain-outline"></ion-icon> Sintomas psicológicos</h3>
+                <h3><ion-icon name="bulb-outline"><svg aria-hidden="true"><use href="#i-bulb-outline"></use></svg></ion-icon> Sintomas psicológicos</h3>
                 <p>Preocupação excessiva, pensamentos catastróficos, dificuldade de concentração, irritabilidade, sensação de que algo ruim vai acontecer.</p>
             </div>
 
             <div class="topic-item">
-                <h3><ion-icon name="sync-outline"></ion-icon> Comportamentos evitativos</h3>
+                <h3><ion-icon name="sync-outline"><svg aria-hidden="true"><use href="#i-sync-outline"></use></svg></ion-icon> Comportamentos evitativos</h3>
                 <p>Evitar situações, lugares ou pessoas por medo. Procrastinação, isolamento social e dificuldade de tomar decisões como estratégias inconscientes de proteção.</p>
             </div>
             </div>
@@ -56,9 +56,9 @@ require_once __DIR__ . '/../header.php';
 
             <div class="highlight-box">
                 <ul>
-                    <li><ion-icon name="checkmark-circle"></ion-icon><span><strong>Ansiedade não é falta de força.</strong> É um sinal de que algo precisa de atenção.</span></li>
-                    <li><ion-icon name="checkmark-circle"></ion-icon><span>A terapia ajuda a <strong>compreender as causas</strong>, não apenas os sintomas.</span></li>
-                    <li><ion-icon name="checkmark-circle"></ion-icon><span>Atendimento <strong>online e presencial</strong> para sua comodidade.</span></li>
+                    <li><ion-icon name="checkmark-circle"><svg aria-hidden="true"><use href="#i-checkmark-circle"></use></svg></ion-icon><span><strong>Ansiedade não é falta de força.</strong> É um sinal de que algo precisa de atenção.</span></li>
+                    <li><ion-icon name="checkmark-circle"><svg aria-hidden="true"><use href="#i-checkmark-circle"></use></svg></ion-icon><span>A terapia ajuda a <strong>compreender as causas</strong>, não apenas os sintomas.</span></li>
+                    <li><ion-icon name="checkmark-circle"><svg aria-hidden="true"><use href="#i-checkmark-circle"></use></svg></ion-icon><span>Atendimento <strong>online e presencial</strong> para sua comodidade.</span></li>
                 </ul>
             </div>
         </div>
@@ -69,7 +69,7 @@ require_once __DIR__ . '/../header.php';
     <div class="container">
         <h3>A ansiedade não precisa te controlar</h3>
         <p>Agende uma consulta e descubra novas formas de lidar com a angústia.</p>
-        <a href="<?= $whatsapp_url ?>" class="btn-whatsapp" target="_blank"><ion-icon name="logo-whatsapp" style="vertical-align:middle; margin-right:8px;"></ion-icon>Agendar Consulta</a>
+        <a href="<?= $whatsapp_url ?>" class="btn-whatsapp" target="_blank"><ion-icon name="logo-whatsapp" style="vertical-align:middle; margin-right:8px;"><svg aria-hidden="true"><use href="#i-logo-whatsapp"></use></svg></ion-icon>Agendar Consulta</a>
     </div>
 </section>
 

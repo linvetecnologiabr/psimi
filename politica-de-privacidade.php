@@ -37,15 +37,15 @@ require_once __DIR__ . '/header.php';
 
             <div class="topic-grid">
                 <div class="topic-item">
-                    <h3><ion-icon name="chatbubble-outline"></ion-icon> Dados de contato</h3>
+                    <h3><ion-icon name="chatbubble-outline"><svg aria-hidden="true"><use href="#i-chatbubble-outline"></use></svg></ion-icon> Dados de contato</h3>
                     <p>Quando você entra em contato via WhatsApp, coletamos seu nome e número de telefone para fins de agendamento de consultas.</p>
                 </div>
                 <div class="topic-item">
-                    <h3><ion-icon name="analytics-outline"></ion-icon> Dados de navegação</h3>
+                    <h3><ion-icon name="analytics-outline"><svg aria-hidden="true"><use href="#i-analytics-outline"></use></svg></ion-icon> Dados de navegação</h3>
                     <p>Utilizamos Google Analytics 4 (GA4) e Google Tag Manager (GTM) para coletar dados anônimos de navegação: páginas visitadas, tempo de permanência, dispositivo e localização aproximada.</p>
                 </div>
                 <div class="topic-item">
-                    <h3><ion-icon name="globe-outline"></ion-icon> Cookies</h3>
+                    <h3><ion-icon name="globe-outline"><svg aria-hidden="true"><use href="#i-globe-outline"></use></svg></ion-icon> Cookies</h3>
                     <p>Este site utiliza cookies de análise (Google Analytics) para entender como os visitantes interagem com o conteúdo. Você pode desativar cookies nas configurações do seu navegador.</p>
                 </div>
             </div>
@@ -62,15 +62,15 @@ require_once __DIR__ . '/header.php';
             <div class="highlight-box">
                 <ul>
                     <li>
-                        <ion-icon name="shield-checkmark-outline"></ion-icon>
+                        <ion-icon name="shield-checkmark-outline"><svg aria-hidden="true"><use href="#i-shield-checkmark-outline"></use></svg></ion-icon>
                         <span><strong>Sigilo profissional:</strong> Todo conteúdo compartilhado nas sessões é protegido pelo sigilo ético do psicólogo, conforme o Código de Ética Profissional do Psicólogo (CFP).</span>
                     </li>
                     <li>
-                        <ion-icon name="close-circle-outline"></ion-icon>
+                        <ion-icon name="close-circle-outline"><svg aria-hidden="true"><use href="#i-close-circle-outline"></use></svg></ion-icon>
                         <span><strong>Não vendemos dados:</strong> Seus dados pessoais jamais são vendidos, alugados ou compartilhados com terceiros para fins comerciais.</span>
                     </li>
                     <li>
-                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <ion-icon name="lock-closed-outline"><svg aria-hidden="true"><use href="#i-lock-closed-outline"></use></svg></ion-icon>
                         <span><strong>Dados de saúde:</strong> Informações sensíveis de saúde mental compartilhadas nas sessões são tratadas com o mais alto nível de confidencialidade, conforme a LGPD e o CFP.</span>
                     </li>
                 </ul>
@@ -98,19 +98,19 @@ require_once __DIR__ . '/header.php';
             <p>Conforme a LGPD (art. 18), você tem direito a:</p>
             <div class="topic-grid">
                 <div class="topic-item">
-                    <h3><ion-icon name="eye-outline"></ion-icon> Acesso</h3>
+                    <h3><ion-icon name="eye-outline"><svg aria-hidden="true"><use href="#i-eye-outline"></use></svg></ion-icon> Acesso</h3>
                     <p>Solicitar confirmação da existência e acesso aos seus dados pessoais que tratamos.</p>
                 </div>
                 <div class="topic-item">
-                    <h3><ion-icon name="create-outline"></ion-icon> Correção</h3>
+                    <h3><ion-icon name="create-outline"><svg aria-hidden="true"><use href="#i-create-outline"></use></svg></ion-icon> Correção</h3>
                     <p>Solicitar a correção de dados incompletos, inexatos ou desatualizados.</p>
                 </div>
                 <div class="topic-item">
-                    <h3><ion-icon name="trash-outline"></ion-icon> Exclusão</h3>
+                    <h3><ion-icon name="trash-outline"><svg aria-hidden="true"><use href="#i-trash-outline"></use></svg></ion-icon> Exclusão</h3>
                     <p>Solicitar a exclusão de seus dados pessoais, salvo quando necessários por obrigação legal.</p>
                 </div>
                 <div class="topic-item">
-                    <h3><ion-icon name="ban-outline"></ion-icon> Revogação</h3>
+                    <h3><ion-icon name="ban-outline"><svg aria-hidden="true"><use href="#i-ban-outline"></use></svg></ion-icon> Revogação</h3>
                     <p>Revogar o consentimento dado a qualquer momento, sem prejuízo da licitude do tratamento realizado anteriormente.</p>
                 </div>
             </div>
@@ -145,7 +145,7 @@ require_once __DIR__ . '/header.php';
         <h3>Dúvidas sobre seus dados?</h3>
         <p>Entre em contato pelo WhatsApp — respondemos em até 24 horas.</p>
         <a href="<?= $whatsapp_url ?>" class="btn-whatsapp" target="_blank">
-            <ion-icon name="logo-whatsapp" style="vertical-align:middle; margin-right:8px;"></ion-icon>
+            <ion-icon name="logo-whatsapp" style="vertical-align:middle; margin-right:8px;"><svg aria-hidden="true"><use href="#i-logo-whatsapp"></use></svg></ion-icon>
             Falar pelo WhatsApp
         </a>
     </div>
