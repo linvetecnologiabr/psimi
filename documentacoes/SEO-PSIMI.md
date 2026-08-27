@@ -3,7 +3,7 @@
 Padrao aplicado: [docs/SEO-PROFISSIONAL.md](../../docs/SEO-PROFISSIONAL.md). Este arquivo registra o estado real, nao a teoria.
 
 - Dominio canonico: `https://michelyciardulo.com.br/` (sem `www`)
-- Tipo de propriedade no Search Console: **a confirmar com a responsavel**
+- Tipo de propriedade no Search Console: **prefixo de URL** (`https://michelyciardulo.com.br/`), verificado por `<meta name="google-site-verification">` na home. Nao depende de DNS, entao a migracao para a Cloudflare **nao** derruba a verificacao.
 - Sitemap: `/sitemap.xml`, gerado por `sitemap.php` (auto-descobre `especialidades/*.php` e `blog/*.php`)
 - Robots: `/robots.txt`
 - Paginas indexaveis: 23 (home, sobre, formacoes, especialidades + 11 filhas, blog + 7 posts)
@@ -11,7 +11,7 @@ Padrao aplicado: [docs/SEO-PROFISSIONAL.md](../../docs/SEO-PROFISSIONAL.md). Est
 - Schema aplicado: `Organization` + `Person` + `EducationalOrganization`, `WebSite`, `Service`/`OfferCatalog`, `BreadcrumbList`, `FAQPage` (home), `Article` (posts)
 - Imagem Open Graph: `assets-new/img/og-image.jpg`
 - Conversoes monitoradas: WhatsApp (GA4 `G-8S4YL352QX`) e conversao do Google Ads via GTM `GTM-KL6QCM4Z` (`__awct`, id 16521133970)
-- Ultima auditoria: 27/08/2026
+- Ultima auditoria: 27/08/2026 (Search Console: 23 paginas indexadas, 36 nao indexadas)
 - Ultima publicacao: 27/08/2026 (commits `c8f1dda`, `dbdd87b`)
 
 ## Regras do projeto
@@ -35,6 +35,31 @@ Padrao aplicado: [docs/SEO-PROFISSIONAL.md](../../docs/SEO-PROFISSIONAL.md). Est
 | Baixa | `meta keywords` em 23 paginas | removida |
 | Media | icones vinham da CDN jsdelivr: 16 das 43 requisicoes da home | sprite SVG local `assets-new/icons.php` |
 | Media | `brain-outline` nao existe no ionicons: 3 titulos sem icone em producao | trocado por `bulb-outline` |
+
+## Migracao do WordPress (27/08/2026)
+
+O site anterior era WordPress (tema `psimi`, plugin `creame-whatsapp-me`). O Search Console listava **31 URLs em "Nao encontrado (404)"**, detectadas em 09/04/2024 e ainda rastreadas em 19/08/2026. Todas ganharam 301 de um salto no `.htaccess`:
+
+| URL antiga | Destino |
+|---|---|
+| `/ansiedade/`, `/depressao/`, `/dependencia-emocional/`, `/morte-e-luto/`, `/violencia-domestica/`, `/terapia-de-casal/` (e `/index.html` de cada) | `/especialidades/<slug>` |
+| `/inseguranca-e-baixa-autoestima/` | `/especialidades/inseguranca` (a pagina antiga juntava os dois temas que hoje sao separados) |
+| `/acompanhamento-psicologico/` | `/especialidades/` |
+| `/como-funciona-a-terapia-de-casal/` | `/blog/terapia-de-casal` |
+| demais posts na raiz (e `/index.html` de cada) | `/blog/<slug>` |
+| `/2024/MM/`, `/2024/MM/page/N/`, `/category/blog/` | `/blog/` |
+| `/index.html` | `/` |
+
+Sem equivalente, continuam 404 de proposito: `/pri/`, `/course.html`, `/agenda/` e `/search/search_term_string/feed/rss2/` (artefato do Yoast).
+
+Resultado verificado em producao: 27 das 31 resolvem em 200 com um salto; as outras 4 devolvem 404.
+
+Validacao da correcao iniciada no Search Console em 27/08/2026.
+
+## Sitemaps no Search Console
+
+- `/sitemap.xml` reenviado em 27/08/2026 e relido no mesmo dia (antes a ultima leitura era 04/04/2026). 23 paginas.
+- **Pendente, manual:** remover `/sitemap-misc.xml` e `/post-sitemap.xml`, herdados do WordPress. Os dois respondem 404 hoje. Em Sitemaps, abrir o menu da linha e escolher remover.
 
 ## Pendencias
 
