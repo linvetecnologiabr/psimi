@@ -83,6 +83,10 @@
 							<ion-icon name="mail-outline"><svg aria-hidden="true"><use href="#i-mail-outline"></use></svg></ion-icon>
 							<p>psi.michelyciardulo@gmail.com</p>
 						</div>
+						<div class="sf_contact">
+							<ion-icon name="location-outline"><svg aria-hidden="true"><use href="#i-location-outline"></use></svg></ion-icon>
+							<address>R. Restinga, 113<br>Tatuapé, São Paulo, SP<br>CEP 03065-020</address>
+						</div>
 					</div>
 				</div>
 

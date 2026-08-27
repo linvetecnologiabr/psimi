@@ -547,16 +547,16 @@ if (!$body_class) {
 			"telephone": "+55-11-91341-8537",
 			"address": {
 				"@type": "PostalAddress",
-				"streetAddress": "R. Vilela, 665 - 8º Andar",
+				"streetAddress": "R. Restinga, 113",
 				"addressLocality": "São Paulo",
 				"addressRegion": "SP",
-				"postalCode": "03314-000",
+				"postalCode": "03065-020",
 				"addressCountry": "BR"
 			},
 			"geo": {
 				"@type": "GeoCoordinates",
-				"latitude": -23.5402828,
-				"longitude": -46.5658437
+				"latitude": -23.5401374,
+				"longitude": -46.5798937
 			},
 			"openingHoursSpecification": [{
 					"@type": "OpeningHoursSpecification",
