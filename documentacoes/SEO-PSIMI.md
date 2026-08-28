@@ -3,6 +3,7 @@
 Padrao aplicado: [docs/SEO-PROFISSIONAL.md](../../docs/SEO-PROFISSIONAL.md). Este arquivo registra o estado real, nao a teoria.
 
 - Dominio canonico: `https://michelyciardulo.com.br/` (sem `www`)
+- DNS: **Cloudflare** desde 27/08/2026 (NS `nitin`/`tani.ns.cloudflare.com`, zona `9663b6f2aac2d50076190369a59ba7f5` na conta Linve). Dois registros A **DNS only, nuvem cinza**, para `147.93.11.6`. Nao ligar o proxy laranja: no plano free o trafego brasileiro sai pelos EUA e o TTFB piora.
 - Tipo de propriedade no Search Console: **prefixo de URL** (`https://michelyciardulo.com.br/`), verificado por `<meta name="google-site-verification">` na home. Nao depende de DNS, entao a migracao para a Cloudflare **nao** derruba a verificacao.
 - Sitemap: `/sitemap.xml`, gerado por `sitemap.php` (auto-descobre `especialidades/*.php` e `blog/*.php`)
 - Robots: `/robots.txt`
