@@ -89,8 +89,6 @@ if (!$body_class) {
 	<link rel="icon" type="image/png" sizes="64x64" href="<?= $assets ?>/img/favicon-64.png">
 	<link rel="apple-touch-icon" sizes="180x180" href="<?= $assets ?>/img/apple-touch-icon.png">
 
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 	<!-- Preload LCP -->
 	<?php if ($body_class === 'page-home'): ?>
@@ -448,11 +446,11 @@ if (!$body_class) {
 	</style>
 
 	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="<?= $assets ?>/bootstrap/css/bootstrap.min.css" media="print" onload="this.media='all'">
 	<link rel="stylesheet" href="<?= $assets ?>/css/style.css" media="print" onload="this.media='all'">
+	<link rel="preload" as="font" type="font/woff2" href="<?= $assets ?>/fonts/roboto-latin.woff2" crossorigin>
 	<link rel="stylesheet" href="<?= $assets ?>/css/pages.css?v=<?= filemtime(__DIR__ . '/assets-new/css/pages.css') ?>">
 	<link rel="stylesheet" href="<?= $assets ?>/css/custom.css?v=<?= filemtime(__DIR__ . '/assets-new/css/custom.css') ?>">
 

@@ -124,7 +124,9 @@ FileETag MTime Size
 # Proteger contra XSS e Clickjacking
 <IfModule mod_headers.c>
   Header set X-XSS-Protection "1; mode=block"
-  Header always append X-Frame-Options SAMEORIGIN
+  # "set", nao "append": a conf global do Apache na VPS ja envia esse header,
+  # e o append fazia sair duplicado como "SAMEORIGIN, SAMEORIGIN".
+  Header always set X-Frame-Options "SAMEORIGIN"
   Header set X-Content-Type-Options nosniff
   Header set Referrer-Policy "strict-origin-when-cross-origin"
   Header set Strict-Transport-Security "max-age=31536000; includeSubDomains"
