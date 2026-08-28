@@ -35,6 +35,9 @@ Padrao aplicado: [docs/SEO-PROFISSIONAL.md](../../docs/SEO-PROFISSIONAL.md). Est
 | Baixa | `meta keywords` em 23 paginas | removida |
 | Media | icones vinham da CDN jsdelivr: 16 das 43 requisicoes da home | sprite SVG local `assets-new/icons.php` |
 | Media | `brain-outline` nao existe no ionicons: 3 titulos sem icone em producao | trocado por `bulb-outline` |
+| Alta | endereco do site (`R. Vilela, 665`) diferente do Perfil da Empresa (`R. Restinga, 113`) | site alinhado ao Perfil, ver secao NAP |
+| Media | fontes vindas de `fonts.googleapis.com` + `fonts.gstatic.com`, duas origens de terceiro no caminho critico | Roboto variavel hospedada em `assets-new/fonts/` |
+| Baixa | `X-Frame-Options` saia duplicado por `Header always append` no `.htaccess` | trocado para `set` |
 
 ## Migracao do WordPress (27/08/2026)
 
@@ -59,7 +62,7 @@ Validacao da correcao iniciada no Search Console em 27/08/2026.
 ## Sitemaps no Search Console
 
 - `/sitemap.xml` reenviado em 27/08/2026 e relido no mesmo dia (antes a ultima leitura era 04/04/2026). 23 paginas.
-- **Pendente, manual:** remover `/sitemap-misc.xml` e `/post-sitemap.xml`, herdados do WordPress. Os dois respondem 404 hoje. Em Sitemaps, abrir o menu da linha e escolher remover.
+- `/sitemap-misc.xml` e `/post-sitemap.xml`, herdados do WordPress e respondendo 404, **removidos em 27/08/2026**. So `/sitemap.xml` continua cadastrado.
 
 ## NAP (nome, endereco, telefone)
 
@@ -90,11 +93,10 @@ O Perfil da Empresa tem **5,0 com 7 avaliacoes reais**. Elas **nao** podem virar
 
 Tecnicas, do nosso lado:
 
-- Schema completo de `Organization`/`Person`/`Service` e repetido inteiro em todas as 23 paginas. O padrao pede referenciar por `@id` nas internas. Nao e erro, e peso e risco de divergencia.
 - `FAQPage` na home: desde 2023 o Google restringiu o rich result de FAQ a sites de governo e saude publica. O markup nao prejudica, mas nao vai render resultado rico.
 - Horario: o schema declara seg-sex 08:00-20:00 e sab 08:00-14:00, mas o Perfil da Empresa mostra abertura sexta as 15:00. Confirmar com a Michely qual e o real e alinhar os dois.
 - Header `X-Frame-Options` sai duplicado (`SAMEORIGIN, SAMEORIGIN`): a conf global do Apache e o `.htaccess` do projeto setam os dois.
-- Fontes Google carregadas de `fonts.googleapis.com` + `fonts.gstatic.com`: duas origens de terceiro no caminho critico. Hospedar local reduz latencia e evita enviar IP do visitante ao Google (relevante em site de saude).
+- Schema completo repetido nas 23 paginas: sao **6,7 KB por pagina, 11% do HTML**. O padrao pede referenciar por `@id` nas internas. Nao e erro nem penalidade, e peso e risco de divergencia; medido e considerado nao prioritario em 27/08/2026.
 
 Dependem da responsavel:
 
