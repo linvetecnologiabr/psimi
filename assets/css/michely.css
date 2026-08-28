@@ -1,0 +1,802 @@
+/* Ajustes do site da Michely sobre o template webfolio */
+
+/* Botoes: canto levemente arredondado e texto centralizado.
+   O tema usa display:block com o texto inline-block, o que deixava
+   33px de folga acima e 15px abaixo dentro do botao. */
+.butn {
+    border-radius: 8px !important;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.butn .text,
+.butn > span {
+    line-height: 1;
+}
+
+/* Texto dos botoes em negrito e caixa alta */
+.butn .text,
+.butn span,
+.butn-crev .text {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Botao flutuante do WhatsApp */
+.btn-whats-flutuante {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #25d366;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    z-index: 999;
+    box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+    transition: transform 0.3s;
+}
+
+.btn-whats-flutuante:hover {
+    color: #fff;
+    transform: scale(1.08);
+}
+
+/* O botao de voltar ao topo do template fica no mesmo canto */
+.progress-wrap {
+    bottom: 118px !important;
+    right: 38px !important;
+}
+
+/* Modal de saida */
+.exit-modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 99999;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.exit-modal.is-open {
+    display: flex;
+}
+
+.exit-modal__caixa {
+    background: #fff;
+    border-radius: 12px;
+    max-width: 420px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    animation: exitModalIn 0.4s ease;
+}
+
+@keyframes exitModalIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.exit-modal__caixa img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+}
+
+.exit-modal__fechar {
+    position: absolute;
+    top: 8px;
+    right: 14px;
+    background: none;
+    border: 0;
+    font-size: 30px;
+    line-height: 1;
+    color: #666;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.exit-modal__cont {
+    padding: 25px 30px 30px;
+    text-align: center;
+}
+
+.exit-modal__cont h3 {
+    color: #22b05e;
+    font-size: 28px;
+    font-weight: 800;
+    font-style: italic;
+    margin: 0 0 10px;
+}
+
+.exit-modal__linha {
+    color: #555;
+    font-size: 15px;
+    margin: 0 0 12px;
+}
+
+.exit-modal__botao {
+    display: block;
+    background: #22b05e;
+    color: #fff;
+    padding: 14px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 20px;
+    transition: background 0.3s;
+}
+
+.exit-modal__botao:hover {
+    background: #1a9e50;
+    color: #fff;
+}
+
+/* Selecao de texto branca no lugar do azul padrao do navegador */
+::selection {
+    background: #fff;
+    color: #0f0f0f;
+}
+
+::-moz-selection {
+    background: #fff;
+    color: #0f0f0f;
+}
+
+/* Hero ocupando exatamente a tela inteira */
+.header-personal.full-vh {
+    height: 100vh;
+    height: 100svh;
+    min-height: 620px;
+    display: flex;
+    align-items: stretch;
+    padding: 130px 0 50px;
+}
+
+.header-personal.full-vh {
+    background-position: right top;
+    background-size: cover;
+}
+
+.header-personal.full-vh .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Caption centralizado no espaco livre, bloco de contato ancorado embaixo */
+.header-personal.full-vh .container>.row {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header-personal.full-vh .caption h1 {
+    font-size: clamp(34px, 4.2vw, 64px);
+}
+
+.header-personal.full-vh .caption h1 .main-color {
+    color: #f7b378 !important;
+}
+
+/* Post do blog: mesma leitura das internas (fundo branco, faixa azul no topo) */
+.page-post,
+.page-post .main-bg {
+    background: #fff !important;
+    color: #1f2b2e;
+}
+
+.page-post .intro h3,
+.page-post .intro h4,
+.page-post .intro p,
+.page-post .intro li {
+    color: #1f2b2e;
+}
+
+.page-post .intro .text p {
+    color: #4d5b60;
+    font-size: 17px;
+    line-height: 1.75;
+}
+
+.page-post .intro .text h3 {
+    font-size: clamp(21px, 1.8vw, 26px);
+    line-height: 1.35;
+    font-weight: 600;
+    margin-top: 44px !important;
+}
+
+.page-post .post-lead {
+    font-size: 21px;
+    line-height: 1.6;
+    color: #1f2b2e !important;
+    font-weight: 500;
+}
+
+.page-post .post-citacao {
+    border-left: 3px solid #987454;
+    padding: 6px 0 6px 24px;
+    margin: 30px 0;
+    font-size: 19px;
+    font-style: italic;
+    color: #1f2b2e;
+}
+
+.page-post .img-full img {
+    width: 100%;
+    max-height: 460px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.page-post [class*='bord'] {
+    border-color: rgba(31, 43, 46, 0.15) !important;
+}
+
+/* Box marrom do CTA nas paginas claras: texto sempre branco */
+.page-post .sec-bottom .sub-bg,
+.page-post .sec-bottom .sub-bg h4,
+.page-post .sec-bottom .sub-bg p,
+.page-especialidade .sec-bottom .sub-bg,
+.page-especialidade .sec-bottom .sub-bg h4,
+.page-especialidade .sec-bottom .sub-bg p {
+    color: #fff !important;
+}
+
+.page-post .sec-bottom .sub-bg .butn-bord,
+.page-especialidade .sec-bottom .sub-bg .butn-bord {
+    border-color: rgba(255, 255, 255, 0.6) !important;
+    color: #fff;
+}
+
+.page-post .sec-bottom .sub-bg .butn-bord:hover,
+.page-especialidade .sec-bottom .sub-bg .butn-bord:hover {
+    background: #fff;
+    border-color: #fff !important;
+}
+
+.page-post .sec-bottom .sub-bg .butn-bord:hover .text,
+.page-especialidade .sec-bottom .sub-bg .butn-bord:hover .text {
+    color: #1f2b2e !important;
+}
+
+/* Cards do blog: imagem e titulo levam ao post */
+.blog.style2 .item .img,
+.blog.style2 .item h5 a {
+    display: block;
+    color: inherit;
+}
+
+.blog.style2 .item h5 a:hover {
+    opacity: 0.75;
+}
+
+/* Header das internas: faixa baixa em azul escuro, sem foto */
+.page-post .page-header,
+.page-blog .page-header,
+.page-interna .page-header,
+.page-especialidade .page-header,
+.page-especialidades .page-header {
+    background: #1f2b2e;
+    min-height: 0;
+    padding: 150px 0 70px;
+}
+
+/* O tema poe um degrade escuro de 2700px descendo do header; com a faixa
+   solida ele so sujava o topo do conteudo branco. */
+.page-post .page-header:after,
+.page-blog .page-header:after,
+.page-interna .page-header:after,
+.page-especialidade .page-header:after,
+.page-especialidades .page-header:after {
+    display: none;
+}
+
+.page-post .page-header h1,
+.page-blog .page-header h1,
+.page-interna .page-header h1,
+.page-especialidade .page-header h1,
+.page-especialidades .page-header h1 {
+    font-size: clamp(32px, 4.5vw, 58px);
+    color: #fff;
+}
+
+.page-post .page-header p,
+.page-blog .page-header p,
+.page-interna .page-header p,
+.page-especialidade .page-header p,
+.page-especialidades .page-header p {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+/* Paginas internas de especialidade: corpo em fundo branco.
+   O rodape segue escuro, por ser comum ao site. */
+.page-especialidade,
+.page-especialidade .main-bg {
+    background: #fff !important;
+    color: #1f2b2e;
+}
+
+.page-especialidade .intro h3,
+.page-especialidade .intro h4,
+.page-especialidade .intro h5,
+.page-especialidade .intro h6,
+.page-especialidade .intro p,
+.page-especialidade .intro li,
+.page-especialidade .feat h2,
+.page-especialidade .feat .rotate-text {
+    color: #1f2b2e;
+}
+
+.page-especialidade .intro .text p,
+.page-especialidade .intro .dot-list li {
+    color: #4d5b60;
+}
+
+.page-especialidade .intro .p-color {
+    color: #6b7b81;
+}
+
+.page-especialidade .dot-list li:before {
+    background: #987454;
+}
+
+.page-especialidade [class*='bord'] {
+    border-color: rgba(31, 43, 46, 0.15) !important;
+}
+
+/* Paginas internas de especialidade */
+.page-especialidade .intro .cont,
+.page-especialidade .intro h3 {
+    font-size: clamp(24px, 2.4vw, 34px);
+    line-height: 1.35;
+}
+
+.page-especialidade .item-box {
+    background: #1f2b2e;
+    padding: 40px 30px;
+    height: 100%;
+}
+
+.page-especialidade .item-box h6,
+.page-especialidade .item-box span {
+    color: #fff;
+}
+
+.page-especialidade .item-box p {
+    color: #fff;
+}
+
+.page-especialidade .sec-bottom .sub-bg {
+    width: 100%;
+    padding: 40px;
+    border-radius: 15px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.page-especialidades .item-box {
+    background: #987454;
+    padding: 30px;
+    height: 100%;
+}
+
+.page-especialidades .item-box p,
+.page-especialidades .item-box h6 {
+    color: #fff;
+}
+
+.page-especialidades .item-box .img img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Faixa final da secao: pilula com texto + CTA, alinhada ao container.
+   O template deixa a secao com pb-0, entao a pilula encostava na proxima. */
+.work-card.pb-0 {
+    padding-bottom: 90px !important;
+}
+
+.work-card .sec-bottom {
+    margin-top: 60px !important;
+}
+
+.work-card .sec-bottom .main-bg {
+    gap: 24px;
+    padding: 14px 14px 14px 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-color: rgba(255, 255, 255, 0.18) !important;
+}
+
+.work-card .sec-bottom .butn {
+    flex-shrink: 0;
+}
+
+@media screen and (max-width: 575px) {
+    .work-card .sec-bottom .main-bg {
+        width: 100% !important;
+        text-align: center;
+        padding: 20px;
+    }
+}
+
+/* Especialidades: secao em marrom, card um tom acima para destacar */
+.work-card {
+    background: #805f42;
+}
+
+.work-card .card-item {
+    background: #987454 !important;
+}
+
+/* Todos os cards com a mesma altura: no empilhamento o de cima precisa cobrir
+   o de baixo por inteiro, senao o texto do anterior vaza pelas bordas. */
+.work-card .cards .card-item {
+    height: 540px;
+    overflow: hidden;
+}
+
+/* Card inteiro clicavel */
+.work-card .cards .card-item {
+    position: relative;
+}
+
+.work-card .cards .card-item .card-link {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+}
+
+.work-card .cards .card-item .cont .underline {
+    position: relative;
+    z-index: 3;
+}
+
+/* Sem isso a linha interna mantem a altura natural (716px) e o texto
+   fica cortado pelo overflow do card. */
+.work-card .cards .card-item > .row {
+    height: 100%;
+}
+
+.work-card .cards .card-item > .row > [class*='col-'] {
+    height: 100%;
+}
+
+.work-card .card-item .img {
+    height: 100%;
+}
+
+.work-card .card-item .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.work-card .card-item .cont p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #fff;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 991px) {
+    .work-card .cards .card-item {
+        height: auto;
+    }
+
+    .work-card .card-item .img img {
+        height: 260px;
+    }
+
+    .work-card .card-item .cont p {
+        -webkit-line-clamp: unset;
+        line-clamp: unset;
+    }
+}
+
+
+/* Logo menor e sem as divisorias verticais do template */
+.navbar .logo.icon-img-100 {
+    width: 62px;
+}
+
+.navbar .logo:after,
+.navbar .contact-button:after {
+    display: none;
+}
+
+/* Brilho do canto: mesmo tom do "Psicanalise" no lugar do laranja do template */
+.header-personal.full-vh:after {
+    background: radial-gradient(circle, #f7b378 0%, transparent 66%);
+}
+
+.header-personal.full-vh .caption h3 {
+    font-size: clamp(18px, 1.5vw, 26px);
+}
+
+/* div.text, nao o span.text de dentro do botao */
+.header-personal.full-vh .caption div.text {
+    margin-top: 18px !important;
+}
+
+.header-personal.full-vh .caption .d-flex.mt-60 {
+    margin-top: 34px !important;
+    gap: 18px;
+    align-items: center;
+}
+
+.header-personal.full-vh .caption .icon-img-60 {
+    width: 46px;
+    margin-left: 0 !important;
+    opacity: 0.7;
+}
+
+.header-personal.full-vh .butn-bord {
+    border-color: rgba(255, 255, 255, 0.6) !important;
+    padding: 14px 34px;
+}
+
+.header-personal.full-vh .butn-bord:hover {
+    background: #fff !important;
+    border-color: #fff !important;
+}
+
+.header-personal.full-vh .butn-bord:hover .text {
+    color: #1f2b2e !important;
+}
+
+.header-personal.full-vh .info {
+    margin-top: auto !important;
+    padding-top: 30px;
+}
+
+@media screen and (max-width: 991px) {
+    .header-personal.full-vh {
+        height: auto;
+        min-height: 100vh;
+        padding: 130px 0 60px;
+    }
+}
+
+/* Sobre mim: bloco em bordo */
+.about-author {
+    background: #1f2b2e;
+}
+
+.about-author .cont .sub-title.main-color {
+    color: #f7b378 !important;
+}
+
+.about-author .numbers .item {
+    border-color: rgba(255, 255, 255, 0.28) !important;
+}
+
+.about-author .numbers .item h6.p-color {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.about-author .butn-bord {
+    border-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.about-author .butn-bord:hover {
+    background: #fff;
+    border-color: #fff !important;
+}
+
+.about-author .butn-bord:hover .text {
+    color: #7a1c42 !important;
+}
+
+/* Trajetoria e formacao: mesmo fundo da secao Sobre mim */
+.my-skills {
+    background: #1f2b2e;
+}
+
+/* Trajetoria e formacao: cards de texto no lugar dos percentuais do template */
+.my-skills .box-bord {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 130px;
+    padding: 20px;
+}
+
+.my-skills .item>h6 {
+    text-align: center;
+}
+
+/* Depoimentos: sem foto de paciente, o bloco de info fica so com o nome */
+.testim-modern .item .info .d-flex>div {
+    padding-left: 0;
+}
+
+/* Depoimentos: todos os cards com a mesma altura, nome sempre no rodape */
+.testim-modern .swiper-wrapper {
+    align-items: stretch;
+}
+
+.testim-modern .swiper-slide {
+    height: auto;
+}
+
+.testim-modern .item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.testim-modern .item .cont {
+    flex: 1;
+}
+
+/* Navbar segue transparente ao rolar (como no template). O brightness no
+   backdrop escurece o que passa atras, entao o menu branco continua legivel
+   sobre as secoes claras sem virar uma barra solida. */
+.navbar,
+.navbar.blur,
+.navbar.nav-scroll {
+    background: transparent;
+    -webkit-backdrop-filter: blur(12px) brightness(0.78);
+    backdrop-filter: blur(12px) brightness(0.78);
+}
+
+.navbar.nav-scroll {
+    border-bottom-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+/* Blog */
+.blog.style2 {
+    background: #3a4a4e;
+}
+
+/* Circulo do "Ver todas/Ver todos posts": verde do site no lugar do laranja */
+.vi-more:hover .icon {
+    background: #00a01f;
+    border-color: #00a01f;
+}
+
+/* Faixa de CTA e rodape no azul escuro, no lugar do preto do template */
+.call-marq,
+.clean-footer {
+    background: #1f2b2e;
+}
+
+/* FAQ em fundo branco */
+.page-faqs {
+    background: #fff;
+}
+
+/* O template deixa a secao com pb-0 e a ultima pergunta encostava na proxima */
+.page-faqs.pb-0 {
+    padding-bottom: 110px !important;
+}
+
+.page-faqs .sec-head h3,
+.page-faqs .accordion .item .title h6,
+.page-faqs .accordion .item .title .ico {
+    color: #1f2b2e;
+}
+
+.page-faqs .accordion-info p {
+    color: #4d5b60;
+}
+
+.page-faqs .accordion .item {
+    border-color: rgba(31, 43, 46, 0.15) !important;
+}
+
+/* Navbar mobile do template sem bootstrap collapse js */
+@media screen and (max-width: 991px) {
+    .navbar .navbar-collapse {
+        background: #0b0b0d;
+        border-radius: 10px;
+        margin-top: 15px;
+        padding: 10px 20px;
+    }
+}
+
+/* Paginas simples (sobre, formacoes, politica, 404): mesma leitura das internas */
+.page-interna,
+.page-interna .main-bg {
+    background: #fff !important;
+    color: #1f2b2e;
+}
+
+.page-interna .intro h3,
+.page-interna .intro h4,
+.page-interna .feat h2 {
+    color: #1f2b2e;
+}
+
+.page-interna .intro .text p,
+.page-interna .intro .dot-list li {
+    color: #4d5b60;
+}
+
+.page-interna .intro .text h3 {
+    font-size: clamp(21px, 1.8vw, 26px);
+    line-height: 1.35;
+    font-weight: 600;
+}
+
+.page-interna .item-box {
+    background: #1f2b2e;
+    padding: 40px 30px;
+    height: 100%;
+}
+
+.page-interna .item-box h6,
+.page-interna .item-box span,
+.page-interna .item-box p {
+    color: #fff;
+}
+
+.page-interna .item-box .sub-title.main-color {
+    color: #f7b378 !important;
+}
+
+.page-interna .dot-list li:before {
+    background: #987454;
+}
+
+.page-interna [class*='bord'] {
+    border-color: rgba(31, 43, 46, 0.15) !important;
+}
+
+.page-interna .sec-bottom .sub-bg,
+.page-interna .sec-bottom .sub-bg h4,
+.page-interna .sec-bottom .sub-bg p {
+    color: #fff !important;
+}
+
+.page-interna .sec-bottom .sub-bg .butn-bord {
+    border-color: rgba(255, 255, 255, 0.6) !important;
+    color: #fff;
+}
+
+.page-interna .sec-bottom .sub-bg .butn-bord:hover {
+    background: #fff;
+    border-color: #fff !important;
+}
+
+.page-interna .sec-bottom .sub-bg .butn-bord:hover .text {
+    color: #1f2b2e !important;
+}
+
+/* Foto da coluna lateral: enquadra o rosto, que fica a direita da imagem */
+.page-interna .img-full img {
+    width: 100%;
+    height: 100%;
+    max-height: 620px;
+    object-fit: cover;
+    object-position: 78% center;
+    border-radius: 12px;
+}

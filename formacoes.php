@@ -1,62 +1,88 @@
 <?php
-$page_title = 'Formações e Especializações | Psicóloga Michely Ciardulo';
-$meta_description = 'Formações e especializações da Psicóloga Michely Ciardulo. Bacharel em Psicologia, Pós-graduada em Psicanálise, Saúde Mental e Psiquiatria, Terapia de Casal e Família.';
-$breadcrumb_items = [
-    ['name' => 'Início', 'url' => 'https://michelyciardulo.com.br/'],
-    ['name' => 'Formações', 'url' => 'https://michelyciardulo.com.br/formacoes'],
-];
-require_once __DIR__ . '/header.php';
+require_once __DIR__ . '/data.php';
 
-$formacoes = [
-    ['titulo' => 'Bacharel em Psicologia', 'inst' => 'Universidade Nove de Julho', 'icon' => 'school-outline', 'desc' => 'Graduação completa em Psicologia com formação sólida em diversas abordagens teóricas e práticas clínicas.'],
-    ['titulo' => 'Pós-graduada em Teoria Psicanalítica', 'inst' => 'Faculdade Venda Nova do Imigrante – FAVENI', 'icon' => 'school-outline', 'desc' => 'Especialização em teoria psicanalítica com aprofundamento nos conceitos freudianos e pós-freudianos.'],
-    ['titulo' => 'Pós-graduada em Saúde Mental e Psiquiatria', 'inst' => 'Faculdade Única', 'icon' => 'school-outline', 'desc' => 'Especialização voltada para a compreensão dos transtornos mentais, diagnóstico e intervenção terapêutica.'],
-    ['titulo' => 'Gestão de Recursos Humanos', 'inst' => 'Universidade Anhembi Morumbi', 'icon' => 'school-outline', 'desc' => 'Formação em gestão de pessoas, contribuindo para uma visão ampla das relações humanas no ambiente organizacional.'],
-    ['titulo' => 'Terapia de Casal e Família', 'inst' => 'Instituto Gaio', 'icon' => 'school-outline', 'desc' => 'Capacitação especializada em atendimento de casais e famílias, com foco nas dinâmicas relacionais e conjugais.'],
-    ['titulo' => 'Casal e Família', 'inst' => 'Livraria do Psicanalista', 'icon' => 'school-outline', 'desc' => 'Aprofundamento teórico e clínico nas questões conjugais e familiares sob a perspectiva psicanalítica.'],
-    ['titulo' => 'Aperfeiçoamento em Psicologia Perinatal', 'inst' => 'Instituto Escutha', 'icon' => 'school-outline', 'desc' => 'Formação em psicologia perinatal, abrangendo o acompanhamento da gestação, parto e puerpério.'],
-    ['titulo' => 'Formação em Psicanálise — Em percurso', 'inst' => 'Instituto Távola', 'icon' => 'school-outline', 'desc' => 'Formação contínua em psicanálise, aprofundando a prática clínica e a escuta analítica.'],
+$page_title = 'Formações | Psicóloga Michely Ciardulo - CRP 06/176130';
+$meta_description = 'Formação acadêmica da Psicóloga Michely Ciardulo: Psicologia, Teoria Psicanalítica, Saúde Mental e Psiquiatria, Terapia de Casal e Família e Psicologia Perinatal.';
+$body_class = 'page-interna';
+$breadcrumb = [
+    ['nome' => 'Início', 'url' => '/'],
+    ['nome' => 'Formações', 'url' => '/formacoes'],
 ];
+
+// Descricoes vindas de psimi/formacoes.php
+$formacoes_detalhe = [
+    'Bacharel em Psicologia' => 'Graduação completa em Psicologia com formação sólida em diversas abordagens teóricas e práticas clínicas.',
+    'Pós-graduada em Teoria Psicanalítica' => 'Especialização em teoria psicanalítica com aprofundamento nos conceitos freudianos e pós-freudianos.',
+    'Pós-graduada em Saúde Mental e Psiquiatria' => 'Especialização voltada para a compreensão dos transtornos mentais, diagnóstico e intervenção terapêutica.',
+    'Gestão de Recursos Humanos' => 'Formação em gestão de pessoas, contribuindo para uma visão ampla das relações humanas no ambiente organizacional.',
+    'Terapia de Casal e Família' => 'Capacitação especializada em atendimento de casais e famílias, com foco nas dinâmicas relacionais e conjugais.',
+    'Casal e Família' => 'Aprofundamento teórico e clínico nas questões conjugais e familiares sob a perspectiva psicanalítica.',
+    'Aperfeiçoamento em Psicologia Perinatal' => 'Formação em psicologia perinatal, abrangendo o acompanhamento da gestação, parto e puerpério.',
+    'Formação em Psicanálise – Em percurso' => 'Formação contínua em psicanálise, aprofundando a prática clínica e a escuta analítica.',
+];
+
+require_once __DIR__ . '/header.php';
 ?>
 
-<section class="page-header">
-    <div class="container">
-        
-        <h1>Minhas formações</h1>
-        <div class="post-meta">Psicóloga Michely Ciardulo — <strong>CRP 06/176130</strong></div>
-    </div>
-</section>
+<div id="smooth-wrapper">
+    <div id="smooth-content">
+        <main class="main-bg o-hidden">
 
-<section class="page-content formacoes-grid" style="background:#f8f9fa;">
-    <div class="container">
-        <div class="row">
-            <?php foreach ($formacoes as $f): ?>
-            <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
-                <div style="background:#fff; border-radius:12px; padding:30px; height:100%; box-shadow:0 4px 20px rgba(0,0,0,0.06); border-left:4px solid  #6371fd;">
-                    <div style="display:flex; align-items:center; gap:15px; margin-bottom:15px;">
-                        <span class="sc_two" style="width:60px; height:60px; line-height:60px; text-align:center; border-radius:30px; font-size:26px; flex-shrink:0; display:inline-block;"><ion-icon name="<?= $f['icon'] ?>"><svg aria-hidden="true"><use href="#i-<?= $f['icon'] ?>"></use></svg></ion-icon></span>
-                        <div>
-                            <h3 style="font-size:18px; font-weight:700; color:#525fe1; margin:0;"><?= $f['titulo'] ?></h3>
-                            <p style="font-size:13px; color:#2d4a7a; font-weight:600; margin:5px 0 0;"><?= $f['inst'] ?></p>
+            <header class="header page-header section-padding valign">
+                <div class="container pt-80">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="text-center">
+                                <h6 class="sub-title main-color mb-15">Trajetória e formação</h6>
+                                <h1 class="text-u ls1 fz-80">Minhas formações</h1>
+                                <p class="mt-15">Psicóloga Michely Ciardulo — <?= $site['crp'] ?></p>
+                            </div>
                         </div>
                     </div>
-                    <p style="font-size:15px; color:#555; line-height:1.7; margin:0;"><?= $f['desc'] ?></p>
                 </div>
-            </div>
-            <?php endforeach; ?>
-        </div>
-    </div>
-</section>
+            </header>
 
-<section class="page-cta">
-    <div class="container">
-        <h3>Qualificação a serviço do seu bem-estar</h3>
-        <p>Agende sua consulta com uma profissional especializada.</p>
-        <a href="<?= $whatsapp_url ?>" class="btn-whatsapp" target="_blank">
-            <ion-icon name="logo-whatsapp" style="vertical-align:middle; margin-right:8px;"><svg aria-hidden="true"><use href="#i-logo-whatsapp"></use></svg></ion-icon>
-            Agendar Consulta
-        </a>
-    </div>
-</section>
+            <section class="feat section-padding">
+                <div class="container">
+                    <div class="row">
+                        <?php foreach ($formacoes as $i => $f): ?>
+                            <div class="col-lg-6">
+                                <div class="item-box radius-15 mb-30">
+                                    <span class="mb-30 p-color"><?= str_pad($i + 1, 2, '0', STR_PAD_LEFT) ?> .</span>
+                                    <h6 class="mb-10"><?= $f['titulo'] ?></h6>
+                                    <h6 class="sub-title main-color mb-20"><?= $f['instituicao'] ?></h6>
+                                    <p><?= $formacoes_detalhe[$f['titulo']] ?? '' ?></p>
+                                </div>
+                            </div>
+                        <?php endforeach; ?>
+                    </div>
+                </div>
+            </section>
 
-<?php require_once __DIR__ . '/footer.php'; ?>
+            <section class="intro section-padding pt-0">
+                <div class="container">
+                    <div class="sec-bottom">
+                        <div class="sub-bg d-flex align-items-center">
+                            <div>
+                                <h4 class="mb-15">Qualificação a serviço do seu bem-estar</h4>
+                                <p>Agende sua consulta com uma profissional especializada.</p>
+                            </div>
+                            <div class="ml-auto">
+                                <a href="<?= $whatsapp_url ?>" target="_blank" rel="noopener nofollow" class="butn butn-md butn-bord radius-30">
+                                    <span class="text">Agendar consulta</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <?php require __DIR__ . '/partials-marq-cta.php'; ?>
+
+        </main>
+
+        <?php require_once __DIR__ . '/footer.php'; ?>
+    </div>
+</div>
+
+<?php require_once __DIR__ . '/scripts.php'; ?>
