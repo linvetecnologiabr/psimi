@@ -15,14 +15,14 @@ require_once __DIR__ . '/header.php';
                             <div class="caption">
 
                                 <h1 class="fw-700 mb-10">
-                                    Promovendo relações autênticas através da
-                                    <span class="main-color">Psicanálise.</span>
+                                    Um espaço de escuta para olhar para o sofrimento, os
+                                    <span class="main-color">vínculos</span> e as histórias que nos constituem.
                                 </h1>
-                                <h3><?= $site['nome'] ?> — <?= $site['profissao'] ?> · <?= $site['crp'] ?></h3>
+                                <h3><?= $site['nome'] ?> · <?= $site['profissao'] ?> · <?= $site['crp'] ?></h3>
                                 <div class="row">
                                     <div class="col-lg-9">
                                         <div class="text mt-30">
-                                            <p>Psicóloga, dedicada à Psicanálise e a relacionamentos autênticos.</p>
+                                            <p>Psicóloga clínica, com uma escuta voltada às singularidades, aos vínculos e às questões que emergem ao longo da vida.</p>
                                         </div>
                                         <div class="d-flex align-items-center mt-60">
                                             <a href="<?= $whatsapp_url ?>" target="_blank" rel="noopener nofollow" class="butn butn-md butn-bord radius-30">
@@ -90,10 +90,11 @@ require_once __DIR__ . '/header.php';
                                 <h6 class="sub-title main-color mb-30">Sobre mim</h6>
                                 <div class="text">
                                     <h4 class="mb-30">
-                                        Sou Psicóloga,
-                                        <span class="fw-200">me oriento pela teoria psicanalítica, te ajudo a compreender e refletir seu lugar nas relações e no mundo, promovendo o autoconhecimento.</span>
+                                        Sou psicóloga clínica,
+                                        <span class="fw-200">me oriento pela psicanálise. Meu trabalho parte da escuta daquilo que cada pessoa traz, considerando sua história, seus vínculos, seus conflitos, seus desejos e os modos como certas questões podem se repetir ao longo da vida.</span>
                                     </h4>
-                                    <p>Sou pós-graduada em teoria psicanalítica e pós-graduada em saúde mental e psiquiatria. Realizo atendimento psicológico na modalidade online e presencial, sempre prezando pela ética, escuta ativa e acolhimento.</p>
+                                    <p class="mb-20">Acredito no espaço clínico como possibilidade de falar sobre aquilo que causa sofrimento, inclusive quando ainda não encontramos palavras para nomeá-lo. Mais do que buscar respostas prontas, trata-se de dar lugar à própria história e ao que nela insiste em aparecer.</p>
+                                    <p>Sou pós-graduada em Teoria Psicanalítica e em Saúde Mental e Psiquiatria e sigo em percurso de formação em Psicanálise. Realizo psicoterapia online e presencial para adolescentes, adultos e casais.</p>
 
                                     <div class="numbers mt-50">
                                         <div class="row lg-marg">
@@ -128,7 +129,7 @@ require_once __DIR__ . '/header.php';
                     <div class="sec-head mb-80">
                         <div class="d-flex align-items-center">
                             <div>
-                                <span class="sub-title main-color mb-5">Minhas especialidades</span>
+                                <span class="sub-title main-color mb-5">Temas que podem ser trabalhados em psicoterapia</span>
                                 <h3 class="fw-600 fz-50 text-u d-rotate wow">
                                     <span class="rotate-text">Confira as <span class="fw-200">especialidades.</span></span>
                                 </h3>

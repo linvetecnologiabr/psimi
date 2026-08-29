@@ -20,25 +20,25 @@ $whatsapp_url = 'https://api.whatsapp.com/send?phone=5511913418537&text=Ol%C3%A1
 $instagram_url = 'https://www.instagram.com/psi.michelyciardulo/';
 
 $atendimento = [
-    'Sessões online e presencial',
-    'Acompanhamento terapêutico a adolescentes, adultos e casais',
-    'Focada no sujeito, em seus afetos e sua forma de ver o mundo',
-    'Ética, escuta ativa e acolhimento',
+    'Sessões online e presenciais',
+    'Atendimento a adolescentes, adultos e casais',
+    'Um olhar para o sujeito, seus afetos, vínculos e sua forma singular de estar no mundo',
+    'Ética, escuta e respeito à singularidade de cada história',
 ];
 
 // O resumo de cada especialidade e o paragrafo de abertura (lead) da propria pagina interna
 $especialidades = [
-    ['titulo' => 'Terapia de casal', 'slug' => 'terapia-de-casal', 'resumo' => 'A terapia de casal é uma ferramenta essencial na jornada de compreensão e fortalecimento dos vínculos afetivos, onde exploramos as influências familiares, expectativas sociais e dinâmicas inconscientes.', 'img' => 'thumb01.webp'],
+    ['titulo' => 'Terapia de casal', 'slug' => 'terapia-de-casal', 'resumo' => 'As relações que construímos também podem revelar conflitos, desejos e lugares que ocupamos diante do outro.', 'img' => 'thumb01.webp'],
     ['titulo' => 'Violência doméstica', 'slug' => 'violencia-domestica', 'resumo' => 'A violência doméstica é uma das formas mais devastadoras de sofrimento humano. O atendimento psicológico oferece um espaço seguro de acolhimento, escuta e reconstrução para quem vivencia essa realidade.', 'img' => 'thumb02.webp'],
     ['titulo' => 'Depressão', 'slug' => 'depressao', 'resumo' => 'A depressão vai além da tristeza. É um sofrimento profundo que afeta a forma como a pessoa se relaciona consigo mesma, com os outros e com o mundo. A psicoterapia é fundamental para a compreensão e elaboração desse quadro.', 'img' => 'thumb03.webp'],
-    ['titulo' => 'Morte e Luto', 'slug' => 'morte-e-luto', 'resumo' => 'Há perdas que reorganizam o mundo. Quando alguém amado morre, não se perde apenas uma pessoa: perde-se uma presença cotidiana, uma voz familiar, um olhar que reconhecia.', 'img' => 'thumb04.webp'],
-    ['titulo' => 'Ansiedade', 'slug' => 'ansiedade', 'resumo' => 'A ansiedade é uma resposta natural do organismo diante de situações de incerteza ou ameaça. Porém, quando se torna excessiva e constante, pode comprometer significativamente a qualidade de vida.', 'img' => 'thumb05.webp'],
-    ['titulo' => 'Insegurança', 'slug' => 'inseguranca', 'resumo' => 'A insegurança pode se manifestar em diversas áreas da vida — nos relacionamentos, no trabalho, nas decisões cotidianas. A terapia ajuda a compreender suas raízes e construir uma relação mais segura consigo mesmo.', 'img' => 'thumb06.webp'],
-    ['titulo' => 'Baixa autoestima', 'slug' => 'baixa-autoestima', 'resumo' => 'A baixa autoestima afeta profundamente a forma como nos relacionamos com nós mesmos e com o mundo. A terapia ajuda a reconstruir a autoimagem e a desenvolver uma relação mais compassiva consigo mesmo.', 'img' => 'thumb07.webp'],
-    ['titulo' => 'Dependência emocional', 'slug' => 'dependencia-emocional', 'resumo' => 'Dependência emocional, simbiose e a "prateleira do amor": como se formam os laços em que a presença do outro passa a sustentar a própria existência.', 'img' => 'thumb08.webp'],
+    ['titulo' => 'Morte e Luto', 'slug' => 'morte-e-luto', 'resumo' => 'Há perdas que reorganizam o mundo.', 'img' => 'thumb04.webp'],
+    ['titulo' => 'Ansiedade', 'slug' => 'ansiedade', 'resumo' => 'Quando aquilo que acontece por dentro começa a ocupar espaço demais.', 'img' => 'thumb05.webp'],
+    ['titulo' => 'Insegurança', 'slug' => 'inseguranca', 'resumo' => 'A maneira como uma pessoa se percebe também é atravessada por sua história e por suas relações.', 'img' => 'thumb06.webp'],
+    ['titulo' => 'Autoestima', 'slug' => 'baixa-autoestima', 'resumo' => 'Por trás da baixa autoestima, muitas vezes existe mais do que uma imagem negativa de si.', 'img' => 'thumb07.webp'],
+    ['titulo' => 'Dependência emocional', 'slug' => 'dependencia-emocional', 'resumo' => 'A dependência emocional pode aparecer quando a presença, a aprovação ou o reconhecimento do outro parecem se tornar necessários para sustentar a própria vida.', 'img' => 'thumb08.webp'],
     ['titulo' => 'Burnout', 'slug' => 'burnout', 'resumo' => 'O Burnout — ou Síndrome do Esgotamento Profissional — é muito mais do que "estresse no trabalho". É um estado de exaustão física, emocional e mental causado por uma relação adoecida com o trabalho e suas demandas.', 'img' => 'thumb09.webp'],
     ['titulo' => 'Autoconhecimento', 'slug' => 'mudanca-de-carreira', 'resumo' => 'Autoconhecer-se não é um exercício de autoanálise solitária nem uma busca por uma versão ideal de si mesmo. Também não se trata de alcançar um estado permanente de equilíbrio ou clareza absoluta.', 'img' => 'thumb10.webp'],
-    ['titulo' => 'Solidão e Conexão Social', 'slug' => 'solidao-e-conexao-social', 'resumo' => 'A solidão não é simples estado emocional nem fenômeno superficial. É um sinal de que as conexões sociais — que estruturam a vida psíquica — estão fragilizadas ou insuficientes.', 'img' => 'thumb-solidao.webp'],
+    ['titulo' => 'Solidão e Conexão Social', 'slug' => 'solidao-e-conexao-social', 'resumo' => 'A solidão não é simples estado emocional nem fenômeno superficial. É um sinal de que as conexões sociais — que estruturam a vida psíquica — estão fragilizadas ou insuficientes. Embora vivamos em um mundo intensamente conectado digitalmente, muitas pessoas relatam sensação de isolamento profundo.', 'img' => 'thumb-solidao.webp'],
 ];
 
 $formacoes = [
@@ -49,7 +49,6 @@ $formacoes = [
     ['titulo' => 'Terapia de Casal e Família', 'instituicao' => 'Instituto Gaio'],
     ['titulo' => 'Casal e Família', 'instituicao' => 'Livraria do Psicanalista'],
     ['titulo' => 'Aperfeiçoamento em Psicologia Perinatal', 'instituicao' => 'Instituto Escutha'],
-    ['titulo' => 'Formação em Psicanálise – Em percurso', 'instituicao' => 'Instituto Távola'],
 ];
 
 $depoimentos = [
@@ -70,13 +69,13 @@ $depoimentos = [
 ];
 
 $faqs = [
-    ['pergunta' => 'Como posso agendar uma consulta?', 'resposta' => 'Para agendar uma consulta, você pode acessar a seção "Agendar Consulta" no site e seguir as instruções. Você também pode entrar em contato diretamente pelo WhatsApp ou e-mail fornecidos.'],
-    ['pergunta' => 'Como funcionam as sessões de terapia?', 'resposta' => 'Cada sessão é focada no sujeito, em seus afetos e em sua forma de ser no mundo, promovendo autoconhecimento e melhorando a qualidade das relações.'],
-    ['pergunta' => 'Quais são as modalidades de atendimento oferecidas?', 'resposta' => 'A Psicóloga Michely Ciardulo oferece sessões tanto online quanto presenciais, adaptando-se à sua conveniência e necessidades.'],
-    ['pergunta' => 'Quem pode se beneficiar da terapia?', 'resposta' => 'A Psicóloga Michely Ciardulo atende adolescentes, adultos e casais. Minha abordagem foca em melhorar suas relações e bem-estar emocional, ajudando você a enfrentar desafios pessoais e a desenvolver um autoconhecimento mais profundo.'],
-    ['pergunta' => 'Como funciona o reembolso de planos de saúde?', 'resposta' => 'Atualmente a Psicóloga Michely Ciardulo atua com atendimento particular. No entanto, emito nota fiscal de acordo com os valores pagos na sessão para que você verifique o reembolso junto ao seu plano. A maioria dos planos de saúde oferece reembolso. Você paga pelo valor da sessão, eu forneço a nota fiscal e você encaminha ao plano junto com o encaminhamento médico para reembolso. É importante ter um encaminhamento médico de qualquer especialidade para a psicoterapia. Cada convênio tem seus próprios critérios, então recomendo que você verifique com seu plano os detalhes sobre o reembolso.'],
-    ['pergunta' => 'Quais são as especialidades oferecidas?', 'resposta' => 'As especialidades da Psicóloga Michely Ciardulo incluem terapia de casal, violência doméstica, depressão, luto, ansiedade, insegurança, baixa autoestima, dependência emocional, burnout, autoconhecimento e solidão e conexão social.'],
-    ['pergunta' => 'Quais são as qualificações da Michely?', 'resposta' => 'A Psicóloga Michely Ciardulo é Bacharel em Psicologia, pós-graduada em Teoria Psicanalítica, Saúde Mental e Psiquiatria, entre outras especializações. Sempre prezo pela ética, escuta ativa e acolhimento.'],
+    ['pergunta' => 'Como posso agendar uma consulta?', 'resposta' => 'Para agendar uma sessão, entre em contato pelo WhatsApp: (11) 91341-8537. A partir desse primeiro contato, combinamos um horário para o encontro inicial. Esse primeiro encontro é um momento para nos conhecermos e para que eu possa escutar o que o trouxe até aqui, suas demandas e as questões que atravessam esse momento. A partir dessa escuta, conversaremos sobre a possibilidade de dar continuidade ao trabalho.'],
+    ['pergunta' => 'Como funcionam as sessões de terapia?', 'resposta' => 'As sessões acontecem semanalmente, com duração aproximada de 45 a 50 minutos. A partir da fala, abre-se um espaço para escutar aquilo que atravessa cada experiência, sua história, seus vínculos, conflitos e também aquilo que, muitas vezes, ainda não pôde ser colocado em palavras.'],
+    ['pergunta' => 'Quais são as modalidades de atendimento oferecidas?', 'resposta' => 'Os atendimentos podem ser realizados de forma online, com maior flexibilidade de horários, ou presencialmente, no endereço R. Restinga, 113, Tatuapé, São Paulo, SP. A modalidade e o horário são combinados de acordo com a disponibilidade da agenda.'],
+    ['pergunta' => 'Quando procurar psicoterapia?', 'resposta' => 'A psicoterapia é um espaço para quem atravessa momentos de sofrimento, angústia, conflitos, dúvidas ou mudanças e deseja compreender melhor o que está vivendo e os afetos que atravessam essas experiências. Pode também ser um espaço para olhar para aquilo que se repete nas relações, nas escolhas e na forma de se relacionar consigo e com o outro, mesmo quando não é possível compreender ou nomear exatamente o que acontece.'],
+    ['pergunta' => 'Como funciona o reembolso de planos de saúde?', 'resposta' => 'Os atendimentos são particulares, com emissão de nota fiscal no valor pago pela sessão. A nota pode ser utilizada para solicitar o reembolso junto ao seu plano de saúde, conforme as condições e critérios de cada operadora. Recomenda-se consultar o plano previamente sobre valores, documentos necessários e necessidade de encaminhamento médico.'],
+    ['pergunta' => 'Quais questões podem ser trabalhadas na psicoterapia?', 'resposta' => 'A psicoterapia pode ser procurada diante de diferentes formas de sofrimento e questões que atravessam a vida, como ansiedade, depressão, luto, conflitos nos relacionamentos, violência doméstica, dependência emocional, inseguranças, autoestima, solidão e dificuldades nos vínculos. Também acolhe questões relacionadas à gestação, maternidade, filhos, parentalidade, sobrecarga, culpa, limites, identidade, relações familiares, vida profissional, burnout, às expectativas sociais que atravessam as experiências de gênero, entre outras questões.'],
+    ['pergunta' => 'Quais são as minhas qualificações?', 'resposta' => 'Sou psicóloga, formada em Psicologia pela Universidade Nove de Julho (UNINOVE), com pós-graduação em Teoria Psicanalítica e em Saúde Mental e Psiquiatria. Atuo na clínica desde 2022, com adolescentes e adultos, em atendimentos online e presenciais. Ao longo da minha trajetória, venho me dedicando à compreensão das diferentes formas de sofrimento e das questões que atravessam os vínculos, a vida familiar, a maternidade, as relações e a vida profissional. Também possuo formação complementar em Psicologia Perinatal e em Terapia de Casal e Família, além de capacitação em Plantão Psicológico. Sou autora do artigo científico Fibromialgia: Aspectos Dolorosos e Psicossomáticos, publicado em 2022 na Revista Ibero-Americana de Humanidades, Ciências e Educação.'],
 ];
 
 $posts = [

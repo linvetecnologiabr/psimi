@@ -191,7 +191,9 @@
 }
 
 .header-personal.full-vh .caption h1 {
-    font-size: clamp(34px, 4.2vw, 64px);
+    font-size: clamp(28px, 3.3vw, 52px);
+    line-height: 1.15;
+    margin-bottom: 22px !important;
 }
 
 .header-personal.full-vh .caption h1 .main-color {

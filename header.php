@@ -2,10 +2,17 @@
 require_once __DIR__ . '/data.php';
 
 $is_local = in_array($_SERVER['HTTP_HOST'] ?? '', ['localhost', '127.0.0.1']);
-$base_url = $is_local ? '/michely-new' : '';
+// Em producao o site fica na raiz do dominio. No XAMPP ele roda dentro de uma
+// pasta, entao o prefixo sai do proprio caminho do script.
+$base_url = '';
+if ($is_local) {
+    $script = str_replace('\\', '/', $_SERVER['SCRIPT_NAME'] ?? '');
+    $partes = explode('/', trim($script, '/'));
+    $base_url = $partes ? '/' . $partes[0] : '';
+}
 $assets = $base_url . '/assets';
 $img = $assets . '/imgs/michely';
-$site_url = $is_local ? 'http://localhost/michely-new' : 'https://michelyciardulo.com.br';
+$site_url = $is_local ? 'http://localhost' . $base_url : 'https://michelyciardulo.com.br';
 
 $page_title = $page_title ?? 'Psicóloga Michely Ciardulo | CRP 06/176130';
 $meta_description = $meta_description ?? 'Psicóloga Michely Ciardulo - Atendimento psicológico presencial e online. Especialista em Psicanálise, terapia de casal, ansiedade, burnout, depressão e autoconhecimento. CRP 06/176130';
@@ -14,7 +21,7 @@ $body_class = $body_class ?? 'home-personal';
 // Canonical: sem .php, sem query e sem barra final, exceto /blog/ e /especialidades/,
 // que sao diretorios reais. Mesma regra do site atual.
 $caminho = strtok($_SERVER['REQUEST_URI'] ?? '/', '?');
-if ($is_local && $base_url !== '') {
+if ($is_local && $base_url !== '' && strpos($caminho, $base_url) === 0) {
     $caminho = substr($caminho, strlen($base_url)) ?: '/';
 }
 $caminho = preg_replace('/index\.php$/', '', $caminho);
