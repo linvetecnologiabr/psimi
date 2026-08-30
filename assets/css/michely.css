@@ -582,8 +582,8 @@
     width: -webkit-fit-content;
     width: fit-content;
     max-width: 100%;
-    padding: 11px 22px;
-    border-radius: 8px;
+    padding: 11px 26px;
+    border-radius: 100px;
     background: #f7b378;
     color: #1f2b2e;
     border: 1px solid #f7b378;
@@ -675,7 +675,8 @@
         font-size: 14px;
         line-height: 1.45;
         letter-spacing: 0.3px;
-        padding: 9px 16px;
+        padding: 10px 20px;
+        border-radius: 100px;
     }
 
     /* O paragrafo repete a ideia do titulo: no celular ele so empurra o texto
