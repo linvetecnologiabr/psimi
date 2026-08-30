@@ -112,7 +112,6 @@ $og_type = $og_type ?? 'website';
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KL6QCM4Z" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
-    <div class="cursor"></div>
 
     <div class="progress-wrap cursor-pointer">
         <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">

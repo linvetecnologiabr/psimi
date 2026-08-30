@@ -508,12 +508,48 @@
 }
 
 @media screen and (max-width: 991px) {
+    /* No mobile o pin/scale do template deixa os cards sobrepostos e enormes.
+       O JS desliga o ScrollTrigger; isto garante que nenhum transform inline
+       sobre do GSAP. */
+    /* O pin cria um .pin-spacer e trava altura/overflow no card por style
+       inline: sem soltar os dois, a imagem (que vem depois do texto) fica
+       cortada. */
     .work-card .cards .card-item {
+        height: auto !important;
+        max-height: none !important;
+        overflow: visible !important;
+        transform: none !important;
+        position: relative !important;
+        inset: auto !important;
+        margin-bottom: 24px;
+    }
+
+    .work-card .pin-spacer {
+        height: auto !important;
+        min-height: 0 !important;
+        padding: 0 !important;
+    }
+
+    /* Empilha texto e imagem, sem altura herdada do layout de duas colunas */
+    .work-card .card-item .row {
+        display: block;
+    }
+
+    .work-card .card-item .cont {
         height: auto;
+        display: block;
+        padding: 28px 24px 8px;
+    }
+
+    .work-card .card-item .img {
+        height: auto;
+        padding: 0 24px 24px;
     }
 
     .work-card .card-item .img img {
-        height: 260px;
+        height: 220px;
+        width: 100%;
+        object-fit: cover;
     }
 
     .work-card .card-item .cont p {
@@ -538,8 +574,30 @@
     background: radial-gradient(circle, #f7b378 0%, transparent 66%);
 }
 
+/* Assinatura (nome, profissao, CRP) como etiqueta destacada */
 .header-personal.full-vh .caption h3 {
-    font-size: clamp(18px, 1.5vw, 26px);
+    font-size: clamp(16px, 1.3vw, 21px);
+    font-weight: 600;
+    display: inline-block;
+    width: -webkit-fit-content;
+    width: fit-content;
+    max-width: 100%;
+    padding: 11px 22px;
+    border-radius: 8px;
+    background: #f7b378;
+    color: #1f2b2e;
+    border: 1px solid #f7b378;
+    letter-spacing: 0.2px;
+}
+
+/* O CRP nunca parte no meio: ou fica na mesma linha, ou desce inteiro */
+.header-personal.full-vh .caption h3 .assinatura-crp {
+    white-space: nowrap;
+    color: inherit;
+}
+
+.header-personal.full-vh .caption h3 .assinatura-crp:before {
+    content: '· ';
 }
 
 /* div.text, nao o span.text de dentro do botao */
@@ -581,8 +639,57 @@
 @media screen and (max-width: 991px) {
     .header-personal.full-vh {
         height: auto;
-        min-height: 100vh;
-        padding: 130px 0 60px;
+        /* Slide mais baixo no celular e conteudo ancorado embaixo, para o
+           rosto ficar limpo na parte de cima. */
+        min-height: 78vh;
+        min-height: 78svh;
+        padding: 110px 0 40px;
+        background-position: 72% top;
+    }
+
+    .header-personal.full-vh .container {
+        justify-content: flex-end;
+    }
+
+    .header-personal.full-vh .container>.row {
+        margin-top: auto;
+        margin-bottom: 0;
+    }
+
+    /* Escuro so na metade de baixo: em cima a foto aparece, embaixo o texto le */
+    .header-personal.full-vh:before {
+        background: linear-gradient(180deg, rgba(15, 15, 15, 0.18) 0%, rgba(15, 15, 15, 0.55) 42%, rgba(15, 15, 15, 0.9) 100%);
+    }
+
+    .header-personal.full-vh .info {
+        display: none !important;
+    }
+
+    .header-personal.full-vh .caption h1 {
+        font-size: 23px;
+        line-height: 1.3;
+        margin-bottom: 14px !important;
+    }
+
+    .header-personal.full-vh .caption h3 {
+        font-size: 14px;
+        line-height: 1.45;
+        letter-spacing: 0.3px;
+        padding: 9px 16px;
+    }
+
+    /* O paragrafo repete a ideia do titulo: no celular ele so empurra o texto
+       por cima do rosto. */
+    .header-personal.full-vh .caption div.text {
+        display: none;
+    }
+
+    .header-personal.full-vh .caption .d-flex.mt-60 {
+        margin-top: 28px !important;
+    }
+
+    .header-personal.full-vh .caption .icon-img-60 {
+        display: none;
     }
 }
 
@@ -659,18 +766,20 @@
     flex: 1;
 }
 
-/* Navbar segue transparente ao rolar (como no template). O brightness no
-   backdrop escurece o que passa atras, entao o menu branco continua legivel
-   sobre as secoes claras sem virar uma barra solida. */
+/* No topo a navbar fica limpa, sem faixa. So ao rolar entra o blur com
+   brightness, que escurece o que passa atras e mantem o menu legivel tambem
+   sobre as secoes claras, sem virar uma barra solida. */
 .navbar,
-.navbar.blur,
+.navbar.blur {
+    background: transparent;
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+}
+
 .navbar.nav-scroll {
     background: transparent;
     -webkit-backdrop-filter: blur(12px) brightness(0.78);
     backdrop-filter: blur(12px) brightness(0.78);
-}
-
-.navbar.nav-scroll {
     border-bottom-color: rgba(255, 255, 255, 0.08) !important;
 }
 
