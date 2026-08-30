@@ -6,13 +6,13 @@
                 <?php for ($i = 0; $i < 12; $i++): ?>
                     <div class="item">
                         <h4 class="d-flex align-items-center">
-                            <span>Agendar consulta</span>
+                            <span>Agendar atendimento</span>
                             <span class="icon-img-50 ml-40"><img src="<?= $assets ?>/imgs/star.png" alt="" width="50" height="50" loading="lazy" decoding="async"></span>
                         </h4>
                     </div>
                 <?php endfor; ?>
             </div>
-            <a href="<?= $whatsapp_url ?>" target="_blank" rel="noopener nofollow" class="overlay-link" aria-label="Agendar consulta pelo WhatsApp"></a>
+            <a href="<?= $whatsapp_url ?>" target="_blank" rel="noopener nofollow" class="overlay-link" aria-label="Agendar atendimento pelo WhatsApp"></a>
         </div>
     </div>
     <div class="main-marq bord-item">

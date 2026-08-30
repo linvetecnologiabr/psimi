@@ -26,7 +26,7 @@ require_once __DIR__ . '/header.php';
                                         </div>
                                         <div class="d-flex align-items-center mt-60">
                                             <a href="<?= $whatsapp_url ?>" target="_blank" rel="noopener nofollow" class="butn butn-md butn-bord radius-30">
-                                                <span class="text">Agendar consulta</span>
+                                                <span class="text">Agendar atendimento</span>
                                             </a>
                                             <div class="icon-img-60 ml-20">
                                                 <img src="<?= $assets ?>/imgs/icon-img/arrow-down-big.png" alt="" width="60" height="60" decoding="async">
@@ -207,7 +207,7 @@ require_once __DIR__ . '/header.php';
                     </div>
                     <div class="text-center mt-50">
                         <a href="<?= $whatsapp_url ?>" target="_blank" rel="noopener nofollow" class="butn butn-md butn-bord radius-30">
-                            <span class="text">Agende sua consulta</span>
+                            <span class="text">Agende seu atendimento</span>
                         </a>
                     </div>
                 </div>
@@ -345,13 +345,13 @@ require_once __DIR__ . '/header.php';
                             <?php for ($i = 0; $i < 12; $i++): ?>
                                 <div class="item">
                                     <h4 class="d-flex align-items-center">
-                                        <span>Agendar consulta</span>
+                                        <span>Agendar atendimento</span>
                                         <span class="icon-img-50 ml-40"><img src="<?= $assets ?>/imgs/star.png" alt="" width="50" height="50" loading="lazy" decoding="async"></span>
                                     </h4>
                                 </div>
                             <?php endfor; ?>
                         </div>
-                        <a href="<?= $whatsapp_url ?>" target="_blank" rel="noopener nofollow" class="overlay-link" aria-label="Agendar consulta pelo WhatsApp"></a>
+                        <a href="<?= $whatsapp_url ?>" target="_blank" rel="noopener nofollow" class="overlay-link" aria-label="Agendar atendimento pelo WhatsApp"></a>
                     </div>
                 </div>
                 <div class="main-marq bord-item">

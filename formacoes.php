@@ -65,11 +65,11 @@ require_once __DIR__ . '/header.php';
                         <div class="sub-bg d-flex align-items-center">
                             <div>
                                 <h4 class="mb-15">Qualificação a serviço do seu bem-estar</h4>
-                                <p>Agende sua consulta com uma profissional especializada.</p>
+                                <p>Agende seu atendimento com uma profissional especializada.</p>
                             </div>
                             <div class="ml-auto">
                                 <a href="<?= $whatsapp_url ?>" target="_blank" rel="noopener nofollow" class="butn butn-md butn-bord radius-30">
-                                    <span class="text">Agendar consulta</span>
+                                    <span class="text">Agendar atendimento</span>
                                 </a>
                             </div>
                         </div>

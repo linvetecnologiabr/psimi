@@ -146,7 +146,7 @@ $og_type = $og_type ?? 'website';
 
             <div class="contact-button">
                 <a href="<?= $whatsapp_url ?>" target="_blank" rel="noopener nofollow" class="butn butn-sm butn-bg main-colorbg radius-5">
-                    <span class="text">Agendar consulta</span>
+                    <span class="text">Agendar atendimento</span>
                 </a>
             </div>
         </div>

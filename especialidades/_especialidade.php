@@ -133,7 +133,7 @@ require_once __DIR__ . '/../header.php';
                             </div>
                             <div class="ml-auto">
                                 <a href="<?= $whatsapp_url ?>" target="_blank" rel="noopener nofollow" class="butn butn-md butn-bord radius-30">
-                                    <span class="text">Agendar consulta</span>
+                                    <span class="text">Agendar atendimento</span>
                                 </a>
                             </div>
                         </div>
