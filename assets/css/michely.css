@@ -1051,3 +1051,240 @@
     object-position: 78% center;
     border-radius: 12px;
 }
+/* Botao "Agendar atendimento" da navbar: em pagina de fundo claro o texto
+   herdava a cor escura do body e ficava preto sobre o verde. */
+.navbar .contact-button .butn-bg,
+.navbar .contact-button .butn-bg .text {
+    color: #fff !important;
+}
+
+/* Listagem de especialidades: o fundo branco so existia para a pagina de
+   detalhe (.page-especialidade). A listagem, no plural, ficava com o preto
+   do template atras dos cards. */
+.page-especialidades,
+.page-especialidades .main-bg {
+    background: #fff !important;
+    color: #1f2b2e;
+}
+
+.page-especialidades .sec-head h2,
+.page-especialidades .sec-head h3,
+.page-especialidades .sec-head p {
+    color: #1f2b2e;
+}
+
+.page-especialidades [class*='bord'] {
+    border-color: rgba(31, 43, 46, 0.15) !important;
+}
+
+/* Caixa de CTA do rodape da secao: o texto de duas linhas encostava no botao,
+   porque o padding do tema (10px 30px) foi feito para uma linha so. */
+.page-interna .sec-bottom .d-flex,
+.page-especialidade .sec-bottom .d-flex {
+    padding: 26px 34px;
+    gap: 22px;
+    max-width: 100%;
+}
+
+.page-interna .sec-bottom .d-flex .ml-auto,
+.page-especialidade .sec-bottom .d-flex .ml-auto {
+    padding-left: 10px;
+}
+
+.page-interna .sec-bottom .sub-bg p {
+    margin-bottom: 0;
+}
+
+/* Selo da caixa de CTA */
+.sec-bottom .cta-icone {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.sec-bottom .cta-icone i {
+    font-size: 28px;
+    line-height: 1;
+    color: #f7b378;
+}
+
+@media screen and (max-width: 767px) {
+
+    .page-interna .sec-bottom .d-flex,
+    .page-especialidade .sec-bottom .d-flex {
+        display: block;
+        text-align: center;
+        padding: 26px 24px;
+    }
+
+    .sec-bottom .cta-icone {
+        margin: 0 auto 16px;
+    }
+
+    .page-interna .sec-bottom .d-flex .ml-auto,
+    .page-especialidade .sec-bottom .d-flex .ml-auto {
+        padding-left: 0;
+        margin-top: 22px;
+    }
+}
+
+/* Lista de diferenciais do "Sobre": o formato antigo era uma linha so por item,
+   com titulo e texto separados por travessao, e os itens colados. Agora cada
+   item tem icone proprio, titulo em cima e descricao embaixo. */
+.lista-diferenciais li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    gap: 16px;
+    padding-bottom: 22px;
+    margin-bottom: 22px;
+    border-bottom: 1px solid rgba(31, 43, 46, 0.12);
+}
+
+.lista-diferenciais li:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+
+.lista-diferenciais .ico {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: rgba(152, 116, 84, 0.12);
+    color: #987454;
+}
+
+.lista-diferenciais .ico i {
+    font-size: 22px;
+    line-height: 1;
+}
+
+.lista-diferenciais .cont {
+    display: block;
+}
+
+.lista-diferenciais .cont strong {
+    display: block;
+    color: #1f2b2e;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.lista-diferenciais .cont .txt {
+    display: block;
+    color: #4d5b60;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* "Quem sou": o h3 fica fora de .text, entao nao pegava o tamanho reduzido das
+   demais chamadas e saia com o corpo cheio do tema. */
+.page-interna .intro h3 {
+    font-size: clamp(20px, 1.7vw, 25px);
+    line-height: 1.4;
+    font-weight: 600;
+}
+
+/* Titulos de secao das paginas internas: fz-50 e grande demais e no desktop
+   ocupava a largura inteira. */
+.page-interna .sec-head h2.fz-50,
+.page-especialidades .sec-head h2.fz-50 {
+    font-size: clamp(26px, 2.6vw, 36px) !important;
+    line-height: 1.25;
+}
+
+/* Rodape em pagina de fundo claro: o `color` das paginas internas (#1f2b2e)
+   descia no cascade ate o rodape, que tem exatamente esse tom de fundo. O
+   resultado era texto invisivel, e o rodape parecia vazio. Vale para todas as
+   paginas claras, nao so uma. */
+.clean-footer,
+.clean-footer p,
+.clean-footer li,
+.clean-footer h6,
+.clean-footer address,
+.clean-footer .sub-title {
+    color: #fff;
+}
+
+.clean-footer a {
+    color: rgba(255, 255, 255, 0.85);
+    transition: color 0.25s;
+}
+
+.clean-footer a:hover {
+    color: #f7b378;
+}
+
+.clean-footer .sub-title {
+    color: #f7b378;
+}
+
+.clean-footer address {
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.clean-footer .main-color {
+    color: #f7b378 !important;
+}
+
+.clean-footer .social-icon a {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    color: #fff;
+}
+
+.clean-footer .social-icon a:hover {
+    background: #f7b378;
+    border-color: #f7b378;
+    color: #1f2b2e;
+}
+
+.clean-footer [class*='bord'] {
+    border-color: rgba(255, 255, 255, 0.15) !important;
+}
+
+/* A faixa de CTA compartilha o mesmo fundo escuro e o mesmo problema */
+.call-marq,
+.call-marq h4,
+.call-marq h4 span {
+    color: #fff;
+}

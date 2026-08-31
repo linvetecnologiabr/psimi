@@ -10,10 +10,10 @@ $breadcrumb = [
 ];
 
 $diferenciais = [
-    ['titulo' => 'Sessões online e presencial', 'texto' => 'Atendimento adaptado à sua rotina e necessidade.'],
-    ['titulo' => 'Adolescentes, adultos e casais', 'texto' => 'Acompanhamento terapêutico para diferentes fases da vida.'],
-    ['titulo' => 'Foco no sujeito', 'texto' => 'Em seus afetos e sua forma de ver o mundo.'],
-    ['titulo' => 'Ética e acolhimento', 'texto' => 'Sempre prezando pela escuta ativa e pelo respeito à sua singularidade.'],
+    ['icone' => 'pe-7s-monitor', 'titulo' => 'Sessões online e presencial', 'texto' => 'Atendimento adaptado à sua rotina e necessidade.'],
+    ['icone' => 'pe-7s-users', 'titulo' => 'Adolescentes, adultos e casais', 'texto' => 'Acompanhamento terapêutico para diferentes fases da vida.'],
+    ['icone' => 'pe-7s-look', 'titulo' => 'Foco no sujeito', 'texto' => 'Em seus afetos e sua forma de ver o mundo.'],
+    ['icone' => 'pe-7s-like2', 'titulo' => 'Ética e acolhimento', 'texto' => 'Sempre prezando pela escuta ativa e pelo respeito à sua singularidade.'],
 ];
 
 $como_funciona = [
@@ -60,10 +60,16 @@ require_once __DIR__ . '/header.php';
                                         <p class="mb-15">Sou pós-graduada em teoria psicanalítica e pós-graduada em saúde mental e psiquiatria. Realizo atendimento psicológico na modalidade online e presencial, sempre prezando pela ética, escuta ativa e acolhimento.</p>
                                         <p>Acredito que cada pessoa é singular e merece um espaço seguro para explorar suas questões, afetos e formas de se relacionar com o mundo. A psicanálise nos convida a olhar para além do óbvio, buscando compreender as motivações inconscientes que moldam nossas escolhas, relações e sintomas.</p>
 
-                                        <div class="mt-30">
-                                            <ul class="rest dot-list">
+                                        <div class="mt-40">
+                                            <ul class="rest lista-diferenciais">
                                                 <?php foreach ($diferenciais as $d): ?>
-                                                    <li class="mb-10"><strong><?= $d['titulo'] ?></strong> — <?= $d['texto'] ?></li>
+                                                    <li>
+                                                        <span class="ico" aria-hidden="true"><i class="<?= $d['icone'] ?>"></i></span>
+                                                        <span class="cont">
+                                                            <strong><?= $d['titulo'] ?></strong>
+                                                            <span class="txt"><?= $d['texto'] ?></span>
+                                                        </span>
+                                                    </li>
                                                 <?php endforeach; ?>
                                             </ul>
                                         </div>

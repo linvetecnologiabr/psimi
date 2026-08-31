@@ -63,6 +63,7 @@ require_once __DIR__ . '/header.php';
                 <div class="container">
                     <div class="sec-bottom">
                         <div class="sub-bg d-flex align-items-center">
+                            <div class="cta-icone" aria-hidden="true"><i class="pe-7s-medal"></i></div>
                             <div>
                                 <h4 class="mb-15">Qualificação a serviço do seu bem-estar</h4>
                                 <p>Agende seu atendimento com uma profissional especializada.</p>
