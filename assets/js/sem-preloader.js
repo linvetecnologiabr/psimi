@@ -63,13 +63,27 @@
     /* O template so adiciona .nav-scroll no evento de scroll. Quando a pagina
        abre ja rolada (link com #ancora, F5 no meio), a navbar ficava sem o
        fundo e o menu branco sumia sobre as secoes claras. */
-    function marcarNavbarSeJaRolado() {
+    /* O template so mostra a barra depois de 300px de rolagem. Aqui o limite
+       cai para 90px. Este listener e registrado depois do handler do template,
+       entao e ele que decide o estado final a cada evento de scroll. */
+    var LIMITE_NAVBAR = 90;
+
+    function atualizarNavbar() {
         var navbar = document.querySelector('.navbar');
         if (!navbar) return;
 
-        if (window.scrollY > 300) {
-            navbar.classList.add('nav-scroll');
+        // Classe propria: o handler do template tambem mexe na .nav-scroll e os
+        // dois se atropelavam, fazendo a barra piscar entre 90px e 300px.
+        if (window.scrollY > LIMITE_NAVBAR) {
+            navbar.classList.add('nav-visivel');
+        } else {
+            navbar.classList.remove('nav-visivel');
         }
+    }
+
+    function marcarNavbarSeJaRolado() {
+        atualizarNavbar();
+        window.addEventListener('scroll', atualizarNavbar, { passive: true });
     }
 
     function ajustar() {

@@ -56,7 +56,7 @@ if (!empty($breadcrumb)) {
 <script src="<?= $assets ?>/js/ScrollSmoother.min.js"></script>
 <script src="<?= $assets ?>/js/scripts-j.js"></script>
 <script src="<?= $assets ?>/js/scripts.js"></script>
-<script src="<?= $assets ?>/js/sem-preloader.js"></script>
+<script src="<?= $assets ?>/js/sem-preloader.js?v=<?= @filemtime(__DIR__ . '/assets/js/sem-preloader.js') ?>"></script>
 <script src="<?= $assets ?>/js/smoother-script.js"></script>
 <script src="<?= $assets ?>/js/exit-intent.js?v=<?= @filemtime(__DIR__ . '/assets/js/exit-intent.js') ?>"></script>
 </body>
