@@ -18,7 +18,7 @@ require_once __DIR__ . '/header.php';
                                     Um espaço de escuta para olhar para o sofrimento, os
                                     <span class="main-color">vínculos</span> e as histórias que nos constituem.
                                 </h1>
-                                <h3><span class="assinatura-texto"><?= $site['nome'] ?> · <?= $site['profissao'] ?> <span class="assinatura-crp"><?= $site['crp'] ?></span></span><i class="fas fa-check-circle assinatura-icone" aria-hidden="true"></i></h3>
+                                <h3><i class="fas fa-check-circle assinatura-icone" aria-hidden="true"></i><span class="assinatura-texto"><?= $site['nome'] ?> · <?= $site['profissao'] ?> <span class="assinatura-crp"><?= $site['crp'] ?></span></span></h3>
                                 <div class="row">
                                     <div class="col-lg-9">
                                         <div class="d-flex align-items-center mt-60">
