@@ -633,7 +633,13 @@
 .header-personal.full-vh .caption h3 {
     font-size: clamp(16px, 1.3vw, 21px);
     font-weight: 600;
-    display: inline-block;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 14px;
     width: -webkit-fit-content;
     width: fit-content;
     max-width: 100%;
@@ -643,6 +649,16 @@
     color: #1f2b2e;
     border: 1px solid #f7b378;
     letter-spacing: 0.2px;
+}
+
+/* Selo do registro profissional: fica centrado na direita mesmo quando o texto
+   quebra em duas linhas. */
+.header-personal.full-vh .caption h3 .assinatura-icone {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    font-size: 1.15em;
+    line-height: 1;
+    opacity: 0.75;
 }
 
 /* O CRP nunca parte no meio: ou fica na mesma linha, ou desce inteiro */
@@ -736,6 +752,7 @@
         padding: 10px 20px;
         border-radius: 100px;
         margin-top: 6px;
+        gap: 10px;
     }
 
     /* O paragrafo repete a ideia do titulo: no celular ele so empurra o texto
