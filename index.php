@@ -21,14 +21,8 @@ require_once __DIR__ . '/header.php';
                                 <h3><?= $site['nome'] ?> · <?= $site['profissao'] ?> <span class="assinatura-crp"><?= $site['crp'] ?></span></h3>
                                 <div class="row">
                                     <div class="col-lg-9">
-                                        <div class="text mt-30">
-                                            <p>Psicóloga clínica, com uma escuta voltada às singularidades, aos vínculos e às questões que emergem ao longo da vida.</p>
-                                        </div>
                                         <div class="d-flex align-items-center mt-60">
-                                            <a href="<?= $whatsapp_url ?>" target="_blank" rel="noopener nofollow" class="butn butn-md butn-bord radius-30">
-                                                <span class="text">Agendar atendimento</span>
-                                            </a>
-                                            <div class="icon-img-60 ml-20">
+                                            <div class="icon-img-60">
                                                 <img src="<?= $assets ?>/imgs/icon-img/arrow-down-big.png" alt="" width="60" height="60" decoding="async">
                                             </div>
                                         </div>
@@ -102,10 +96,10 @@ require_once __DIR__ . '/header.php';
                                                 <div class="col-md-6">
                                                     <div class="item bord-thin-top pt-30 d-flex align-items-end mt-20">
                                                         <div>
-                                                            <h6 class="p-color sub-title"><?= $item ?></h6>
+                                                            <h6 class="p-color sub-title"><?= $item['texto'] ?></h6>
                                                         </div>
                                                         <div class="ml-auto">
-                                                            <div class="icon-img-40"><img src="<?= $assets ?>/imgs/arw0.png" alt="" width="40" height="40" loading="lazy" decoding="async"></div>
+                                                            <div class="icon-atendimento"><i class="<?= $item['icone'] ?>" aria-hidden="true"></i></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -360,7 +354,10 @@ require_once __DIR__ . '/header.php';
                             <div class="box">
                                 <?php for ($i = 0; $i < 6; $i++): ?>
                                     <div class="item">
-                                        <h4 class="d-flex align-items-center"><span>Falar com a psicóloga</span></h4>
+                                        <h4 class="d-flex align-items-center">
+                                            <span>Falar com a psicóloga</span>
+                                            <span class="icon-img-50"></span>
+                                        </h4>
                                     </div>
                                 <?php endfor; ?>
                             </div>

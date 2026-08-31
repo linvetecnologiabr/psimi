@@ -21,7 +21,10 @@
                 <div class="box">
                     <?php for ($i = 0; $i < 6; $i++): ?>
                         <div class="item">
-                            <h4 class="d-flex align-items-center"><span>Falar com a psicóloga</span></h4>
+                            <h4 class="d-flex align-items-center">
+                                <span>Falar com a psicóloga</span>
+                                <span class="icon-img-50"></span>
+                            </h4>
                         </div>
                     <?php endfor; ?>
                 </div>

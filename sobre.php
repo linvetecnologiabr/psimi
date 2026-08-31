@@ -37,6 +37,7 @@ require_once __DIR__ . '/header.php';
                                 <h6 class="sub-title main-color mb-15">Sobre mim</h6>
                                 <h1 class="text-u ls1 fz-80">Michely Ciardulo</h1>
                                 <p class="mt-15">Psicóloga Clínica — <?= $site['crp'] ?></p>
+                                <p class="mt-15 lead-sobre">Psicóloga clínica, com uma escuta voltada às singularidades, aos vínculos e às questões que emergem ao longo da vida.</p>
                             </div>
                         </div>
                     </div>

@@ -20,10 +20,10 @@ $whatsapp_url = 'https://api.whatsapp.com/send?phone=5511913418537&text=Ol%C3%A1
 $instagram_url = 'https://www.instagram.com/psi.michelyciardulo/';
 
 $atendimento = [
-    'Sessões online e presenciais',
-    'Atendimento a adolescentes, adultos e casais',
-    'Um olhar para o sujeito, seus afetos, vínculos e sua forma singular de estar no mundo',
-    'Ética, escuta e respeito à singularidade de cada história',
+    ['texto' => 'Sessões online e presenciais', 'icone' => 'pe-7s-monitor'],
+    ['texto' => 'Atendimento a adolescentes, adultos e casais', 'icone' => 'pe-7s-users'],
+    ['texto' => 'Um olhar para o sujeito, seus afetos, vínculos e sua forma singular de estar no mundo', 'icone' => 'pe-7s-look'],
+    ['texto' => 'Ética, escuta e respeito à singularidade de cada história', 'icone' => 'pe-7s-chat'],
 ];
 
 // O resumo de cada especialidade e o paragrafo de abertura (lead) da propria pagina interna
