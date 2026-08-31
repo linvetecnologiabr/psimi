@@ -525,9 +525,18 @@
     z-index: 2;
 }
 
-.work-card .cards .card-item .cont .underline {
+/* O overlay .card-link cobre o card inteiro (z-index 2). O CTA precisa ficar
+   acima dele, senao o clique cai no overlay e o hover do botao nunca dispara. */
+.work-card .cards .card-item .cont .underline,
+.work-card .cards .card-item .cont .butn {
     position: relative;
     z-index: 3;
+}
+
+/* Botao do card: o .butn do tema e inline, entao sem isto ele fica na mesma
+   linha do paragrafo em vez de descer. */
+.work-card .cards .card-item .cont .butn {
+    display: inline-block;
 }
 
 /* Sem isso a linha interna mantem a altura natural (716px) e o texto

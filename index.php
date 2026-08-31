@@ -149,8 +149,8 @@ require_once __DIR__ . '/header.php';
                                             </div>
                                             <div>
                                                 <p><?= $esp['resumo'] ?></p>
-                                                <a href="<?= $base_url ?>/especialidades/<?= $esp['slug'] ?>" class="underline mt-15">
-                                                    <span class="text main-color sub-title">Saiba mais <i class="ti-arrow-top-right"></i></span>
+                                                <a href="<?= $base_url ?>/especialidades/<?= $esp['slug'] ?>" class="butn butn-sm butn-bord radius-30 mt-20">
+                                                    <span class="text">Saiba mais</span>
                                                 </a>
                                             </div>
                                         </div>
